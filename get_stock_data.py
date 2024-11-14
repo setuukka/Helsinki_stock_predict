@@ -3,7 +3,8 @@ import pandas as pd
 from datetime import date
 from datetime import datetime, timedelta
 import numpy as np
-from sklearn.linear_model import LinearRegression
+#from sklearn.linear_model import LinearRegression
+from scipy.stats import linregress, skew, kurtosis
 
 
 pd.set_option('display.max_rows', None)
@@ -28,10 +29,10 @@ stocklist = ["AFAGR.HE","AKTIA.HE","ALMA.HE","ANORA.HE","APETIT.HE","TALLINK.HE"
 "VIK1V.HE","WETTERI.HE","WITH.HE","WUF1V.HE","WRT1V.HE","YIT.HE","ALBBV.HE",]
 
 #for testing
-stocklist2 = ["AFAGR.HE", "RELAIS.HE","SAMPO.HE"]
+stocklist2 = ["AFAGR.HE","SANOMA.HE","TTALO.HE"]
 
-startdate = '2024-11-06' 
-enddate = '2024-11-07'
+startdate = '2024-11-05' 
+enddate = '2024-11-06'
 
 
 
@@ -45,7 +46,8 @@ def reindex_with_complete_range(df, all_minutes):
 
 def forward_fill_missing_values(df):
     """Fills missing values in the DataFrame using forward fill."""
-    return df.fillna(method='ffill')
+    #return df.fillna(method='ffill')
+    return df.ffill()
 
 def ensure_minute_intervals(df, start_time, end_time):
     """
@@ -72,38 +74,96 @@ def set_binary_for_percentage_change(stock_data):
     return stock_data
 
 
+def get_single_measures_from_data(stock_data, stock):
+    data = stock_data['Close']    
+    x = np.arange(len(data))
+    slope, intercept, r_value, p_value, std_error = linregress(x, data)
+    stdev = np.std(data, ddof = 1)
+    skewness = skew(data)
+    kurt = kurtosis(data)
+    up_percentage = sum(stock_data['direction']) / len(data)
+    down_percentage = (len(data) - sum(stock_data['direction'])) / len(data)
+    return {
+        'company' : stock,
+        'slope': slope,
+        'r_squared': r_value**2,
+        'std_error': std_error,
+        'stdev': stdev,
+        #'skewness': skewness,
+        #'kurtosis': kurt,
+        'up_percentage' : up_percentage,
+        'down_percentage' : down_percentage
+    }
+
+def get_target_value(stock_data):
+    return (stock_data.iloc[-1]['Close'] / stock_data.iloc[0]['Open']) - 1
+
+#Function to build a dataframe from single values
 
 
 def main():
-    stock = yf.Ticker("OUT1V.HE")
-    # Set start and end times
-    start_time = "2024-11-06 10:00:00+02:00"
-    end_time = "2024-11-06 10:59:00+02:00"
-    date = start_time[:10]
-    date_obj = datetime.strptime(date, "%Y-%m-%d")
-    next_date = date_obj + timedelta(days = 1)
-    next_date = next_date.strftime("%Y-%m-%d")
+    #single_measures_df = pd.DataFrame
+    single_measures_list = []
+    for company in stocklist2:
+        stock = yf.Ticker(company)
+        info = yf.Ticker(company).info
+        #for key, value in info.items():
+            #print(key, value)
+        if 'longName' in info:
+            company_name = info['longName']
+        else:
+            company_name = company
+        #print(company_name)
 
-    stock_data = get_stock_data(stock, date_obj, next_date)
-    #Drop unnecessary columns
-    stock_data = stock_data.drop(columns=['Dividends','Stock Splits'])
-    stock_data.set_index('Datetime', inplace=True)  # Set as index
-
-    # Ensure there is a row for each minute, with missing values forward-filled
-    stock_data = ensure_minute_intervals(stock_data, start_time, end_time)
-
-    stock_data = map_percentage_change(stock_data)
-    stock_data = set_binary_for_percentage_change(stock_data)
-
-    #Regression of time / price
-    x = np.array(stock_data['Datetime']).reshape((-1,1))
-    y = np.array(str(stock_data['Close']))
-    model = LinearRegression().fit(x,y)
-    r_sq = model.score(x,y)
-    slope = model.coef_
-    print(slope)    
+        # Set start and end times
+        start_time = "2024-11-05 10:00:00+02:00"
+        end_time = "2024-11-05 10:59:00+02:00"
+        date = start_time[:10]
+        date_obj = datetime.strptime(date, "%Y-%m-%d")
+        next_date = date_obj + timedelta(days = 1)
+        next_date = next_date.strftime("%Y-%m-%d")
 
 
-    #print(stock_data)
+        try:
+            stock_data = get_stock_data(stock, date_obj, next_date)
+            #print(stock, "shape stock data", stock_data.shape)
+            if stock_data.shape[0] == 0:
+                continue
+        except:
+            continue
+        #print(stock_data) #DEBUG
+
+        #Drop unnecessary columns
+        stock_data = stock_data.drop(columns=['Dividends','Stock Splits'])
+        stock_data.set_index('Datetime', inplace=True)  # Set as index
+        #print(stock_data) #DEBUG
+
+        #take the close value of last row as dependent variably y
+
+
+        target_value = get_target_value(stock_data)
+        #print(target_value) #DEBUG
+
+
+        # Ensure there is a row for each minute, with missing values forward-filled. cuts the df to first hour
+        stock_data = ensure_minute_intervals(stock_data, start_time, end_time)
+        stock_data = map_percentage_change(stock_data)
+        stock_data = set_binary_for_percentage_change(stock_data)
+
+
+        single_measures = get_single_measures_from_data(stock_data, company_name)
+        #Add target to single measures
+        single_measures['target'] = target_value
+        single_measures['date'] = date
+        single_measures_list.append(single_measures)
+        #sm_dict = pd.DataFrame({'name':single_measures.keys(), 'value':single_measures.values()})
+        #single_measures_df = single_measures_df.append(single_measures, ignore_index )
+    single_measures_df = pd.DataFrame(single_measures_list)
+    #make the the first
+    cols = ['date'] + [col for col in single_measures_df.columns if col != 'date']
+    single_measures_df = single_measures_df[cols]
+    single_measures_df['date'] = pd.to_datetime(single_measures_df['date'])
+    single_measures_df['weekday'] = single_measures_df['date'].dt.day_name()
+    print(single_measures_df)
 
 main()
