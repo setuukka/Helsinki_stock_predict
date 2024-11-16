@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import numpy as np
 #from sklearn.linear_model import LinearRegression
 from scipy.stats import linregress, skew, kurtosis
+import time
 
 
 pd.set_option('display.max_rows', None)
@@ -30,6 +31,7 @@ stocklist = ["AFAGR.HE","AKTIA.HE","ALMA.HE","ANORA.HE","APETIT.HE","TALLINK.HE"
 
 #for testing
 stocklist2 = ["AFAGR.HE","SANOMA.HE","TTALO.HE"]
+stocklist3 = ["KESKOB.HE"]
 
 #startdate = '2024-11-05' 
 #enddate = '2024-11-06'
@@ -103,24 +105,28 @@ def get_target_value(stock_data):
     return stock_data.iloc[-1]['Close'], (stock_data.iloc[-1]['Close'] / stock_data.iloc[0]['Open']) - 1
 
 
-
-#first make datetime variable of today
-#today = date.today() 
-#year_ago = today - timedelta(days=365)
-#print(today, year_ago)
-
-
+def wait(length = 0.5):
+    print(f"Waiting for {length} seconds")
+    time.sleep(length)
 
 def main():
     #single_measures_df = pd.DataFrame
     today = datetime.now()
     today = today.date()
-    days_to_deduct = 365
-    startdate = today - timedelta(days=30)    
+    startdate = today - timedelta(days=3)    
     single_measures_list = []
 
-    while startdate < today-timedelta(days=1):
-        print("Starting days loop with startdate:" ,startdate, "and days to deduct", days_to_deduct)
+    while startdate <= today-timedelta(days=1):
+        #print("Starting days loop with startdate:" ,startdate, "and days to deduct", days_to_deduct)
+
+        #Check if weekday is saturday or sunday, continue if True:
+        if startdate.weekday() in (5,6):
+            print(f"{startdate.strftime('%Y-%m-%d')} is a weekend (Saturday or Sunday).")
+            startdate = startdate + timedelta(days=1)
+            continue
+        #single_measures_df['date'].dt.day_name()
+
+
 
         for company in stocklist2:
             stock = yf.Ticker(company)
@@ -131,7 +137,7 @@ def main():
                 company_name = info['longName']
             else:
                 company_name = company
-            #print(company_name)
+            print(f"{company} - {startdate}")
 
             # Set start and end times
 
@@ -140,10 +146,10 @@ def main():
             #date = start_time[:10]
             #print(date)
             #date_obj = datetime.strptime(startdate, "%Y-%m-%d")
-            next_date = startdate + timedelta(days = 1)
-            next_date = next_date.strftime("%Y-%m-%d")
+            #next_date = startdate + timedelta(days = 1)
+            #next_date = next_date.strftime("%Y-%m-%d")
 
-            print(f"startdate {startdate}  {next_date}")
+            #print(f"startdate {startdate}  {next_date}")
             try:
                 stock_data = get_stock_data(stock, startdate, startdate + timedelta(days = 1))
                 #print(stock, "shape stock data", stock_data.shape)
@@ -179,15 +185,16 @@ def main():
             add_single_measure(single_measures, 'buy_price', buy_price)
             add_single_measure(single_measures, 'date', startdate)
             add_single_measure(single_measures, 'end_day_target_percentage', end_day_target_percentage)
-
+            add_single_measure(single_measures, 'ticker',company)
 
             #single_measures['end_day_target_percentage'] = end_day_target_percentage
             #single_measures['end_day_target_value'] = end_day_target_value
             #single_measures['buy_price'] = buy_price
             #single_measures['date'] = date
             single_measures_list.append(single_measures)
-            print("iteration",days_to_deduct)
+            wait()
         startdate = startdate + timedelta(days=1)
+    wait(3)
     single_measures_df = pd.DataFrame(single_measures_list)
     #make the the first
     cols = ['date'] + [col for col in single_measures_df.columns if col != 'date']
