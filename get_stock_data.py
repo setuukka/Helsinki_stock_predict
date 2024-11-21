@@ -113,8 +113,21 @@ def main():
     #single_measures_df = pd.DataFrame
     today = datetime.now()
     today = today.date()
-    startdate = today - timedelta(days=3)    
+    #startdate = today - timedelta(days=1)    
     single_measures_list = []
+
+    #reading the csv to get latest date:
+    try:
+        data = pd.read_csv("single_measures_df.csv")
+        startdate = data['date'].max()
+        print(startdate)
+    except FileNotFoundError:
+        print(f"File not found")
+        #return None
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        #return None
+
 
     while startdate <= today-timedelta(days=1):
         #print("Starting days loop with startdate:" ,startdate, "and days to deduct", days_to_deduct)
@@ -128,16 +141,23 @@ def main():
 
 
 
-        for company in stocklist2:
-            stock = yf.Ticker(company)
-            info = yf.Ticker(company).info
-            #for key, value in info.items():
-                #print(key, value)
-            if 'longName' in info:
-                company_name = info['longName']
-            else:
-                company_name = company
-            print(f"{company} - {startdate}")
+        for company in stocklist:
+
+            try:
+
+
+                stock = yf.Ticker(company)
+                info = yf.Ticker(company).info
+                #for key, value in info.items():
+                    #print(key, value)
+                if 'longName' in info:
+                    company_name = info['longName']
+                else:
+                    company_name = company
+                print(f"{company} - {startdate}")
+            except:
+                print(f"Error in getting stock info")
+                continue
 
             # Set start and end times
 
@@ -192,7 +212,7 @@ def main():
             #single_measures['buy_price'] = buy_price
             #single_measures['date'] = date
             single_measures_list.append(single_measures)
-            wait()
+            wait(1)
         startdate = startdate + timedelta(days=1)
     wait(3)
     single_measures_df = pd.DataFrame(single_measures_list)
