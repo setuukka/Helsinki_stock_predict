@@ -1,2 +1,4 @@
 .venv/
 
+*.csv
+!single_measures.csv

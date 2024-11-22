@@ -33,11 +33,6 @@ stocklist = ["AFAGR.HE","AKTIA.HE","ALMA.HE","ANORA.HE","APETIT.HE","TALLINK.HE"
 stocklist2 = ["AFAGR.HE","SANOMA.HE","TTALO.HE"]
 stocklist3 = ["KESKOB.HE"]
 
-#startdate = '2024-11-05' 
-#enddate = '2024-11-06'
-
-
-
 def generate_complete_datetime_range(start, end, freq='min'):
     """Generates a complete datetime range from start to end with the given frequency."""
     return pd.date_range(start=start, end=end, freq=freq)
@@ -110,17 +105,20 @@ def wait(length = 0.5):
     time.sleep(length)
 
 def main():
-    #single_measures_df = pd.DataFrame
     today = datetime.now()
-    today = today.date()
-    #startdate = today - timedelta(days=1)    
+    today = today.date() 
     single_measures_list = []
 
     #reading the csv to get latest date:
     try:
         data = pd.read_csv("single_measures_df.csv")
         startdate = data['date'].max()
-        print(startdate)
+        startdate = datetime.strptime(startdate, '%Y-%m-%d').date()
+        print(startdate, type(startdate))
+        #Creating backup file from yesterdays data
+        backup_filename = f"single_measures_{startdate}.csv"
+        data.to_csv(backup_filename)
+        #print(startdate) #DEBUG
     except FileNotFoundError:
         print(f"File not found")
         #return None
@@ -139,13 +137,8 @@ def main():
             continue
         #single_measures_df['date'].dt.day_name()
 
-
-
         for company in stocklist:
-
             try:
-
-
                 stock = yf.Ticker(company)
                 info = yf.Ticker(company).info
                 #for key, value in info.items():
@@ -163,13 +156,7 @@ def main():
 
             start_time = f"{startdate} 10:00:00+02:00"
             end_time = f"{startdate} 10:59:00+02:00"
-            #date = start_time[:10]
-            #print(date)
-            #date_obj = datetime.strptime(startdate, "%Y-%m-%d")
-            #next_date = startdate + timedelta(days = 1)
-            #next_date = next_date.strftime("%Y-%m-%d")
 
-            #print(f"startdate {startdate}  {next_date}")
             try:
                 stock_data = get_stock_data(stock, startdate, startdate + timedelta(days = 1))
                 #print(stock, "shape stock data", stock_data.shape)
@@ -221,7 +208,11 @@ def main():
     single_measures_df = single_measures_df[cols]
     single_measures_df['date'] = pd.to_datetime(single_measures_df['date'])
     single_measures_df['weekday'] = single_measures_df['date'].dt.day_name()
-    print(single_measures_df)
-    single_measures_df.to_csv("single_measures_df.csv")
+    #print(single_measures_df)
+
+    joined_df = pd.concat([data, single_measures_df], ignore_index = True)
+    print(f"Old single measures {data.shape}, new data {single_measures_df.shape}, joined data {joined_df.shape}")
+
+    joined_df.to_csv("single_measures_df.csv")
 
 main()
