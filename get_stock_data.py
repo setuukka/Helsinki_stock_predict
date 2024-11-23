@@ -211,8 +211,10 @@ def main():
     #print(single_measures_df)
 
     joined_df = pd.concat([data, single_measures_df], ignore_index = True)
-    print(f"Old single measures {data.shape}, new data {single_measures_df.shape}, joined data {joined_df.shape}")
-
+    print(f"Old single measures {data.shape}, new data {single_measures_df.shape}, joined data {joined_df.shape}") #DEBUG
+    #Removing duplicates and Na values
+    single_measures_df = single_measures_df.dropna().drop_duplicates().reset_index(drop=True)
+    #Save the df to csv 
     joined_df.to_csv("single_measures_df.csv")
 
 main()
