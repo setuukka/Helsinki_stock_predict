@@ -196,7 +196,7 @@ def main():
 
             add_single_measure(single_measures, 'buy_price', buy_price)
             #Only send 10 first digits to function. That includes YYYY-MM-DD
-            add_single_measure(single_measures, 'date', startdate[:10])
+            add_single_measure(single_measures, 'date', str(startdate)[:10])
             add_single_measure(single_measures, 'end_day_target_percentage', end_day_target_percentage)
             add_single_measure(single_measures, 'ticker',company)
 

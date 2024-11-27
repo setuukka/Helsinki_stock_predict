@@ -110,6 +110,10 @@ def main():
     print(today)
     single_measures_list = []
 
+    #Error counter counts if first three stocks come out as zero, program terminates, as the day is holiday, saturday or sunday
+    errorcounter = 0
+
+
     #reading the csv to get latest date:
     try:
         #data = pd.read_csv("single_measures_df.csv")
@@ -160,6 +164,10 @@ def main():
             #print(stock, "shape stock data", stock_data.shape)
             if stock_data.shape[0] == 0:
                 print(f"Stock data for {company_name} is zero")
+                errorcounter += 1
+                if errorcounter == 3:
+                    print("Terminating due to errorcounter")
+                    return
                 continue
         except:
             continue
