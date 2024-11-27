@@ -53,10 +53,11 @@ def ensure_minute_intervals(df, start_time, end_time):
     """
     all_minutes = generate_complete_datetime_range(start_time, end_time)
     df = reindex_with_complete_range(df, all_minutes)
+    count_of_original_values = len(df)
     df = forward_fill_missing_values(df)
     df.reset_index(inplace=True)
     df.rename(columns={'index': 'Datetime'}, inplace=True)
-    return df
+    return df, count_of_original_values
 
 def get_stock_data(stock, start, end):
     return stock.history(start = start, end = end, interval = "1m").reset_index()
@@ -112,7 +113,9 @@ def main():
     #reading the csv to get latest date:
     try:
         data = pd.read_csv("single_measures_df.csv")
-        startdate = data['date'].max()
+        print("Data read!") #debug
+        startdate = data['date'].max()[:10]
+        print(f"Startdate is {startdate}")
         startdate = datetime.strptime(startdate, '%Y-%m-%d').date()
         print(startdate, type(startdate))
         #Creating backup file from yesterdays data
@@ -126,6 +129,7 @@ def main():
         print(f"An error occurred: {e}")
         #return None
 
+    print(startdate, type(startdate))
 
     while startdate <= today-timedelta(days=1):
         #print("Starting days loop with startdate:" ,startdate, "and days to deduct", days_to_deduct)
@@ -179,7 +183,7 @@ def main():
 
 
             # Ensure there is a row for each minute, with missing values forward-filled. cuts the df to first hour
-            stock_data = ensure_minute_intervals(stock_data, start_time, end_time)
+            stock_data, count_of_original_values = ensure_minute_intervals(stock_data, start_time, end_time)
             stock_data = map_percentage_change(stock_data)
             stock_data = set_binary_for_percentage_change(stock_data)
 
@@ -188,16 +192,14 @@ def main():
             #Add target to single measures
             add_single_measure(single_measures, 'end_day_target_percentage', end_day_target_percentage)
             add_single_measure(single_measures, 'end_day_target_value', end_day_target_value)
+            add_single_measure(single_measures, 'count_of_original_values', count_of_original_values)
 
             add_single_measure(single_measures, 'buy_price', buy_price)
-            add_single_measure(single_measures, 'date', startdate)
+            #Only send 10 first digits to function. That includes YYYY-MM-DD
+            add_single_measure(single_measures, 'date', startdate[:10])
             add_single_measure(single_measures, 'end_day_target_percentage', end_day_target_percentage)
             add_single_measure(single_measures, 'ticker',company)
 
-            #single_measures['end_day_target_percentage'] = end_day_target_percentage
-            #single_measures['end_day_target_value'] = end_day_target_value
-            #single_measures['buy_price'] = buy_price
-            #single_measures['date'] = date
             single_measures_list.append(single_measures)
             wait(1)
         startdate = startdate + timedelta(days=1)
@@ -215,6 +217,6 @@ def main():
     #Removing duplicates and Na values
     single_measures_df = single_measures_df.dropna().drop_duplicates().reset_index(drop=True)
     #Save the df to csv 
-    joined_df.to_csv("single_measures_df.csv")
+    joined_df.to_csv("single_measures_df.csv", index = False)
 
 main()
