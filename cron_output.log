@@ -1,0 +1,665 @@
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+$AFAGR.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$AKTIA.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$ALMA.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$ANORA.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$APETIT.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$TALLINK.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$ASPO.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$ACG1V.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$ATRAV.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$BIOBV.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+2024-11-28
+AFAGR.HE - 2024-11-28
+Trying to get stock data for Afarak Group SE on 2024-11-28. Errors: 0
+Stock data for Afarak Group SE is zero
+AKTIA.HE - 2024-11-28
+Trying to get stock data for Aktia Pankki Oyj on 2024-11-28. Errors: 1
+Stock data for Aktia Pankki Oyj is zero
+ALMA.HE - 2024-11-28
+Trying to get stock data for Alma Media Oyj on 2024-11-28. Errors: 2
+Stock data for Alma Media Oyj is zero
+ANORA.HE - 2024-11-28
+Trying to get stock data for Anora Group Oyj on 2024-11-28. Errors: 3
+Stock data for Anora Group Oyj is zero
+APETIT.HE - 2024-11-28
+Trying to get stock data for Apetit Oyj on 2024-11-28. Errors: 4
+Stock data for Apetit Oyj is zero
+TALLINK.HE - 2024-11-28
+Trying to get stock data for AS Tallink Grupp on 2024-11-28. Errors: 5
+Stock data for AS Tallink Grupp is zero
+ASPO.HE - 2024-11-28
+Trying to get stock data for Aspo Oyj on 2024-11-28. Errors: 6
+Stock data for Aspo Oyj is zero
+ACG1V.HE - 2024-11-28
+Trying to get stock data for Aspocomp Group Oyj on 2024-11-28. Errors: 7
+Stock data for Aspocomp Group Oyj is zero
+ATRAV.HE - 2024-11-28
+Trying to get stock data for Atria Oyj on 2024-11-28. Errors: 8
+Stock data for Atria Oyj is zero
+BIOBV.HE - 2024-11-28
+Trying to get stock data for Biohit Oyj on 2024-11-28. Errors: 9
+Stock data for Biohit Oyj is zero
+Terminating due to errorcounter
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$AKTIA.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$APETIT.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$ATRAV.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$BOREO.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=1Rn7qIZkSwH
+$CAV1V.HE: possibly delisted; no timezone found
+$CTH1V.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$CONSTI.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$DIGIA.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$ETTE.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=1Rn7qIZkSwH
+$HKSAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$ILKKA2.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$IFA1V.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=1Rn7qIZkSwH
+$KSLAV.HE: possibly delisted; no timezone found
+$LAT1V.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$MARAS.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$NOHO.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+2024-11-28
+AFAGR.HE - 2024-11-28
+Trying to get stock data for Afarak Group SE on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+AKTIA.HE - 2024-11-28
+Trying to get stock data for Aktia Pankki Oyj on 2024-11-28. Errors: 0
+Stock data for Aktia Pankki Oyj is zero
+ALMA.HE - 2024-11-28
+Trying to get stock data for Alma Media Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+ANORA.HE - 2024-11-28
+Trying to get stock data for Anora Group Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+APETIT.HE - 2024-11-28
+Trying to get stock data for Apetit Oyj on 2024-11-28. Errors: 0
+Stock data for Apetit Oyj is zero
+TALLINK.HE - 2024-11-28
+Trying to get stock data for AS Tallink Grupp on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+ASPO.HE - 2024-11-28
+Trying to get stock data for Aspo Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ACG1V.HE - 2024-11-28
+Trying to get stock data for Aspocomp Group Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ATRAV.HE - 2024-11-28
+Trying to get stock data for Atria Oyj on 2024-11-28. Errors: 0
+Stock data for Atria Oyj is zero
+BIOBV.HE - 2024-11-28
+Trying to get stock data for Biohit Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+BITTI.HE - 2024-11-28
+Trying to get stock data for Bittium Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+BOREO.HE - 2024-11-28
+Trying to get stock data for Boreo Oyj on 2024-11-28. Errors: 0
+Stock data for Boreo Oyj is zero
+CAPMAN.HE - 2024-11-28
+Trying to get stock data for CapMan Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+CGCBV.HE - 2024-11-28
+Trying to get stock data for Cargotec Corporation on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+CAV1V.HE - 2024-11-28
+Trying to get stock data for CAV1V.HE on 2024-11-28. Errors: 0
+Stock data for CAV1V.HE is zero
+CTY1S.HE - 2024-11-28
+Trying to get stock data for Citycon Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+CTH1V.HE - 2024-11-28
+Trying to get stock data for Componenta Corporation on 2024-11-28. Errors: 0
+Stock data for Componenta Corporation is zero
+CONSTI.HE - 2024-11-28
+Trying to get stock data for Consti Oyj on 2024-11-28. Errors: 1
+Stock data for Consti Oyj is zero
+DIGIA.HE - 2024-11-28
+Trying to get stock data for Digia Oyj on 2024-11-28. Errors: 2
+Stock data for Digia Oyj is zero
+DIGIGR.HE - 2024-11-28
+Trying to get stock data for Digitalist Group Plc on 2024-11-28. Errors: 3
+Waiting for 1 seconds
+DOV1V.HE - 2024-11-28
+Trying to get stock data for Dovre Group Plc on 2024-11-28. Errors: 2
+Waiting for 1 seconds
+EEZY.HE - 2024-11-28
+Trying to get stock data for Eezy Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+ELEAV.HE - 2024-11-28
+Trying to get stock data for Elecster Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ELISA.HE - 2024-11-28
+Trying to get stock data for Elisa Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ENENTO.HE - 2024-11-28
+Trying to get stock data for Enento Group Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ESENSE.HE - 2024-11-28
+Trying to get stock data for Enersense International Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+EQV1V.HE - 2024-11-28
+Trying to get stock data for eQ Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ETTE.HE - 2024-11-28
+Trying to get stock data for Etteplan Oyj on 2024-11-28. Errors: 0
+Stock data for Etteplan Oyj is zero
+EXL1V.HE - 2024-11-28
+Trying to get stock data for Exel Composites Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+FIA1S.HE - 2024-11-28
+Trying to get stock data for Finnair Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+FSKRS.HE - 2024-11-28
+Trying to get stock data for Fiskars Oyj Abp on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+FORTUM.HE - 2024-11-28
+Trying to get stock data for Fortum Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+GLA1V.HE - 2024-11-28
+Trying to get stock data for Glaston Oyj Abp on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+GOFORE.HE - 2024-11-28
+Trying to get stock data for Gofore Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+HARVIA.HE - 2024-11-28
+Trying to get stock data for Harvia Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+HKSAV.HE - 2024-11-28
+Trying to get stock data for HKSAV.HE on 2024-11-28. Errors: 0
+Stock data for HKSAV.HE is zero
+HONBS.HE - 2024-11-28
+Trying to get stock data for Honkarakenne Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+HUH1V.HE - 2024-11-28
+Trying to get stock data for Huhtamäki Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ILKKA2.HE - 2024-11-28
+Trying to get stock data for Ilkka Oyj on 2024-11-28. Errors: 0
+Stock data for Ilkka Oyj is zero
+ICP1V.HE - 2024-11-28
+Trying to get stock data for Incap Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+IFA1V.HE - 2024-11-28
+Trying to get stock data for Innofactor Oyj on 2024-11-28. Errors: 0
+Stock data for Innofactor Oyj is zero
+INVEST.HE - 2024-11-28
+Trying to get stock data for Investors House Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+KAMUX.HE - 2024-11-28
+Trying to get stock data for Kamux Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+KEMIRA.HE - 2024-11-28
+Trying to get stock data for Kemira Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+KSLAV.HE - 2024-11-28
+Trying to get stock data for KSLAV.HE on 2024-11-28. Errors: 0
+Stock data for KSLAV.HE is zero
+KESKOB.HE - 2024-11-28
+Trying to get stock data for Kesko Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+KELAS.HE - 2024-11-28
+Trying to get stock data for Kesla Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+KOJAMO.HE - 2024-11-28
+Trying to get stock data for Kojamo Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+KNEBV.HE - 2024-11-28
+Trying to get stock data for KONE Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+KCR.HE - 2024-11-28
+Trying to get stock data for Konecranes Plc on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+KREATE.HE - 2024-11-28
+Trying to get stock data for Kreate Group Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+LAT1V.HE - 2024-11-28
+Trying to get stock data for Lassila & Tikanoja Oyj on 2024-11-28. Errors: 0
+Stock data for Lassila & Tikanoja Oyj is zero
+MEKKO.HE - 2024-11-28
+Trying to get stock data for Marimekko Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+MARAS.HE - 2024-11-28
+Trying to get stock data for Martela Oyj on 2024-11-28. Errors: 0
+Stock data for Martela Oyj is zero
+METSO.HE - 2024-11-28
+Trying to get stock data for Metso Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+METSB.HE - 2024-11-28
+Trying to get stock data for Metsä Board Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+MUSTI.HE - 2024-11-28
+Trying to get stock data for Musti Group Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+NESTE.HE - 2024-11-28
+Trying to get stock data for Neste Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+NOHO.HE - 2024-11-28
+Trying to get stock data for NoHo Partners Oyj on 2024-11-28. Errors: 0
+Stock data for NoHo Partners Oyj is zero
+NOKIA.HE - 2024-11-28
+Trying to get stock data for Nokia Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+TYRES.HE - 2024-11-28
+Trying to get stock data for Nokian Renkaat Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+NDA-FI.HE - 2024-11-28
+Trying to get stock data for Nordea Bank Abp on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+NLG1V.HE - 2024-11-28
+Trying to get stock data for Nurminen Logistics Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+OLVAS.HE - 2024-11-28
+Trying to get stock data for Olvi Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+OMASP.HE - 2024-11-28
+Trying to get stock data for Oma Säästöpankki Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+OPTOMED.HE - 2024-11-28
+Trying to get stock data for Optomed Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+OKDBV.HE - 2024-11-28
+Trying to get stock data for Oriola Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ORNBV.HE - 2024-11-28
+Trying to get stock data for Orion Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ORTHEX.HE - 2024-11-28
+Trying to get stock data for Orthex Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+OUT1V.HE - 2024-11-28
+Trying to get stock data for Outokumpu Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+OVARO.HE - 2024-11-28
+Trying to get stock data for Ovaro Kiinteistösijoitus Oyj on 2024-11-28. Errors: 0
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=1Rn7qIZkSwH
+$PUMU.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$REKA.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=1Rn7qIZkSwH
+$ROVIO.HE: possibly delisted; no timezone found
+$SAGCV.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$SITOWS.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$SOLTEQ.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=1Rn7qIZkSwH
+$STOCKA.HE: possibly delisted; no timezone found
+$SUY1V.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$TNOM.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+$TEM1V.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$UNITED.HE: possibly delisted; no price data found  (1m 2024-11-28 -> 2024-11-29)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=1Rn7qIZkSwH
+$UPONOR.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:79: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+Waiting for 1 seconds
+PNA1V.HE - 2024-11-28
+Trying to get stock data for Panostaja Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+PIHLIS.HE - 2024-11-28
+Trying to get stock data for Pihlajalinna Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+PON1V.HE - 2024-11-28
+Trying to get stock data for Ponsse Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+PUMU.HE - 2024-11-28
+Trying to get stock data for PUMU.HE on 2024-11-28. Errors: 0
+Stock data for PUMU.HE is zero
+PURMO.HE - 2024-11-28
+Trying to get stock data for Purmo Group Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+PUUILO.HE - 2024-11-28
+Trying to get stock data for Puuilo Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+QPR1V.HE - 2024-11-28
+Trying to get stock data for QPR Software Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+QTCOM.HE - 2024-11-28
+Trying to get stock data for Qt Group Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+RAIVV.HE - 2024-11-28
+Trying to get stock data for Raisio plc on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+RAP1V.HE - 2024-11-28
+Trying to get stock data for Rapala VMC Corporation on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+RAUTE.HE - 2024-11-28
+Trying to get stock data for Raute Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+REKA.HE - 2024-11-28
+Trying to get stock data for Reka Industrial Oyj on 2024-11-28. Errors: 0
+Stock data for Reka Industrial Oyj is zero
+RELAIS.HE - 2024-11-28
+Trying to get stock data for Relais Group Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+REMEDY.HE - 2024-11-28
+Trying to get stock data for Remedy Entertainment Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+REG1V.HE - 2024-11-28
+Trying to get stock data for Revenio Group Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ROBIT.HE - 2024-11-28
+Trying to get stock data for Robit Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ROVIO.HE - 2024-11-28
+Trying to get stock data for ROVIO.HE on 2024-11-28. Errors: 0
+Stock data for ROVIO.HE is zero
+SAGCV.HE - 2024-11-28
+Trying to get stock data for Saga Furs Oyj on 2024-11-28. Errors: 1
+Stock data for Saga Furs Oyj is zero
+SAMPO.HE - 2024-11-28
+Trying to get stock data for Sampo Oyj on 2024-11-28. Errors: 2
+Waiting for 1 seconds
+SANOMA.HE - 2024-11-28
+Trying to get stock data for Sanoma Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+SCANFL.HE - 2024-11-28
+Trying to get stock data for Scanfil Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+SIILI.HE - 2024-11-28
+Trying to get stock data for Siili Solutions Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+SITOWS.HE - 2024-11-28
+Trying to get stock data for Sitowise Group Oyj on 2024-11-28. Errors: 0
+Stock data for Sitowise Group Oyj is zero
+SOLTEQ.HE - 2024-11-28
+Trying to get stock data for Solteq Oyj on 2024-11-28. Errors: 1
+Stock data for Solteq Oyj is zero
+SOSI1.HE - 2024-11-28
+Trying to get stock data for Sotkamo Silver AB on 2024-11-28. Errors: 2
+Waiting for 1 seconds
+SRV1V.HE - 2024-11-28
+Trying to get stock data for SRV Yhtiöt Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+SSABBH.HE - 2024-11-28
+Trying to get stock data for SSAB AB (publ) on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+SSH1V.HE - 2024-11-28
+Trying to get stock data for SSH Communications Security Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+STOCKA.HE - 2024-11-28
+Trying to get stock data for STOCKA.HE on 2024-11-28. Errors: 0
+Stock data for STOCKA.HE is zero
+STERV.HE - 2024-11-28
+Trying to get stock data for Stora Enso Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+SUY1V.HE - 2024-11-28
+Trying to get stock data for Suominen Oyj on 2024-11-28. Errors: 0
+Stock data for Suominen Oyj is zero
+TAALA.HE - 2024-11-28
+Trying to get stock data for Taaleri Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+TNOM.HE - 2024-11-28
+Trying to get stock data for Talenom Oyj on 2024-11-28. Errors: 0
+Stock data for Talenom Oyj is zero
+TEM1V.HE - 2024-11-28
+Trying to get stock data for Tecnotree Oyj on 2024-11-28. Errors: 1
+Stock data for Tecnotree Oyj is zero
+TLT1V.HE - 2024-11-28
+Trying to get stock data for Teleste Oyj on 2024-11-28. Errors: 2
+Waiting for 1 seconds
+TELIA1.HE - 2024-11-28
+Trying to get stock data for Telia Company AB (publ) on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+TTALO.HE - 2024-11-28
+Trying to get stock data for Terveystalo Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+TIETO.HE - 2024-11-28
+Trying to get stock data for TietoEVRY Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+TOKMAN.HE - 2024-11-28
+Trying to get stock data for Tokmanni Group Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+TRH1V.HE - 2024-11-28
+Trying to get stock data for Trainers' House Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+TULAV.HE - 2024-11-28
+Trying to get stock data for Tulikivi Corporation on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+UNITED.HE - 2024-11-28
+Trying to get stock data for United Bankers Oyj on 2024-11-28. Errors: 0
+Stock data for United Bankers Oyj is zero
+UPM.HE - 2024-11-28
+Trying to get stock data for UPM-Kymmene Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+UPONOR.HE - 2024-11-28
+Trying to get stock data for UPONOR.HE on 2024-11-28. Errors: 0
+Stock data for UPONOR.HE is zero
+VAIAS.HE - 2024-11-28
+Trying to get stock data for Vaisala Oyj on 2024-11-28. Errors: 1
+Waiting for 1 seconds
+VALMT.HE - 2024-11-28
+Trying to get stock data for Valmet Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+VERK.HE - 2024-11-28
+Trying to get stock data for Verkkokauppa.com Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+VIK1V.HE - 2024-11-28
+Trying to get stock data for Viking Line Abp on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+WETTERI.HE - 2024-11-28
+Trying to get stock data for Wetteri Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+WITH.HE - 2024-11-28
+Trying to get stock data for WithSecure Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+WUF1V.HE - 2024-11-28
+Trying to get stock data for Wulff-Yhtiöt Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+WRT1V.HE - 2024-11-28
+Trying to get stock data for Wärtsilä Oyj Abp on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+YIT.HE - 2024-11-28
+Trying to get stock data for YIT Oyj on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+ALBBV.HE - 2024-11-28
+Trying to get stock data for Ålandsbanken Abp on 2024-11-28. Errors: 0
+Waiting for 1 seconds
+         date                          company  ...      ticker   weekday
+0  2024-11-28                  Afarak Group SE  ...    AFAGR.HE  Thursday
+1  2024-11-28                   Alma Media Oyj  ...     ALMA.HE  Thursday
+2  2024-11-28                  Anora Group Oyj  ...    ANORA.HE  Thursday
+3  2024-11-28                 AS Tallink Grupp  ...  TALLINK.HE  Thursday
+4  2024-11-28                         Aspo Oyj  ...     ASPO.HE  Thursday
+5  2024-11-28               Aspocomp Group Oyj  ...    ACG1V.HE  Thursday
+6  2024-11-28                       Biohit Oyj  ...    BIOBV.HE  Thursday
+7  2024-11-28                      Bittium Oyj  ...    BITTI.HE  Thursday
+8  2024-11-28                       CapMan Oyj  ...   CAPMAN.HE  Thursday
+9  2024-11-28             Cargotec Corporation  ...    CGCBV.HE  Thursday
+10 2024-11-28                      Citycon Oyj  ...    CTY1S.HE  Thursday
+11 2024-11-28             Digitalist Group Plc  ...   DIGIGR.HE  Thursday
+12 2024-11-28                  Dovre Group Plc  ...    DOV1V.HE  Thursday
+13 2024-11-28                         Eezy Oyj  ...     EEZY.HE  Thursday
+14 2024-11-28                     Elecster Oyj  ...    ELEAV.HE  Thursday
+15 2024-11-28                        Elisa Oyj  ...    ELISA.HE  Thursday
+16 2024-11-28                 Enento Group Oyj  ...   ENENTO.HE  Thursday
+17 2024-11-28      Enersense International Oyj  ...   ESENSE.HE  Thursday
+18 2024-11-28                           eQ Oyj  ...    EQV1V.HE  Thursday
+19 2024-11-28              Exel Composites Oyj  ...    EXL1V.HE  Thursday
+20 2024-11-28                      Finnair Oyj  ...    FIA1S.HE  Thursday
+21 2024-11-28                  Fiskars Oyj Abp  ...    FSKRS.HE  Thursday
+22 2024-11-28                       Fortum Oyj  ...   FORTUM.HE  Thursday
+23 2024-11-28                  Glaston Oyj Abp  ...    GLA1V.HE  Thursday
+24 2024-11-28                       Gofore Oyj  ...   GOFORE.HE  Thursday
+25 2024-11-28                       Harvia Oyj  ...   HARVIA.HE  Thursday
+26 2024-11-28                 Honkarakenne Oyj  ...    HONBS.HE  Thursday
+27 2024-11-28                    Huhtamäki Oyj  ...    HUH1V.HE  Thursday
+28 2024-11-28                        Incap Oyj  ...    ICP1V.HE  Thursday
+29 2024-11-28              Investors House Oyj  ...   INVEST.HE  Thursday
+30 2024-11-28                        Kamux Oyj  ...    KAMUX.HE  Thursday
+31 2024-11-28                       Kemira Oyj  ...   KEMIRA.HE  Thursday
+32 2024-11-28                        Kesko Oyj  ...   KESKOB.HE  Thursday
+33 2024-11-28                        Kesla Oyj  ...    KELAS.HE  Thursday
+34 2024-11-28                       Kojamo Oyj  ...   KOJAMO.HE  Thursday
+35 2024-11-28                         KONE Oyj  ...    KNEBV.HE  Thursday
+36 2024-11-28                   Konecranes Plc  ...      KCR.HE  Thursday
+37 2024-11-28                 Kreate Group Oyj  ...   KREATE.HE  Thursday
+38 2024-11-28                    Marimekko Oyj  ...    MEKKO.HE  Thursday
+39 2024-11-28                        Metso Oyj  ...    METSO.HE  Thursday
+40 2024-11-28                  Metsä Board Oyj  ...    METSB.HE  Thursday
+41 2024-11-28                  Musti Group Oyj  ...    MUSTI.HE  Thursday
+42 2024-11-28                        Neste Oyj  ...    NESTE.HE  Thursday
+43 2024-11-28                        Nokia Oyj  ...    NOKIA.HE  Thursday
+44 2024-11-28               Nokian Renkaat Oyj  ...    TYRES.HE  Thursday
+45 2024-11-28                  Nordea Bank Abp  ...   NDA-FI.HE  Thursday
+46 2024-11-28           Nurminen Logistics Oyj  ...    NLG1V.HE  Thursday
+47 2024-11-28                         Olvi Oyj  ...    OLVAS.HE  Thursday
+48 2024-11-28             Oma Säästöpankki Oyj  ...    OMASP.HE  Thursday
+49 2024-11-28                      Optomed Oyj  ...  OPTOMED.HE  Thursday
+50 2024-11-28                       Oriola Oyj  ...    OKDBV.HE  Thursday
+51 2024-11-28                        Orion Oyj  ...    ORNBV.HE  Thursday
+52 2024-11-28                       Orthex Oyj  ...   ORTHEX.HE  Thursday
+53 2024-11-28                    Outokumpu Oyj  ...    OUT1V.HE  Thursday
+54 2024-11-28     Ovaro Kiinteistösijoitus Oyj  ...    OVARO.HE  Thursday
+55 2024-11-28                    Panostaja Oyj  ...    PNA1V.HE  Thursday
+56 2024-11-28                 Pihlajalinna Oyj  ...   PIHLIS.HE  Thursday
+57 2024-11-28                       Ponsse Oyj  ...    PON1V.HE  Thursday
+58 2024-11-28                  Purmo Group Oyj  ...    PURMO.HE  Thursday
+59 2024-11-28                       Puuilo Oyj  ...   PUUILO.HE  Thursday
+60 2024-11-28                 QPR Software Oyj  ...    QPR1V.HE  Thursday
+61 2024-11-28                     Qt Group Oyj  ...    QTCOM.HE  Thursday
+62 2024-11-28                       Raisio plc  ...    RAIVV.HE  Thursday
+63 2024-11-28           Rapala VMC Corporation  ...    RAP1V.HE  Thursday
+64 2024-11-28                        Raute Oyj  ...    RAUTE.HE  Thursday
+65 2024-11-28                 Relais Group Oyj  ...   RELAIS.HE  Thursday
+66 2024-11-28         Remedy Entertainment Oyj  ...   REMEDY.HE  Thursday
+67 2024-11-28                Revenio Group Oyj  ...    REG1V.HE  Thursday
+68 2024-11-28                        Robit Oyj  ...    ROBIT.HE  Thursday
+69 2024-11-28                        Sampo Oyj  ...    SAMPO.HE  Thursday
+70 2024-11-28                       Sanoma Oyj  ...   SANOMA.HE  Thursday
+71 2024-11-28                      Scanfil Oyj  ...   SCANFL.HE  Thursday
+72 2024-11-28              Siili Solutions Oyj  ...    SIILI.HE  Thursday
+73 2024-11-28                Sotkamo Silver AB  ...    SOSI1.HE  Thursday
+74 2024-11-28                   SRV Yhtiöt Oyj  ...    SRV1V.HE  Thursday
+75 2024-11-28                   SSAB AB (publ)  ...   SSABBH.HE  Thursday
+76 2024-11-28  SSH Communications Security Oyj  ...    SSH1V.HE  Thursday
+77 2024-11-28                   Stora Enso Oyj  ...    STERV.HE  Thursday
+78 2024-11-28                      Taaleri Oyj  ...    TAALA.HE  Thursday
+79 2024-11-28                      Teleste Oyj  ...    TLT1V.HE  Thursday
+80 2024-11-28          Telia Company AB (publ)  ...   TELIA1.HE  Thursday
+81 2024-11-28                  Terveystalo Oyj  ...    TTALO.HE  Thursday
+82 2024-11-28                    TietoEVRY Oyj  ...    TIETO.HE  Thursday
+83 2024-11-28               Tokmanni Group Oyj  ...   TOKMAN.HE  Thursday
+84 2024-11-28              Trainers' House Oyj  ...    TRH1V.HE  Thursday
+85 2024-11-28             Tulikivi Corporation  ...    TULAV.HE  Thursday
+86 2024-11-28                  UPM-Kymmene Oyj  ...      UPM.HE  Thursday
+87 2024-11-28                      Vaisala Oyj  ...    VAIAS.HE  Thursday
+88 2024-11-28                       Valmet Oyj  ...    VALMT.HE  Thursday
+89 2024-11-28             Verkkokauppa.com Oyj  ...     VERK.HE  Thursday
+90 2024-11-28                  Viking Line Abp  ...    VIK1V.HE  Thursday
+91 2024-11-28                      Wetteri Oyj  ...  WETTERI.HE  Thursday
+92 2024-11-28                   WithSecure Oyj  ...     WITH.HE  Thursday
+93 2024-11-28                 Wulff-Yhtiöt Oyj  ...    WUF1V.HE  Thursday
+94 2024-11-28                 Wärtsilä Oyj Abp  ...    WRT1V.HE  Thursday
+95 2024-11-28                          YIT Oyj  ...      YIT.HE  Thursday
+96 2024-11-28                 Ålandsbanken Abp  ...    ALBBV.HE  Thursday
+
+[97 rows x 10 columns]

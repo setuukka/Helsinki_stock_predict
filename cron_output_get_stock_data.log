@@ -1,0 +1,630 @@
+/bin/sh: 1: /home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: Permission denied
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: 3: source: not found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=1Rn7qIZkSwH
+$CAV1V.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=1Rn7qIZkSwH
+$HKSAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=1Rn7qIZkSwH
+$KSLAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=1Rn7qIZkSwH
+$PUMU.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=1Rn7qIZkSwH
+$ROVIO.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=1Rn7qIZkSwH
+$STOCKA.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=1Rn7qIZkSwH
+$UPONOR.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=1Rn7qIZkSwH
+$CAV1V.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=1Rn7qIZkSwH
+$HKSAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:67: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=1Rn7qIZkSwH
+$KSLAV.HE: possibly delisted; no timezone found
+Data read!
+Startdate is 2024-11-27
+2024-11-27 <class 'datetime.date'>
+2024-11-27 <class 'datetime.date'>
+AFAGR.HE - 2024-11-27
+Waiting for 1 seconds
+AKTIA.HE - 2024-11-27
+Waiting for 1 seconds
+ALMA.HE - 2024-11-27
+Waiting for 1 seconds
+ANORA.HE - 2024-11-27
+Waiting for 1 seconds
+APETIT.HE - 2024-11-27
+Waiting for 1 seconds
+TALLINK.HE - 2024-11-27
+Waiting for 1 seconds
+ASPO.HE - 2024-11-27
+Waiting for 1 seconds
+ACG1V.HE - 2024-11-27
+Waiting for 1 seconds
+ATRAV.HE - 2024-11-27
+Waiting for 1 seconds
+BIOBV.HE - 2024-11-27
+Waiting for 1 seconds
+BITTI.HE - 2024-11-27
+Waiting for 1 seconds
+BOREO.HE - 2024-11-27
+Waiting for 1 seconds
+CAPMAN.HE - 2024-11-27
+Waiting for 1 seconds
+CGCBV.HE - 2024-11-27
+Waiting for 1 seconds
+CAV1V.HE - 2024-11-27
+CTY1S.HE - 2024-11-27
+Waiting for 1 seconds
+CTH1V.HE - 2024-11-27
+Waiting for 1 seconds
+CONSTI.HE - 2024-11-27
+Waiting for 1 seconds
+DIGIA.HE - 2024-11-27
+Waiting for 1 seconds
+DIGIGR.HE - 2024-11-27
+Waiting for 1 seconds
+DOV1V.HE - 2024-11-27
+Waiting for 1 seconds
+EEZY.HE - 2024-11-27
+Waiting for 1 seconds
+ELEAV.HE - 2024-11-27
+Waiting for 1 seconds
+ELISA.HE - 2024-11-27
+Waiting for 1 seconds
+ENENTO.HE - 2024-11-27
+Waiting for 1 seconds
+ESENSE.HE - 2024-11-27
+Waiting for 1 seconds
+EQV1V.HE - 2024-11-27
+Waiting for 1 seconds
+ETTE.HE - 2024-11-27
+Waiting for 1 seconds
+EXL1V.HE - 2024-11-27
+Waiting for 1 seconds
+FIA1S.HE - 2024-11-27
+Waiting for 1 seconds
+FSKRS.HE - 2024-11-27
+Waiting for 1 seconds
+FORTUM.HE - 2024-11-27
+Waiting for 1 seconds
+GLA1V.HE - 2024-11-27
+Waiting for 1 seconds
+GOFORE.HE - 2024-11-27
+Waiting for 1 seconds
+HARVIA.HE - 2024-11-27
+Waiting for 1 seconds
+HKSAV.HE - 2024-11-27
+HONBS.HE - 2024-11-27
+Waiting for 1 seconds
+HUH1V.HE - 2024-11-27
+Waiting for 1 seconds
+ILKKA2.HE - 2024-11-27
+Waiting for 1 seconds
+ICP1V.HE - 2024-11-27
+Waiting for 1 seconds
+IFA1V.HE - 2024-11-27
+Waiting for 1 seconds
+INVEST.HE - 2024-11-27
+Waiting for 1 seconds
+KAMUX.HE - 2024-11-27
+Waiting for 1 seconds
+KEMIRA.HE - 2024-11-27
+Waiting for 1 seconds
+KSLAV.HE - 2024-11-27
+KESKOB.HE - 2024-11-27
+Waiting for 1 seconds
+KELAS.HE - 2024-11-27
+Waiting for 1 seconds
+KOJAMO.HE - 2024-11-27
+Waiting for 1 seconds
+KNEBV.HE - 2024-11-27
+Waiting for 1 seconds
+KCR.HE - 2024-11-27
+Waiting for 1 seconds
+KREATE.HE - 2024-11-27
+Waiting for 1 seconds
+LAT1V.HE - 2024-11-27
+Waiting for 1 seconds
+MEKKO.HE - 2024-11-27
+Waiting for 1 seconds
+MARAS.HE - 2024-11-27
+Waiting for 1 seconds
+METSO.HE - 2024-11-27
+Waiting for 1 seconds
+METSB.HE - 2024-11-27
+Waiting for 1 seconds
+MUSTI.HE - 2024-11-27
+Waiting for 1 seconds
+NESTE.HE - 2024-11-27
+Waiting for 1 seconds
+NOHO.HE - 2024-11-27
+Waiting for 1 seconds
+NOKIA.HE - 2024-11-27
+Waiting for 1 seconds
+TYRES.HE - 2024-11-27
+Waiting for 1 seconds
+NDA-FI.HE - 2024-11-27
+Waiting for 1 seconds
+NLG1V.HE - 2024-11-27
+Waiting for 1 seconds
+OLVAS.HE - 2024-11-27
+Waiting for 1 seconds
+OMASP.HE - 2024-11-27
+Waiting for 1 seconds
+OPTOMED.HE - 2024-11-27
+Waiting for 1 seconds
+OKDBV.HE - 2024-11-27
+Waiting for 1 seconds
+ORNBV.HE - 2024-11-27
+Waiting for 1 seconds
+ORTHEX.HE - 2024-11-27
+Waiting for 1 seconds
+OUT1V.HE - 2024-11-27
+Waiting for 1 seconds
+OVARO.HE - 2024-11-27
+Waiting for 1 seconds
+PNA1V.HE - 2024-11-27
+Waiting for 1 seconds
+PIHLIS.HE - 2024-11-27
+Waiting for 1 seconds
+PON1V.HE - 2024-11-27
+Waiting for 1 seconds
+PUMU.HE - 2024-11-27
+PURMO.HE - 2024-11-27
+Waiting for 1 seconds
+PUUILO.HE - 2024-11-27
+Waiting for 1 seconds
+QPR1V.HE - 2024-11-27
+Waiting for 1 seconds
+QTCOM.HE - 2024-11-27
+Waiting for 1 seconds
+RAIVV.HE - 2024-11-27
+Waiting for 1 seconds
+RAP1V.HE - 2024-11-27
+Waiting for 1 seconds
+RAUTE.HE - 2024-11-27
+Waiting for 1 seconds
+REKA.HE - 2024-11-27
+Waiting for 1 seconds
+RELAIS.HE - 2024-11-27
+Waiting for 1 seconds
+REMEDY.HE - 2024-11-27
+Waiting for 1 seconds
+REG1V.HE - 2024-11-27
+Waiting for 1 seconds
+ROBIT.HE - 2024-11-27
+Waiting for 1 seconds
+ROVIO.HE - 2024-11-27
+SAGCV.HE - 2024-11-27
+Waiting for 1 seconds
+SAMPO.HE - 2024-11-27
+Waiting for 1 seconds
+SANOMA.HE - 2024-11-27
+Waiting for 1 seconds
+SCANFL.HE - 2024-11-27
+Waiting for 1 seconds
+SIILI.HE - 2024-11-27
+Waiting for 1 seconds
+SITOWS.HE - 2024-11-27
+Waiting for 1 seconds
+SOLTEQ.HE - 2024-11-27
+Waiting for 1 seconds
+SOSI1.HE - 2024-11-27
+Waiting for 1 seconds
+SRV1V.HE - 2024-11-27
+Waiting for 1 seconds
+SSABBH.HE - 2024-11-27
+Waiting for 1 seconds
+SSH1V.HE - 2024-11-27
+Waiting for 1 seconds
+STOCKA.HE - 2024-11-27
+STERV.HE - 2024-11-27
+Waiting for 1 seconds
+SUY1V.HE - 2024-11-27
+Waiting for 1 seconds
+TAALA.HE - 2024-11-27
+Waiting for 1 seconds
+TNOM.HE - 2024-11-27
+Waiting for 1 seconds
+TEM1V.HE - 2024-11-27
+Waiting for 1 seconds
+TLT1V.HE - 2024-11-27
+Waiting for 1 seconds
+TELIA1.HE - 2024-11-27
+Waiting for 1 seconds
+TTALO.HE - 2024-11-27
+Waiting for 1 seconds
+TIETO.HE - 2024-11-27
+Waiting for 1 seconds
+TOKMAN.HE - 2024-11-27
+Waiting for 1 seconds
+TRH1V.HE - 2024-11-27
+Waiting for 1 seconds
+TULAV.HE - 2024-11-27
+Waiting for 1 seconds
+UNITED.HE - 2024-11-27
+Waiting for 1 seconds
+UPM.HE - 2024-11-27
+Waiting for 1 seconds
+UPONOR.HE - 2024-11-27
+VAIAS.HE - 2024-11-27
+Waiting for 1 seconds
+VALMT.HE - 2024-11-27
+Waiting for 1 seconds
+VERK.HE - 2024-11-27
+Waiting for 1 seconds
+VIK1V.HE - 2024-11-27
+Waiting for 1 seconds
+WETTERI.HE - 2024-11-27
+Waiting for 1 seconds
+WITH.HE - 2024-11-27
+Waiting for 1 seconds
+WUF1V.HE - 2024-11-27
+Waiting for 1 seconds
+WRT1V.HE - 2024-11-27
+Waiting for 1 seconds
+YIT.HE - 2024-11-27
+Waiting for 1 seconds
+ALBBV.HE - 2024-11-27
+Waiting for 1 seconds
+AFAGR.HE - 2024-11-28
+Waiting for 1 seconds
+AKTIA.HE - 2024-11-28
+Waiting for 1 seconds
+ALMA.HE - 2024-11-28
+Waiting for 1 seconds
+ANORA.HE - 2024-11-28
+Waiting for 1 seconds
+APETIT.HE - 2024-11-28
+Waiting for 1 seconds
+TALLINK.HE - 2024-11-28
+Waiting for 1 seconds
+ASPO.HE - 2024-11-28
+Waiting for 1 seconds
+ACG1V.HE - 2024-11-28
+Waiting for 1 seconds
+ATRAV.HE - 2024-11-28
+Waiting for 1 seconds
+BIOBV.HE - 2024-11-28
+Waiting for 1 seconds
+BITTI.HE - 2024-11-28
+Waiting for 1 seconds
+BOREO.HE - 2024-11-28
+Waiting for 1 seconds
+CAPMAN.HE - 2024-11-28
+Waiting for 1 seconds
+CGCBV.HE - 2024-11-28
+Waiting for 1 seconds
+CAV1V.HE - 2024-11-28
+CTY1S.HE - 2024-11-28
+Waiting for 1 seconds
+CTH1V.HE - 2024-11-28
+Waiting for 1 seconds
+CONSTI.HE - 2024-11-28
+Waiting for 1 seconds
+DIGIA.HE - 2024-11-28
+Waiting for 1 seconds
+DIGIGR.HE - 2024-11-28
+Waiting for 1 seconds
+DOV1V.HE - 2024-11-28
+Waiting for 1 seconds
+EEZY.HE - 2024-11-28
+Waiting for 1 seconds
+ELEAV.HE - 2024-11-28
+Waiting for 1 seconds
+ELISA.HE - 2024-11-28
+Waiting for 1 seconds
+ENENTO.HE - 2024-11-28
+Waiting for 1 seconds
+ESENSE.HE - 2024-11-28
+Waiting for 1 seconds
+EQV1V.HE - 2024-11-28
+Waiting for 1 seconds
+ETTE.HE - 2024-11-28
+Waiting for 1 seconds
+EXL1V.HE - 2024-11-28
+Waiting for 1 seconds
+FIA1S.HE - 2024-11-28
+Waiting for 1 seconds
+FSKRS.HE - 2024-11-28
+Waiting for 1 seconds
+FORTUM.HE - 2024-11-28
+Waiting for 1 seconds
+GLA1V.HE - 2024-11-28
+Waiting for 1 seconds
+GOFORE.HE - 2024-11-28
+Waiting for 1 seconds
+HARVIA.HE - 2024-11-28
+Waiting for 1 seconds
+HKSAV.HE - 2024-11-28
+HONBS.HE - 2024-11-28
+Waiting for 1 seconds
+HUH1V.HE - 2024-11-28
+Waiting for 1 seconds
+ILKKA2.HE - 2024-11-28
+Waiting for 1 seconds
+ICP1V.HE - 2024-11-28
+Waiting for 1 seconds
+IFA1V.HE - 2024-11-28
+Waiting for 1 seconds
+INVEST.HE - 2024-11-28
+Waiting for 1 seconds
+KAMUX.HE - 2024-11-28
+Waiting for 1 seconds
+KEMIRA.HE - 2024-11-28
+Waiting for 1 seconds
+KSLAV.HE - 2024-11-28
+KESKOB.HE - 2024-11-28
+Waiting for 1 seconds
+KELAS.HE - 2024-11-28
+Waiting for 1 seconds
+KOJAMO.HE - 2024-11-28
+Waiting for 1 seconds
+KNEBV.HE - 2024-11-28
+Waiting for 1 seconds
+KCR.HE - 2024-11-28
+Waiting for 1 seconds
+KREATE.HE - 2024-11-28
+Waiting for 1 seconds
+LAT1V.HE - 2024-11-28
+Waiting for 1 seconds
+MEKKO.HE - 2024-11-28
+Waiting for 1 seconds
+MARAS.HE - 2024-11-28
+Waiting for 1 seconds
+METSO.HE - 2024-11-28
+Waiting for 1 seconds
+METSB.HE - 2024-11-28
+Waiting for 1 seconds
+MUSTI.HE - 2024-11-28
+Waiting for 1 seconds
+NESTE.HE - 2024-11-28
+Waiting for 1 seconds
+NOHO.HE - 2024-11-28
+Waiting for 1 seconds
+NOKIA.HE - 2024-11-28
+Waiting for 1 seconds
+TYRES.HE - 2024-11-28
+Waiting for 1 seconds
+NDA-FI.HE - 2024-11-28
+Waiting for 1 seconds
+NLG1V.HE - 2024-11-28
+Waiting for 1 seconds
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=1Rn7qIZkSwH
+$PUMU.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=1Rn7qIZkSwH
+$ROVIO.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=1Rn7qIZkSwH
+$STOCKA.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=1Rn7qIZkSwH
+$UPONOR.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:80: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_stock_data.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+OLVAS.HE - 2024-11-28
+Waiting for 1 seconds
+OMASP.HE - 2024-11-28
+Waiting for 1 seconds
+OPTOMED.HE - 2024-11-28
+Waiting for 1 seconds
+OKDBV.HE - 2024-11-28
+Waiting for 1 seconds
+ORNBV.HE - 2024-11-28
+Waiting for 1 seconds
+ORTHEX.HE - 2024-11-28
+Waiting for 1 seconds
+OUT1V.HE - 2024-11-28
+Waiting for 1 seconds
+OVARO.HE - 2024-11-28
+Waiting for 1 seconds
+PNA1V.HE - 2024-11-28
+Waiting for 1 seconds
+PIHLIS.HE - 2024-11-28
+Waiting for 1 seconds
+PON1V.HE - 2024-11-28
+Waiting for 1 seconds
+PUMU.HE - 2024-11-28
+PURMO.HE - 2024-11-28
+Waiting for 1 seconds
+PUUILO.HE - 2024-11-28
+Waiting for 1 seconds
+QPR1V.HE - 2024-11-28
+Waiting for 1 seconds
+QTCOM.HE - 2024-11-28
+Waiting for 1 seconds
+RAIVV.HE - 2024-11-28
+Waiting for 1 seconds
+RAP1V.HE - 2024-11-28
+Waiting for 1 seconds
+RAUTE.HE - 2024-11-28
+Waiting for 1 seconds
+REKA.HE - 2024-11-28
+Waiting for 1 seconds
+RELAIS.HE - 2024-11-28
+Waiting for 1 seconds
+REMEDY.HE - 2024-11-28
+Waiting for 1 seconds
+REG1V.HE - 2024-11-28
+Waiting for 1 seconds
+ROBIT.HE - 2024-11-28
+Waiting for 1 seconds
+ROVIO.HE - 2024-11-28
+SAGCV.HE - 2024-11-28
+Waiting for 1 seconds
+SAMPO.HE - 2024-11-28
+Waiting for 1 seconds
+SANOMA.HE - 2024-11-28
+Waiting for 1 seconds
+SCANFL.HE - 2024-11-28
+Waiting for 1 seconds
+SIILI.HE - 2024-11-28
+Waiting for 1 seconds
+SITOWS.HE - 2024-11-28
+Waiting for 1 seconds
+SOLTEQ.HE - 2024-11-28
+Waiting for 1 seconds
+SOSI1.HE - 2024-11-28
+Waiting for 1 seconds
+SRV1V.HE - 2024-11-28
+Waiting for 1 seconds
+SSABBH.HE - 2024-11-28
+Waiting for 1 seconds
+SSH1V.HE - 2024-11-28
+Waiting for 1 seconds
+STOCKA.HE - 2024-11-28
+STERV.HE - 2024-11-28
+Waiting for 1 seconds
+SUY1V.HE - 2024-11-28
+Waiting for 1 seconds
+TAALA.HE - 2024-11-28
+Waiting for 1 seconds
+TNOM.HE - 2024-11-28
+Waiting for 1 seconds
+TEM1V.HE - 2024-11-28
+Waiting for 1 seconds
+TLT1V.HE - 2024-11-28
+Waiting for 1 seconds
+TELIA1.HE - 2024-11-28
+Waiting for 1 seconds
+TTALO.HE - 2024-11-28
+Waiting for 1 seconds
+TIETO.HE - 2024-11-28
+Waiting for 1 seconds
+TOKMAN.HE - 2024-11-28
+Waiting for 1 seconds
+TRH1V.HE - 2024-11-28
+Waiting for 1 seconds
+TULAV.HE - 2024-11-28
+Waiting for 1 seconds
+UNITED.HE - 2024-11-28
+Waiting for 1 seconds
+UPM.HE - 2024-11-28
+Waiting for 1 seconds
+UPONOR.HE - 2024-11-28
+VAIAS.HE - 2024-11-28
+Waiting for 1 seconds
+VALMT.HE - 2024-11-28
+Waiting for 1 seconds
+VERK.HE - 2024-11-28
+Waiting for 1 seconds
+VIK1V.HE - 2024-11-28
+Waiting for 1 seconds
+WETTERI.HE - 2024-11-28
+Waiting for 1 seconds
+WITH.HE - 2024-11-28
+Waiting for 1 seconds
+WUF1V.HE - 2024-11-28
+Waiting for 1 seconds
+WRT1V.HE - 2024-11-28
+Waiting for 1 seconds
+YIT.HE - 2024-11-28
+Waiting for 1 seconds
+ALBBV.HE - 2024-11-28
+Waiting for 1 seconds
+Waiting for 3 seconds
+Old single measures (2858, 15), new data (236, 14), joined data (3094, 15)

@@ -6,28 +6,19 @@ import numpy as np
 #from sklearn.linear_model import LinearRegression
 from scipy.stats import linregress, skew, kurtosis
 import time
+import json
+import warnings
+
+
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 pd.set_option('display.max_rows', None)
 #pd.set_option('display.max_columns', None)
 
-stocklist = ["AFAGR.HE","AKTIA.HE","ALMA.HE","ANORA.HE","APETIT.HE","TALLINK.HE","ASPO.HE",
-"ACG1V.HE","ATRAV.HE","BIOBV.HE","BITTI.HE","BOREO.HE","CAPMAN.HE","CGCBV.HE","CAV1V.HE",
-"CTY1S.HE","CTH1V.HE","CONSTI.HE","DIGIA.HE","DIGIGR.HE","DOV1V.HE","EEZY.HE","ELEAV.HE",
-"ELISA.HE","ENENTO.HE","ESENSE.HE","EQV1V.HE","ETTE.HE","EXL1V.HE","FIA1S.HE","FSKRS.HE",
-"FORTUM.HE","GLA1V.HE","GOFORE.HE","HARVIA.HE","HKSAV.HE","HONBS.HE","HUH1V.HE","ILKKA2.HE",
-"ICP1V.HE","IFA1V.HE","INVEST.HE","KAMUX.HE","KEMIRA.HE","KSLAV.HE","KESKOB.HE",
-"KELAS.HE","KOJAMO.HE","KNEBV.HE","KCR.HE","KREATE.HE","LAT1V.HE","MEKKO.HE",
-"MARAS.HE","METSO.HE","METSB.HE","MUSTI.HE","NESTE.HE","NOHO.HE",
-"NOKIA.HE","TYRES.HE","NDA-FI.HE","NLG1V.HE","OLVAS.HE","OMASP.HE","OPTOMED.HE",
-"OKDBV.HE","ORNBV.HE","ORTHEX.HE","OUT1V.HE","OVARO.HE","PNA1V.HE","PIHLIS.HE",
-"PON1V.HE","PUMU.HE","PURMO.HE","PUUILO.HE","QPR1V.HE","QTCOM.HE","RAIVV.HE","RAP1V.HE",
-"RAUTE.HE","REKA.HE","RELAIS.HE","REMEDY.HE","REG1V.HE","ROBIT.HE","ROVIO.HE","SAGCV.HE",
-"SAMPO.HE","SANOMA.HE","SCANFL.HE","SIILI.HE","SITOWS.HE","SOLTEQ.HE","SOSI1.HE","SRV1V.HE",
-"SSABBH.HE","SSH1V.HE","STOCKA.HE","STERV.HE","SUY1V.HE","TAALA.HE",
-"TNOM.HE","TEM1V.HE","TLT1V.HE","TELIA1.HE","TTALO.HE","TIETO.HE","TOKMAN.HE","TRH1V.HE",
-"TULAV.HE","UNITED.HE","UPM.HE","UPONOR.HE","VAIAS.HE","VALMT.HE","VERK.HE",
-"VIK1V.HE","WETTERI.HE","WITH.HE","WUF1V.HE","WRT1V.HE","YIT.HE","ALBBV.HE",]
+#Reading stock list from JSON
+with open("stocklist.json", "r") as file:
+    stocklist = json.load(file)
 
 #for testing
 stocklist2 = ["AFAGR.HE","SANOMA.HE","TTALO.HE"]
@@ -215,7 +206,9 @@ def main():
     joined_df = pd.concat([data, single_measures_df], ignore_index = True)
     print(f"Old single measures {data.shape}, new data {single_measures_df.shape}, joined data {joined_df.shape}") #DEBUG
     #Removing duplicates and Na values
+    old_len = single_measures_df.shape[0]
     single_measures_df = single_measures_df.dropna().drop_duplicates().reset_index(drop=True)
+    print(f"Removed {old_len - single_measures_df.shape[0]} duplicates")
     #Save the df to csv 
     joined_df.to_csv("single_measures_df.csv", index = False)
 
