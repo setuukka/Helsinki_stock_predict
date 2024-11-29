@@ -22,7 +22,7 @@ actual_df = actual_df.loc[:, ~actual_df.columns.str.contains('unnamed', case=Fal
 actual_df['date'] = actual_df['date'].apply(lambda x : x[:10])
 
 
-print(len(predicted_df))
+#print(len(predicted_df))
 
 joined_df = pd.merge(actual_df, predicted_df, on= ['date','company'], how = 'inner')
-#print(joined_df)
+print(joined_df)

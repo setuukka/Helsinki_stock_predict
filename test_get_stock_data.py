@@ -1,3 +1,5 @@
+#Test file. Does not overwrite csv
+
 import yfinance as yf
 import pandas as pd
 from datetime import date
@@ -11,7 +13,6 @@ import warnings
 
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
-warnings.filterwarnings("ignore", category=FutureWarning)
 
 
 pd.set_option('display.max_rows', None)
@@ -22,8 +23,8 @@ with open("stocklist.json", "r") as file:
     stocklist = json.load(file)
 
 #for testing
-stocklist2 = ["AFAGR.HE","SANOMA.HE","TTALO.HE"]
-stocklist3 = ["KESKOB.HE"]
+stocklist2 = ["QTCOM.HE","REMEDY.HE","WRT1V.HE.HE"]
+stocklist3 = ["WRT1V.HE.HE"]
 
 def generate_complete_datetime_range(start, end, freq='min'):
     """Generates a complete datetime range from start to end with the given frequency."""
@@ -43,9 +44,13 @@ def ensure_minute_intervals(df, start_time, end_time):
     Main function to ensure DataFrame has a row for every minute between start_time and end_time,
     filling missing rows with previous values.
     """
+
+
     all_minutes = generate_complete_datetime_range(start_time, end_time)
     df = reindex_with_complete_range(df, all_minutes)
+
     count_of_original_values = (len(df) - df['Open'].isna().sum())
+
     df = forward_fill_missing_values(df)
     df.reset_index(inplace=True)
     df.rename(columns={'index': 'Datetime'}, inplace=True)
@@ -132,7 +137,7 @@ def main():
             continue
         #single_measures_df['date'].dt.day_name()
 
-        for company in stocklist:
+        for company in stocklist2:
             try:
                 stock = yf.Ticker(company)
                 info = yf.Ticker(company).info
@@ -175,7 +180,6 @@ def main():
 
             # Ensure there is a row for each minute, with missing values forward-filled. cuts the df to first hour
             stock_data, count_of_original_values = ensure_minute_intervals(stock_data, start_time, end_time)
-            print("Original values", count_of_original_values)
             stock_data = map_percentage_change(stock_data)
             stock_data = set_binary_for_percentage_change(stock_data)
 
@@ -195,22 +199,27 @@ def main():
             single_measures_list.append(single_measures)
             wait(1)
         startdate = startdate + timedelta(days=1)
-    wait(3)
+    #wait(3)
     single_measures_df = pd.DataFrame(single_measures_list)
+    print(single_measures_df)
     #make the the first
     cols = ['date'] + [col for col in single_measures_df.columns if col != 'date']
+
     single_measures_df = single_measures_df[cols]
     single_measures_df['date'] = pd.to_datetime(single_measures_df['date'])
     single_measures_df['weekday'] = single_measures_df['date'].dt.day_name()
     #print(single_measures_df)
+    #print(single_measures_df)
 
     joined_df = pd.concat([data, single_measures_df], ignore_index = True)
+    #print(data.head(10))
+    print(joined_df.tail(10))
     print(f"Old single measures {data.shape}, new data {single_measures_df.shape}, joined data {joined_df.shape}") #DEBUG
     #Removing duplicates and Na values
     old_len = single_measures_df.shape[0]
     single_measures_df = single_measures_df.dropna().drop_duplicates(subset=['date','company'], keep = 'first').reset_index(drop=True)
     print(f"Removed {old_len - single_measures_df.shape[0]} duplicates")
     #Save the df to csv 
-    joined_df.to_csv("single_measures_df.csv", index = False)
+    #joined_df.to_csv("single_measures_df.csv", index = False)
 
 main()
