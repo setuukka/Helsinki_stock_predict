@@ -663,3 +663,2651 @@ Waiting for 1 seconds
 96 2024-11-28                 Ålandsbanken Abp  ...    ALBBV.HE  Thursday
 
 [97 rows x 10 columns]
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=EjxPhEsmoxF
+$CAV1V.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=EjxPhEsmoxF
+$HKSAV.HE: possibly delisted; no timezone found
+$HONBS.HE: possibly delisted; no price data found  (1m 2024-11-29 -> 2024-11-30)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=EjxPhEsmoxF
+$KSLAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+2024-11-29
+AFAGR.HE - 2024-11-29
+Trying to get stock data for Afarak Group SE on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+AKTIA.HE - 2024-11-29
+Trying to get stock data for Aktia Pankki Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ALMA.HE - 2024-11-29
+Trying to get stock data for Alma Media Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ANORA.HE - 2024-11-29
+Trying to get stock data for Anora Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+APETIT.HE - 2024-11-29
+Trying to get stock data for Apetit Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TALLINK.HE - 2024-11-29
+Trying to get stock data for AS Tallink Grupp on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ASPO.HE - 2024-11-29
+Trying to get stock data for Aspo Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ACG1V.HE - 2024-11-29
+Trying to get stock data for Aspocomp Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ATRAV.HE - 2024-11-29
+Trying to get stock data for Atria Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+BIOBV.HE - 2024-11-29
+Trying to get stock data for Biohit Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+BITTI.HE - 2024-11-29
+Trying to get stock data for Bittium Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+BOREO.HE - 2024-11-29
+Trying to get stock data for Boreo Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+CAPMAN.HE - 2024-11-29
+Trying to get stock data for CapMan Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+CGCBV.HE - 2024-11-29
+Trying to get stock data for Cargotec Corporation on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+CAV1V.HE - 2024-11-29
+Trying to get stock data for CAV1V.HE on 2024-11-29. Errors: 0
+Stock data for CAV1V.HE is zero
+CTY1S.HE - 2024-11-29
+Trying to get stock data for Citycon Oyj on 2024-11-29. Errors: 1
+Waiting for 1 seconds
+CTH1V.HE - 2024-11-29
+Trying to get stock data for Componenta Corporation on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+CONSTI.HE - 2024-11-29
+Trying to get stock data for Consti Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+DIGIA.HE - 2024-11-29
+Trying to get stock data for Digia Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+DIGIGR.HE - 2024-11-29
+Trying to get stock data for Digitalist Group Plc on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+DOV1V.HE - 2024-11-29
+Trying to get stock data for Dovre Group Plc on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+EEZY.HE - 2024-11-29
+Trying to get stock data for Eezy Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ELEAV.HE - 2024-11-29
+Trying to get stock data for Elecster Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ELISA.HE - 2024-11-29
+Trying to get stock data for Elisa Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ENENTO.HE - 2024-11-29
+Trying to get stock data for Enento Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ESENSE.HE - 2024-11-29
+Trying to get stock data for Enersense International Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+EQV1V.HE - 2024-11-29
+Trying to get stock data for eQ Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ETTE.HE - 2024-11-29
+Trying to get stock data for Etteplan Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+EXL1V.HE - 2024-11-29
+Trying to get stock data for Exel Composites Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+FIA1S.HE - 2024-11-29
+Trying to get stock data for Finnair Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+FSKRS.HE - 2024-11-29
+Trying to get stock data for Fiskars Oyj Abp on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+FORTUM.HE - 2024-11-29
+Trying to get stock data for Fortum Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+GLA1V.HE - 2024-11-29
+Trying to get stock data for Glaston Oyj Abp on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+GOFORE.HE - 2024-11-29
+Trying to get stock data for Gofore Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+HARVIA.HE - 2024-11-29
+Trying to get stock data for Harvia Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+HKSAV.HE - 2024-11-29
+Trying to get stock data for HKSAV.HE on 2024-11-29. Errors: 0
+Stock data for HKSAV.HE is zero
+HONBS.HE - 2024-11-29
+Trying to get stock data for Honkarakenne Oyj on 2024-11-29. Errors: 1
+Stock data for Honkarakenne Oyj is zero
+HUH1V.HE - 2024-11-29
+Trying to get stock data for Huhtamäki Oyj on 2024-11-29. Errors: 2
+Waiting for 1 seconds
+ILKKA2.HE - 2024-11-29
+Trying to get stock data for Ilkka Oyj on 2024-11-29. Errors: 1
+Waiting for 1 seconds
+ICP1V.HE - 2024-11-29
+Trying to get stock data for Incap Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+IFA1V.HE - 2024-11-29
+Trying to get stock data for Innofactor Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+INVEST.HE - 2024-11-29
+Trying to get stock data for Investors House Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+KAMUX.HE - 2024-11-29
+Trying to get stock data for Kamux Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+KEMIRA.HE - 2024-11-29
+Trying to get stock data for Kemira Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+KSLAV.HE - 2024-11-29
+Trying to get stock data for KSLAV.HE on 2024-11-29. Errors: 0
+Stock data for KSLAV.HE is zero
+KESKOB.HE - 2024-11-29
+Trying to get stock data for Kesko Oyj on 2024-11-29. Errors: 1
+Waiting for 1 seconds
+KELAS.HE - 2024-11-29
+Trying to get stock data for Kesla Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+KOJAMO.HE - 2024-11-29
+Trying to get stock data for Kojamo Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+KNEBV.HE - 2024-11-29
+Trying to get stock data for KONE Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+KCR.HE - 2024-11-29
+Trying to get stock data for Konecranes Plc on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+KREATE.HE - 2024-11-29
+Trying to get stock data for Kreate Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+LAT1V.HE - 2024-11-29
+Trying to get stock data for Lassila & Tikanoja Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+MEKKO.HE - 2024-11-29
+Trying to get stock data for Marimekko Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+MARAS.HE - 2024-11-29
+Trying to get stock data for Martela Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+METSO.HE - 2024-11-29
+Trying to get stock data for Metso Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+METSB.HE - 2024-11-29
+Trying to get stock data for Metsä Board Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+MUSTI.HE - 2024-11-29
+Trying to get stock data for Musti Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+NESTE.HE - 2024-11-29
+Trying to get stock data for Neste Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+NOHO.HE - 2024-11-29
+Trying to get stock data for NoHo Partners Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+NOKIA.HE - 2024-11-29
+Trying to get stock data for Nokia Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TYRES.HE - 2024-11-29
+Trying to get stock data for Nokian Renkaat Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+NDA-FI.HE - 2024-11-29
+Trying to get stock data for Nordea Bank Abp on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+NLG1V.HE - 2024-11-29
+Trying to get stock data for Nurminen Logistics Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+OLVAS.HE - 2024-11-29
+Trying to get stock data for Olvi Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+OMASP.HE - 2024-11-29
+Trying to get stock data for Oma Säästöpankki Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+OPTOMED.HE - 2024-11-29
+Trying to get stock data for Optomed Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+OKDBV.HE - 2024-11-29
+Trying to get stock data for Oriola Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ORNBV.HE - 2024-11-29
+Trying to get stock data for Orion Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ORTHEX.HE - 2024-11-29
+Trying to get stock data for Orthex Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+OUT1V.HE - 2024-11-29
+Trying to get stock data for Outokumpu Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+OVARO.HE - 2024-11-29
+Trying to get stock data for Ovaro Kiinteistösijoitus Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+PNA1V.HE - 2024-11-29
+Trying to get stock data for Panostaja Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+PIHLIS.HE - 2024-11-29
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=EjxPhEsmoxF
+$PUMU.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=EjxPhEsmoxF
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=EjxPhEsmoxF
+$STOCKA.HE: possibly delisted; no timezone found
+$TLT1V.HE: possibly delisted; no price data found  (1m 2024-11-29 -> 2024-11-30)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=EjxPhEsmoxF
+$UPONOR.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+Trying to get stock data for Pihlajalinna Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+PON1V.HE - 2024-11-29
+Trying to get stock data for Ponsse Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+PUMU.HE - 2024-11-29
+Trying to get stock data for PUMU.HE on 2024-11-29. Errors: 0
+Stock data for PUMU.HE is zero
+PURMO.HE - 2024-11-29
+Trying to get stock data for Purmo Group Oyj on 2024-11-29. Errors: 1
+Waiting for 1 seconds
+PUUILO.HE - 2024-11-29
+Trying to get stock data for Puuilo Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+QPR1V.HE - 2024-11-29
+Trying to get stock data for QPR Software Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+QTCOM.HE - 2024-11-29
+Trying to get stock data for Qt Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+RAIVV.HE - 2024-11-29
+Trying to get stock data for Raisio plc on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+RAP1V.HE - 2024-11-29
+Trying to get stock data for Rapala VMC Corporation on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+RAUTE.HE - 2024-11-29
+Trying to get stock data for Raute Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+REKA.HE - 2024-11-29
+Trying to get stock data for Reka Industrial Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+RELAIS.HE - 2024-11-29
+Trying to get stock data for Relais Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+REMEDY.HE - 2024-11-29
+Trying to get stock data for Remedy Entertainment Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+REG1V.HE - 2024-11-29
+Trying to get stock data for Revenio Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ROBIT.HE - 2024-11-29
+Trying to get stock data for Robit Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ROVIO.HE - 2024-11-29
+Trying to get stock data for ROVIO.HE on 2024-11-29. Errors: 0
+Stock data for ROVIO.HE is zero
+SAGCV.HE - 2024-11-29
+Trying to get stock data for Saga Furs Oyj on 2024-11-29. Errors: 1
+Waiting for 1 seconds
+SAMPO.HE - 2024-11-29
+Trying to get stock data for Sampo Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SANOMA.HE - 2024-11-29
+Trying to get stock data for Sanoma Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SCANFL.HE - 2024-11-29
+Trying to get stock data for Scanfil Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SIILI.HE - 2024-11-29
+Trying to get stock data for Siili Solutions Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SITOWS.HE - 2024-11-29
+Trying to get stock data for Sitowise Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SOLTEQ.HE - 2024-11-29
+Trying to get stock data for Solteq Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SOSI1.HE - 2024-11-29
+Trying to get stock data for Sotkamo Silver AB on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SRV1V.HE - 2024-11-29
+Trying to get stock data for SRV Yhtiöt Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SSABBH.HE - 2024-11-29
+Trying to get stock data for SSAB AB (publ) on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+SSH1V.HE - 2024-11-29
+Trying to get stock data for SSH Communications Security Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+STOCKA.HE - 2024-11-29
+Trying to get stock data for STOCKA.HE on 2024-11-29. Errors: 0
+Stock data for STOCKA.HE is zero
+STERV.HE - 2024-11-29
+Trying to get stock data for Stora Enso Oyj on 2024-11-29. Errors: 1
+Waiting for 1 seconds
+SUY1V.HE - 2024-11-29
+Trying to get stock data for Suominen Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TAALA.HE - 2024-11-29
+Trying to get stock data for Taaleri Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TNOM.HE - 2024-11-29
+Trying to get stock data for Talenom Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TEM1V.HE - 2024-11-29
+Trying to get stock data for Tecnotree Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TLT1V.HE - 2024-11-29
+Trying to get stock data for Teleste Oyj on 2024-11-29. Errors: 0
+Stock data for Teleste Oyj is zero
+TELIA1.HE - 2024-11-29
+Trying to get stock data for Telia Company AB (publ) on 2024-11-29. Errors: 1
+Waiting for 1 seconds
+TTALO.HE - 2024-11-29
+Trying to get stock data for Terveystalo Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TIETO.HE - 2024-11-29
+Trying to get stock data for TietoEVRY Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TOKMAN.HE - 2024-11-29
+Trying to get stock data for Tokmanni Group Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TRH1V.HE - 2024-11-29
+Trying to get stock data for Trainers' House Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+TULAV.HE - 2024-11-29
+Trying to get stock data for Tulikivi Corporation on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+UNITED.HE - 2024-11-29
+Trying to get stock data for United Bankers Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+UPM.HE - 2024-11-29
+Trying to get stock data for UPM-Kymmene Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+UPONOR.HE - 2024-11-29
+Trying to get stock data for UPONOR.HE on 2024-11-29. Errors: 0
+Stock data for UPONOR.HE is zero
+VAIAS.HE - 2024-11-29
+Trying to get stock data for Vaisala Oyj on 2024-11-29. Errors: 1
+Waiting for 1 seconds
+VALMT.HE - 2024-11-29
+Trying to get stock data for Valmet Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+VERK.HE - 2024-11-29
+Trying to get stock data for Verkkokauppa.com Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+VIK1V.HE - 2024-11-29
+Trying to get stock data for Viking Line Abp on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+WETTERI.HE - 2024-11-29
+Trying to get stock data for Wetteri Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+WITH.HE - 2024-11-29
+Trying to get stock data for WithSecure Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+WUF1V.HE - 2024-11-29
+Trying to get stock data for Wulff-Yhtiöt Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+WRT1V.HE - 2024-11-29
+Trying to get stock data for Wärtsilä Oyj Abp on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+YIT.HE - 2024-11-29
+Trying to get stock data for YIT Oyj on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+ALBBV.HE - 2024-11-29
+Trying to get stock data for Ålandsbanken Abp on 2024-11-29. Errors: 0
+Waiting for 1 seconds
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+2024-11-30
+2024-11-30 is a weekend (Saturday or Sunday).
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+2024-12-01
+2024-12-01 is a weekend (Saturday or Sunday).
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=8OvJoAc8C4A
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=8OvJoAc8C4A
+$HKSAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=8OvJoAc8C4A
+$KSLAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+2024-12-02
+AFAGR.HE - 2024-12-02
+Trying to get stock data for Afarak Group SE on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+AKTIA.HE - 2024-12-02
+Trying to get stock data for Aktia Pankki Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ALMA.HE - 2024-12-02
+Trying to get stock data for Alma Media Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ANORA.HE - 2024-12-02
+Trying to get stock data for Anora Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+APETIT.HE - 2024-12-02
+Trying to get stock data for Apetit Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TALLINK.HE - 2024-12-02
+Trying to get stock data for AS Tallink Grupp on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ASPO.HE - 2024-12-02
+Trying to get stock data for Aspo Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ACG1V.HE - 2024-12-02
+Trying to get stock data for Aspocomp Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ATRAV.HE - 2024-12-02
+Trying to get stock data for Atria Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+BIOBV.HE - 2024-12-02
+Trying to get stock data for Biohit Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+BITTI.HE - 2024-12-02
+Trying to get stock data for Bittium Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+BOREO.HE - 2024-12-02
+Trying to get stock data for Boreo Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+CAPMAN.HE - 2024-12-02
+Trying to get stock data for CapMan Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+CGCBV.HE - 2024-12-02
+Trying to get stock data for Cargotec Corporation on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+CAV1V.HE - 2024-12-02
+Trying to get stock data for CAV1V.HE on 2024-12-02. Errors: 0
+Stock data for CAV1V.HE is zero
+CTY1S.HE - 2024-12-02
+Trying to get stock data for Citycon Oyj on 2024-12-02. Errors: 1
+Waiting for 1 seconds
+CTH1V.HE - 2024-12-02
+Trying to get stock data for Componenta Corporation on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+CONSTI.HE - 2024-12-02
+Trying to get stock data for Consti Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+DIGIA.HE - 2024-12-02
+Trying to get stock data for Digia Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+DIGIGR.HE - 2024-12-02
+Trying to get stock data for Digitalist Group Plc on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+DOV1V.HE - 2024-12-02
+Trying to get stock data for Dovre Group Plc on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+EEZY.HE - 2024-12-02
+Trying to get stock data for Eezy Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ELEAV.HE - 2024-12-02
+Trying to get stock data for Elecster Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ELISA.HE - 2024-12-02
+Trying to get stock data for Elisa Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ENENTO.HE - 2024-12-02
+Trying to get stock data for Enento Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ESENSE.HE - 2024-12-02
+Trying to get stock data for Enersense International Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+EQV1V.HE - 2024-12-02
+Trying to get stock data for eQ Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ETTE.HE - 2024-12-02
+Trying to get stock data for Etteplan Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+EXL1V.HE - 2024-12-02
+Trying to get stock data for Exel Composites Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+FIA1S.HE - 2024-12-02
+Trying to get stock data for Finnair Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+FSKRS.HE - 2024-12-02
+Trying to get stock data for Fiskars Oyj Abp on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+FORTUM.HE - 2024-12-02
+Trying to get stock data for Fortum Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+GLA1V.HE - 2024-12-02
+Trying to get stock data for Glaston Oyj Abp on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+GOFORE.HE - 2024-12-02
+Trying to get stock data for Gofore Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+HARVIA.HE - 2024-12-02
+Trying to get stock data for Harvia Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+HKSAV.HE - 2024-12-02
+Trying to get stock data for HKSAV.HE on 2024-12-02. Errors: 0
+Stock data for HKSAV.HE is zero
+HONBS.HE - 2024-12-02
+Trying to get stock data for Honkarakenne Oyj on 2024-12-02. Errors: 1
+Waiting for 1 seconds
+HUH1V.HE - 2024-12-02
+Trying to get stock data for Huhtamäki Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ILKKA2.HE - 2024-12-02
+Trying to get stock data for Ilkka Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ICP1V.HE - 2024-12-02
+Trying to get stock data for Incap Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+IFA1V.HE - 2024-12-02
+Trying to get stock data for Innofactor Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+INVEST.HE - 2024-12-02
+Trying to get stock data for Investors House Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+KAMUX.HE - 2024-12-02
+Trying to get stock data for Kamux Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+KEMIRA.HE - 2024-12-02
+Trying to get stock data for Kemira Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+KSLAV.HE - 2024-12-02
+Trying to get stock data for KSLAV.HE on 2024-12-02. Errors: 0
+Stock data for KSLAV.HE is zero
+KESKOB.HE - 2024-12-02
+Trying to get stock data for Kesko Oyj on 2024-12-02. Errors: 1
+Waiting for 1 seconds
+KELAS.HE - 2024-12-02
+Trying to get stock data for Kesla Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+KOJAMO.HE - 2024-12-02
+Trying to get stock data for Kojamo Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+KNEBV.HE - 2024-12-02
+Trying to get stock data for KONE Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+KCR.HE - 2024-12-02
+Trying to get stock data for Konecranes Plc on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+KREATE.HE - 2024-12-02
+Trying to get stock data for Kreate Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+LAT1V.HE - 2024-12-02
+Trying to get stock data for Lassila & Tikanoja Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+MEKKO.HE - 2024-12-02
+Trying to get stock data for Marimekko Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+MARAS.HE - 2024-12-02
+Trying to get stock data for Martela Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+METSO.HE - 2024-12-02
+Trying to get stock data for Metso Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+METSB.HE - 2024-12-02
+Trying to get stock data for Metsä Board Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+MUSTI.HE - 2024-12-02
+Trying to get stock data for Musti Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+NESTE.HE - 2024-12-02
+Trying to get stock data for Neste Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+NOHO.HE - 2024-12-02
+Trying to get stock data for NoHo Partners Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+NOKIA.HE - 2024-12-02
+Trying to get stock data for Nokia Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TYRES.HE - 2024-12-02
+Trying to get stock data for Nokian Renkaat Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+NDA-FI.HE - 2024-12-02
+Trying to get stock data for Nordea Bank Abp on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+NLG1V.HE - 2024-12-02
+Trying to get stock data for Nurminen Logistics Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+OLVAS.HE - 2024-12-02
+Trying to get stock data for Olvi Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+OMASP.HE - 2024-12-02
+Trying to get stock data for Oma Säästöpankki Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+OPTOMED.HE - 2024-12-02
+Trying to get stock data for Optomed Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+OKDBV.HE - 2024-12-02
+Trying to get stock data for Oriola Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ORNBV.HE - 2024-12-02
+Trying to get stock data for Orion Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ORTHEX.HE - 2024-12-02
+Trying to get stock data for Orthex Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+OUT1V.HE - 2024-12-02
+Trying to get stock data for Outokumpu Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+OVARO.HE - 2024-12-02
+Trying to get stock data for Ovaro Kiinteistösijoitus Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+PNA1V.HE - 2024-12-02
+Trying to get stock data for Panostaja Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+PIHLIS.HE - 2024-12-02
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=8OvJoAc8C4A
+$PUMU.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=8OvJoAc8C4A
+$ROVIO.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=8OvJoAc8C4A
+$STOCKA.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=8OvJoAc8C4A
+$UPONOR.HE: possibly delisted; no timezone found
+Trying to get stock data for Pihlajalinna Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+PON1V.HE - 2024-12-02
+Trying to get stock data for Ponsse Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+PUMU.HE - 2024-12-02
+Trying to get stock data for PUMU.HE on 2024-12-02. Errors: 0
+Stock data for PUMU.HE is zero
+PURMO.HE - 2024-12-02
+Trying to get stock data for Purmo Group Oyj on 2024-12-02. Errors: 1
+Waiting for 1 seconds
+PUUILO.HE - 2024-12-02
+Trying to get stock data for Puuilo Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+QPR1V.HE - 2024-12-02
+Trying to get stock data for QPR Software Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+QTCOM.HE - 2024-12-02
+Trying to get stock data for Qt Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+RAIVV.HE - 2024-12-02
+Trying to get stock data for Raisio plc on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+RAP1V.HE - 2024-12-02
+Trying to get stock data for Rapala VMC Corporation on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+RAUTE.HE - 2024-12-02
+Trying to get stock data for Raute Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+REKA.HE - 2024-12-02
+Trying to get stock data for Reka Industrial Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+RELAIS.HE - 2024-12-02
+Trying to get stock data for Relais Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+REMEDY.HE - 2024-12-02
+Trying to get stock data for Remedy Entertainment Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+REG1V.HE - 2024-12-02
+Trying to get stock data for Revenio Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ROBIT.HE - 2024-12-02
+Trying to get stock data for Robit Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ROVIO.HE - 2024-12-02
+Trying to get stock data for ROVIO.HE on 2024-12-02. Errors: 0
+Stock data for ROVIO.HE is zero
+SAGCV.HE - 2024-12-02
+Trying to get stock data for Saga Furs Oyj on 2024-12-02. Errors: 1
+Waiting for 1 seconds
+SAMPO.HE - 2024-12-02
+Trying to get stock data for Sampo Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SANOMA.HE - 2024-12-02
+Trying to get stock data for Sanoma Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SCANFL.HE - 2024-12-02
+Trying to get stock data for Scanfil Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SIILI.HE - 2024-12-02
+Trying to get stock data for Siili Solutions Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SITOWS.HE - 2024-12-02
+Trying to get stock data for Sitowise Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SOLTEQ.HE - 2024-12-02
+Trying to get stock data for Solteq Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SOSI1.HE - 2024-12-02
+Trying to get stock data for Sotkamo Silver AB on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SRV1V.HE - 2024-12-02
+Trying to get stock data for SRV Yhtiöt Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SSABBH.HE - 2024-12-02
+Trying to get stock data for SSAB AB (publ) on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+SSH1V.HE - 2024-12-02
+Trying to get stock data for SSH Communications Security Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+STOCKA.HE - 2024-12-02
+Trying to get stock data for STOCKA.HE on 2024-12-02. Errors: 0
+Stock data for STOCKA.HE is zero
+STERV.HE - 2024-12-02
+Trying to get stock data for Stora Enso Oyj on 2024-12-02. Errors: 1
+Waiting for 1 seconds
+SUY1V.HE - 2024-12-02
+Trying to get stock data for Suominen Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TAALA.HE - 2024-12-02
+Trying to get stock data for Taaleri Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TNOM.HE - 2024-12-02
+Trying to get stock data for Talenom Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TEM1V.HE - 2024-12-02
+Trying to get stock data for Tecnotree Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TLT1V.HE - 2024-12-02
+Trying to get stock data for Teleste Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TELIA1.HE - 2024-12-02
+Trying to get stock data for Telia Company AB (publ) on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TTALO.HE - 2024-12-02
+Trying to get stock data for Terveystalo Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TIETO.HE - 2024-12-02
+Trying to get stock data for TietoEVRY Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TOKMAN.HE - 2024-12-02
+Trying to get stock data for Tokmanni Group Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TRH1V.HE - 2024-12-02
+Trying to get stock data for Trainers' House Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+TULAV.HE - 2024-12-02
+Trying to get stock data for Tulikivi Corporation on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+UNITED.HE - 2024-12-02
+Trying to get stock data for United Bankers Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+UPM.HE - 2024-12-02
+Trying to get stock data for UPM-Kymmene Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+UPONOR.HE - 2024-12-02
+Trying to get stock data for UPONOR.HE on 2024-12-02. Errors: 0
+Stock data for UPONOR.HE is zero
+VAIAS.HE - 2024-12-02
+Trying to get stock data for Vaisala Oyj on 2024-12-02. Errors: 1
+Waiting for 1 seconds
+VALMT.HE - 2024-12-02
+Trying to get stock data for Valmet Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+VERK.HE - 2024-12-02
+Trying to get stock data for Verkkokauppa.com Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+VIK1V.HE - 2024-12-02
+Trying to get stock data for Viking Line Abp on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+WETTERI.HE - 2024-12-02
+Trying to get stock data for Wetteri Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+WITH.HE - 2024-12-02
+Trying to get stock data for WithSecure Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+WUF1V.HE - 2024-12-02
+Trying to get stock data for Wulff-Yhtiöt Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+WRT1V.HE - 2024-12-02
+Trying to get stock data for Wärtsilä Oyj Abp on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+YIT.HE - 2024-12-02
+Trying to get stock data for YIT Oyj on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+ALBBV.HE - 2024-12-02
+Trying to get stock data for Ålandsbanken Abp on 2024-12-02. Errors: 0
+Waiting for 1 seconds
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=AzCd1hEvFwS
+$CAV1V.HE: possibly delisted; no timezone found
+$EEZY.HE: possibly delisted; no price data found  (1m 2024-12-04 -> 2024-12-05)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=AzCd1hEvFwS
+$HKSAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+$INVEST.HE: possibly delisted; no price data found  (1m 2024-12-04 -> 2024-12-05)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=AzCd1hEvFwS
+$KSLAV.HE: possibly delisted; no timezone found
+$KELAS.HE: possibly delisted; no price data found  (1m 2024-12-04 -> 2024-12-05)
+$KREATE.HE: possibly delisted; no price data found  (1m 2024-12-04 -> 2024-12-05)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+2024-12-04
+AFAGR.HE - 2024-12-04
+Trying to get stock data for Afarak Group SE on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+AKTIA.HE - 2024-12-04
+Trying to get stock data for Aktia Pankki Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ALMA.HE - 2024-12-04
+Trying to get stock data for Alma Media Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ANORA.HE - 2024-12-04
+Trying to get stock data for Anora Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+APETIT.HE - 2024-12-04
+Trying to get stock data for Apetit Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TALLINK.HE - 2024-12-04
+Trying to get stock data for AS Tallink Grupp on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ASPO.HE - 2024-12-04
+Trying to get stock data for Aspo Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ACG1V.HE - 2024-12-04
+Trying to get stock data for Aspocomp Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ATRAV.HE - 2024-12-04
+Trying to get stock data for Atria Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+BIOBV.HE - 2024-12-04
+Trying to get stock data for Biohit Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+BITTI.HE - 2024-12-04
+Trying to get stock data for Bittium Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+BOREO.HE - 2024-12-04
+Trying to get stock data for Boreo Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+CAPMAN.HE - 2024-12-04
+Trying to get stock data for CapMan Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+CGCBV.HE - 2024-12-04
+Trying to get stock data for Cargotec Corporation on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+CAV1V.HE - 2024-12-04
+Trying to get stock data for CAV1V.HE on 2024-12-04. Errors: 0
+Stock data for CAV1V.HE is zero
+CTY1S.HE - 2024-12-04
+Trying to get stock data for Citycon Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+CTH1V.HE - 2024-12-04
+Trying to get stock data for Componenta Corporation on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+CONSTI.HE - 2024-12-04
+Trying to get stock data for Consti Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+DIGIA.HE - 2024-12-04
+Trying to get stock data for Digia Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+DIGIGR.HE - 2024-12-04
+Trying to get stock data for Digitalist Group Plc on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+DOV1V.HE - 2024-12-04
+Trying to get stock data for Dovre Group Plc on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+EEZY.HE - 2024-12-04
+Trying to get stock data for Eezy Oyj on 2024-12-04. Errors: 0
+Stock data for Eezy Oyj is zero
+ELEAV.HE - 2024-12-04
+Trying to get stock data for Elecster Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+ELISA.HE - 2024-12-04
+Trying to get stock data for Elisa Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ENENTO.HE - 2024-12-04
+Trying to get stock data for Enento Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ESENSE.HE - 2024-12-04
+Trying to get stock data for Enersense International Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+EQV1V.HE - 2024-12-04
+Trying to get stock data for eQ Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ETTE.HE - 2024-12-04
+Trying to get stock data for Etteplan Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+EXL1V.HE - 2024-12-04
+Trying to get stock data for Exel Composites Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+FIA1S.HE - 2024-12-04
+Trying to get stock data for Finnair Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+FSKRS.HE - 2024-12-04
+Trying to get stock data for Fiskars Oyj Abp on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+FORTUM.HE - 2024-12-04
+Trying to get stock data for Fortum Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+GLA1V.HE - 2024-12-04
+Trying to get stock data for Glaston Oyj Abp on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+GOFORE.HE - 2024-12-04
+Trying to get stock data for Gofore Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+HARVIA.HE - 2024-12-04
+Trying to get stock data for Harvia Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+HKSAV.HE - 2024-12-04
+Trying to get stock data for HKSAV.HE on 2024-12-04. Errors: 0
+Stock data for HKSAV.HE is zero
+HONBS.HE - 2024-12-04
+Trying to get stock data for Honkarakenne Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+HUH1V.HE - 2024-12-04
+Trying to get stock data for Huhtamäki Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ILKKA2.HE - 2024-12-04
+Trying to get stock data for Ilkka Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ICP1V.HE - 2024-12-04
+Trying to get stock data for Incap Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+IFA1V.HE - 2024-12-04
+Trying to get stock data for Innofactor Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+INVEST.HE - 2024-12-04
+Trying to get stock data for Investors House Oyj on 2024-12-04. Errors: 0
+Stock data for Investors House Oyj is zero
+KAMUX.HE - 2024-12-04
+Trying to get stock data for Kamux Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+KEMIRA.HE - 2024-12-04
+Trying to get stock data for Kemira Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+KSLAV.HE - 2024-12-04
+Trying to get stock data for KSLAV.HE on 2024-12-04. Errors: 0
+Stock data for KSLAV.HE is zero
+KESKOB.HE - 2024-12-04
+Trying to get stock data for Kesko Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+KELAS.HE - 2024-12-04
+Trying to get stock data for Kesla Oyj on 2024-12-04. Errors: 0
+Stock data for Kesla Oyj is zero
+KOJAMO.HE - 2024-12-04
+Trying to get stock data for Kojamo Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+KNEBV.HE - 2024-12-04
+Trying to get stock data for KONE Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+KCR.HE - 2024-12-04
+Trying to get stock data for Konecranes Plc on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+KREATE.HE - 2024-12-04
+Trying to get stock data for Kreate Group Oyj on 2024-12-04. Errors: 0
+Stock data for Kreate Group Oyj is zero
+LAT1V.HE - 2024-12-04
+Trying to get stock data for Lassila & Tikanoja Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+MEKKO.HE - 2024-12-04
+Trying to get stock data for Marimekko Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+MARAS.HE - 2024-12-04
+Trying to get stock data for Martela Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+METSO.HE - 2024-12-04
+Trying to get stock data for Metso Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+METSB.HE - 2024-12-04
+Trying to get stock data for Metsä Board Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+MUSTI.HE - 2024-12-04
+Trying to get stock data for Musti Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+NESTE.HE - 2024-12-04
+Trying to get stock data for Neste Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+NOHO.HE - 2024-12-04
+Trying to get stock data for NoHo Partners Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+NOKIA.HE - 2024-12-04
+Trying to get stock data for Nokia Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TYRES.HE - 2024-12-04
+Trying to get stock data for Nokian Renkaat Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+NDA-FI.HE - 2024-12-04
+Trying to get stock data for Nordea Bank Abp on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+NLG1V.HE - 2024-12-04
+Trying to get stock data for Nurminen Logistics Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+OLVAS.HE - 2024-12-04
+Trying to get stock data for Olvi Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+OMASP.HE - 2024-12-04
+Trying to get stock data for Oma Säästöpankki Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+OPTOMED.HE - 2024-12-04
+Trying to get stock data for Optomed Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+OKDBV.HE - 2024-12-04
+Trying to get stock data for Oriola Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ORNBV.HE - 2024-12-04
+Trying to get stock data for Orion Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ORTHEX.HE - 2024-12-04
+Trying to get stock data for Orthex Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+OUT1V.HE - 2024-12-04
+Trying to get stock data for Outokumpu Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+OVARO.HE - 2024-12-04
+Trying to get stock data for Ovaro Kiinteistösijoitus Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+PNA1V.HE - 2024-12-04
+Trying to get stock data for Panostaja Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=AzCd1hEvFwS
+$PUMU.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=AzCd1hEvFwS
+$ROVIO.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=AzCd1hEvFwS
+$STOCKA.HE: possibly delisted; no timezone found
+$UNITED.HE: possibly delisted; no price data found  (1m 2024-12-04 -> 2024-12-05)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=AzCd1hEvFwS
+$UPONOR.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+PIHLIS.HE - 2024-12-04
+Trying to get stock data for Pihlajalinna Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+PON1V.HE - 2024-12-04
+Trying to get stock data for Ponsse Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+PUMU.HE - 2024-12-04
+Trying to get stock data for PUMU.HE on 2024-12-04. Errors: 0
+Stock data for PUMU.HE is zero
+PURMO.HE - 2024-12-04
+Trying to get stock data for Purmo Group Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+PUUILO.HE - 2024-12-04
+Trying to get stock data for Puuilo Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+QPR1V.HE - 2024-12-04
+Trying to get stock data for QPR Software Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+QTCOM.HE - 2024-12-04
+Trying to get stock data for Qt Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+RAIVV.HE - 2024-12-04
+Trying to get stock data for Raisio plc on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+RAP1V.HE - 2024-12-04
+Trying to get stock data for Rapala VMC Corporation on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+RAUTE.HE - 2024-12-04
+Trying to get stock data for Raute Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+REKA.HE - 2024-12-04
+Trying to get stock data for Reka Industrial Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+RELAIS.HE - 2024-12-04
+Trying to get stock data for Relais Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+REMEDY.HE - 2024-12-04
+Trying to get stock data for Remedy Entertainment Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+REG1V.HE - 2024-12-04
+Trying to get stock data for Revenio Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ROBIT.HE - 2024-12-04
+Trying to get stock data for Robit Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ROVIO.HE - 2024-12-04
+Trying to get stock data for ROVIO.HE on 2024-12-04. Errors: 0
+Stock data for ROVIO.HE is zero
+SAGCV.HE - 2024-12-04
+Trying to get stock data for Saga Furs Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+SAMPO.HE - 2024-12-04
+Trying to get stock data for Sampo Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SANOMA.HE - 2024-12-04
+Trying to get stock data for Sanoma Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SCANFL.HE - 2024-12-04
+Trying to get stock data for Scanfil Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SIILI.HE - 2024-12-04
+Trying to get stock data for Siili Solutions Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SITOWS.HE - 2024-12-04
+Trying to get stock data for Sitowise Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SOLTEQ.HE - 2024-12-04
+Trying to get stock data for Solteq Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SOSI1.HE - 2024-12-04
+Trying to get stock data for Sotkamo Silver AB on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SRV1V.HE - 2024-12-04
+Trying to get stock data for SRV Yhtiöt Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SSABBH.HE - 2024-12-04
+Trying to get stock data for SSAB AB (publ) on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+SSH1V.HE - 2024-12-04
+Trying to get stock data for SSH Communications Security Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+STOCKA.HE - 2024-12-04
+Trying to get stock data for STOCKA.HE on 2024-12-04. Errors: 0
+Stock data for STOCKA.HE is zero
+STERV.HE - 2024-12-04
+Trying to get stock data for Stora Enso Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+SUY1V.HE - 2024-12-04
+Trying to get stock data for Suominen Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TAALA.HE - 2024-12-04
+Trying to get stock data for Taaleri Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TNOM.HE - 2024-12-04
+Trying to get stock data for Talenom Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TEM1V.HE - 2024-12-04
+Trying to get stock data for Tecnotree Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TLT1V.HE - 2024-12-04
+Trying to get stock data for Teleste Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TELIA1.HE - 2024-12-04
+Trying to get stock data for Telia Company AB (publ) on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TTALO.HE - 2024-12-04
+Trying to get stock data for Terveystalo Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TIETO.HE - 2024-12-04
+Trying to get stock data for TietoEVRY Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TOKMAN.HE - 2024-12-04
+Trying to get stock data for Tokmanni Group Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TRH1V.HE - 2024-12-04
+Trying to get stock data for Trainers' House Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+TULAV.HE - 2024-12-04
+Trying to get stock data for Tulikivi Corporation on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+UNITED.HE - 2024-12-04
+Trying to get stock data for United Bankers Oyj on 2024-12-04. Errors: 0
+Stock data for United Bankers Oyj is zero
+UPM.HE - 2024-12-04
+Trying to get stock data for UPM-Kymmene Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+UPONOR.HE - 2024-12-04
+Trying to get stock data for UPONOR.HE on 2024-12-04. Errors: 0
+Stock data for UPONOR.HE is zero
+VAIAS.HE - 2024-12-04
+Trying to get stock data for Vaisala Oyj on 2024-12-04. Errors: 1
+Waiting for 1 seconds
+VALMT.HE - 2024-12-04
+Trying to get stock data for Valmet Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+VERK.HE - 2024-12-04
+Trying to get stock data for Verkkokauppa.com Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+VIK1V.HE - 2024-12-04
+Trying to get stock data for Viking Line Abp on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+WETTERI.HE - 2024-12-04
+Trying to get stock data for Wetteri Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+WITH.HE - 2024-12-04
+Trying to get stock data for WithSecure Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+WUF1V.HE - 2024-12-04
+Trying to get stock data for Wulff-Yhtiöt Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+WRT1V.HE - 2024-12-04
+Trying to get stock data for Wärtsilä Oyj Abp on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+YIT.HE - 2024-12-04
+Trying to get stock data for YIT Oyj on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+ALBBV.HE - 2024-12-04
+Trying to get stock data for Ålandsbanken Abp on 2024-12-04. Errors: 0
+Waiting for 1 seconds
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+2024-12-15
+2024-12-15 is a weekend (Saturday or Sunday).
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$APETIT.HE: possibly delisted; no price data found  (1m 2024-12-17 -> 2024-12-18)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=rWtArtJY2.R
+$CAV1V.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$ELEAV.HE: possibly delisted; no price data found  (1m 2024-12-17 -> 2024-12-18)
+$ETTE.HE: possibly delisted; no price data found  (1m 2024-12-17 -> 2024-12-18)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=rWtArtJY2.R
+$HKSAV.HE: possibly delisted; no timezone found
+$ILKKA2.HE: possibly delisted; no price data found  (1m 2024-12-17 -> 2024-12-18)
+$INVEST.HE: possibly delisted; no price data found  (1m 2024-12-17 -> 2024-12-18)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=rWtArtJY2.R
+$KSLAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+2024-12-17
+AFAGR.HE - 2024-12-17
+Trying to get stock data for Afarak Group SE on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+AKTIA.HE - 2024-12-17
+Trying to get stock data for Aktia Pankki Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ALMA.HE - 2024-12-17
+Trying to get stock data for Alma Media Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ANORA.HE - 2024-12-17
+Trying to get stock data for Anora Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+APETIT.HE - 2024-12-17
+Trying to get stock data for Apetit Oyj on 2024-12-17. Errors: 0
+Stock data for Apetit Oyj is zero
+TALLINK.HE - 2024-12-17
+Trying to get stock data for AS Tallink Grupp on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+ASPO.HE - 2024-12-17
+Trying to get stock data for Aspo Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ACG1V.HE - 2024-12-17
+Trying to get stock data for Aspocomp Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ATRAV.HE - 2024-12-17
+Trying to get stock data for Atria Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+BIOBV.HE - 2024-12-17
+Trying to get stock data for Biohit Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+BITTI.HE - 2024-12-17
+Trying to get stock data for Bittium Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+BOREO.HE - 2024-12-17
+Trying to get stock data for Boreo Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+CAPMAN.HE - 2024-12-17
+Trying to get stock data for CapMan Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+CGCBV.HE - 2024-12-17
+Trying to get stock data for Cargotec Corporation on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+CAV1V.HE - 2024-12-17
+Trying to get stock data for CAV1V.HE on 2024-12-17. Errors: 0
+Stock data for CAV1V.HE is zero
+CTY1S.HE - 2024-12-17
+Trying to get stock data for Citycon Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+CTH1V.HE - 2024-12-17
+Trying to get stock data for Componenta Corporation on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+CONSTI.HE - 2024-12-17
+Trying to get stock data for Consti Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+DIGIA.HE - 2024-12-17
+Trying to get stock data for Digia Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+DIGIGR.HE - 2024-12-17
+Trying to get stock data for Digitalist Group Plc on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+DOV1V.HE - 2024-12-17
+Trying to get stock data for Dovre Group Plc on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+EEZY.HE - 2024-12-17
+Trying to get stock data for Eezy Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ELEAV.HE - 2024-12-17
+Trying to get stock data for Elecster Oyj on 2024-12-17. Errors: 0
+Stock data for Elecster Oyj is zero
+ELISA.HE - 2024-12-17
+Trying to get stock data for Elisa Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+ENENTO.HE - 2024-12-17
+Trying to get stock data for Enento Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ESENSE.HE - 2024-12-17
+Trying to get stock data for Enersense International Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+EQV1V.HE - 2024-12-17
+Trying to get stock data for eQ Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ETTE.HE - 2024-12-17
+Trying to get stock data for Etteplan Oyj on 2024-12-17. Errors: 0
+Stock data for Etteplan Oyj is zero
+EXL1V.HE - 2024-12-17
+Trying to get stock data for Exel Composites Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+FIA1S.HE - 2024-12-17
+Trying to get stock data for Finnair Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+FSKRS.HE - 2024-12-17
+Trying to get stock data for Fiskars Oyj Abp on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+FORTUM.HE - 2024-12-17
+Trying to get stock data for Fortum Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+GLA1V.HE - 2024-12-17
+Trying to get stock data for Glaston Oyj Abp on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+GOFORE.HE - 2024-12-17
+Trying to get stock data for Gofore Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+HARVIA.HE - 2024-12-17
+Trying to get stock data for Harvia Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+HKSAV.HE - 2024-12-17
+Trying to get stock data for HKSAV.HE on 2024-12-17. Errors: 0
+Stock data for HKSAV.HE is zero
+HONBS.HE - 2024-12-17
+Trying to get stock data for Honkarakenne Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+HUH1V.HE - 2024-12-17
+Trying to get stock data for Huhtamäki Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ILKKA2.HE - 2024-12-17
+Trying to get stock data for Ilkka Oyj on 2024-12-17. Errors: 0
+Stock data for Ilkka Oyj is zero
+ICP1V.HE - 2024-12-17
+Trying to get stock data for Incap Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+IFA1V.HE - 2024-12-17
+Trying to get stock data for Innofactor Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+INVEST.HE - 2024-12-17
+Trying to get stock data for Investors House Oyj on 2024-12-17. Errors: 0
+Stock data for Investors House Oyj is zero
+KAMUX.HE - 2024-12-17
+Trying to get stock data for Kamux Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+KEMIRA.HE - 2024-12-17
+Trying to get stock data for Kemira Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+KSLAV.HE - 2024-12-17
+Trying to get stock data for KSLAV.HE on 2024-12-17. Errors: 0
+Stock data for KSLAV.HE is zero
+KESKOB.HE - 2024-12-17
+Trying to get stock data for Kesko Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+KELAS.HE - 2024-12-17
+Trying to get stock data for Kesla Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+KOJAMO.HE - 2024-12-17
+Trying to get stock data for Kojamo Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+KNEBV.HE - 2024-12-17
+Trying to get stock data for KONE Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+KCR.HE - 2024-12-17
+Trying to get stock data for Konecranes Plc on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+KREATE.HE - 2024-12-17
+Trying to get stock data for Kreate Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+LAT1V.HE - 2024-12-17
+Trying to get stock data for Lassila & Tikanoja Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+MEKKO.HE - 2024-12-17
+Trying to get stock data for Marimekko Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+MARAS.HE - 2024-12-17
+Trying to get stock data for Martela Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+METSO.HE - 2024-12-17
+Trying to get stock data for Metso Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+METSB.HE - 2024-12-17
+Trying to get stock data for Metsä Board Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+MUSTI.HE - 2024-12-17
+Trying to get stock data for Musti Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+NESTE.HE - 2024-12-17
+Trying to get stock data for Neste Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+NOHO.HE - 2024-12-17
+Trying to get stock data for NoHo Partners Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+NOKIA.HE - 2024-12-17
+Trying to get stock data for Nokia Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TYRES.HE - 2024-12-17
+Trying to get stock data for Nokian Renkaat Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+NDA-FI.HE - 2024-12-17
+Trying to get stock data for Nordea Bank Abp on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+NLG1V.HE - 2024-12-17
+Trying to get stock data for Nurminen Logistics Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+OLVAS.HE - 2024-12-17
+Trying to get stock data for Olvi Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+OMASP.HE - 2024-12-17
+Trying to get stock data for Oma Säästöpankki Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+OPTOMED.HE - 2024-12-17
+Trying to get stock data for Optomed Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+OKDBV.HE - 2024-12-17
+Trying to get stock data for Oriola Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ORNBV.HE - 2024-12-17
+Trying to get stock data for Orion Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ORTHEX.HE - 2024-12-17
+Trying to get stock data for Orthex Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+OUT1V.HE - 2024-12-17
+Trying to get stock data for Outokumpu Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+OVARO.HE - 2024-12-17
+Trying to get stock data for Ovaro Kiinteistösijoitus Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+PNA1V.HE - 2024-12-17
+Trying to get stock data for Panostaja Oyj on 2024-12-17. Errors: 0
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=rWtArtJY2.R
+Failed to get ticker 'ROVIO.HE' reason: Response ended prematurely
+$ROVIO.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=rWtArtJY2.R
+Failed to get ticker 'STOCKA.HE' reason: Response ended prematurely
+$STOCKA.HE: possibly delisted; no timezone found
+$TLT1V.HE: possibly delisted; no price data found  (1m 2024-12-17 -> 2024-12-18)
+$UNITED.HE: possibly delisted; no price data found  (1m 2024-12-17 -> 2024-12-18)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=rWtArtJY2.R
+$UPONOR.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+Waiting for 1 seconds
+PIHLIS.HE - 2024-12-17
+Trying to get stock data for Pihlajalinna Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+PON1V.HE - 2024-12-17
+Trying to get stock data for Ponsse Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+Error in getting stock info
+PURMO.HE - 2024-12-17
+Trying to get stock data for Purmo Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+PUUILO.HE - 2024-12-17
+Trying to get stock data for Puuilo Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+QPR1V.HE - 2024-12-17
+Trying to get stock data for QPR Software Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+QTCOM.HE - 2024-12-17
+Trying to get stock data for Qt Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+RAIVV.HE - 2024-12-17
+Trying to get stock data for Raisio plc on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+RAP1V.HE - 2024-12-17
+Trying to get stock data for Rapala VMC Corporation on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+RAUTE.HE - 2024-12-17
+Trying to get stock data for Raute Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+REKA.HE - 2024-12-17
+Trying to get stock data for Reka Industrial Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+RELAIS.HE - 2024-12-17
+Trying to get stock data for Relais Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+REMEDY.HE - 2024-12-17
+Trying to get stock data for Remedy Entertainment Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+REG1V.HE - 2024-12-17
+Trying to get stock data for Revenio Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ROBIT.HE - 2024-12-17
+Trying to get stock data for Robit Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ROVIO.HE - 2024-12-17
+Trying to get stock data for ROVIO.HE on 2024-12-17. Errors: 0
+Stock data for ROVIO.HE is zero
+Error in getting stock info
+Error in getting stock info
+SANOMA.HE - 2024-12-17
+Trying to get stock data for Sanoma Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+SCANFL.HE - 2024-12-17
+Trying to get stock data for Scanfil Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+SIILI.HE - 2024-12-17
+Trying to get stock data for Siili Solutions Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+SITOWS.HE - 2024-12-17
+Trying to get stock data for Sitowise Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+SOLTEQ.HE - 2024-12-17
+Trying to get stock data for Solteq Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+SOSI1.HE - 2024-12-17
+Trying to get stock data for Sotkamo Silver AB on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+SRV1V.HE - 2024-12-17
+Trying to get stock data for SRV Yhtiöt Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+SSABBH.HE - 2024-12-17
+Trying to get stock data for SSAB AB (publ) on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+SSH1V.HE - 2024-12-17
+Trying to get stock data for SSH Communications Security Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+STOCKA.HE - 2024-12-17
+Trying to get stock data for STOCKA.HE on 2024-12-17. Errors: 0
+Stock data for STOCKA.HE is zero
+STERV.HE - 2024-12-17
+Trying to get stock data for Stora Enso Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+SUY1V.HE - 2024-12-17
+Trying to get stock data for Suominen Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TAALA.HE - 2024-12-17
+Trying to get stock data for Taaleri Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TNOM.HE - 2024-12-17
+Trying to get stock data for Talenom Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TEM1V.HE - 2024-12-17
+Trying to get stock data for Tecnotree Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TLT1V.HE - 2024-12-17
+Trying to get stock data for Teleste Oyj on 2024-12-17. Errors: 0
+Stock data for Teleste Oyj is zero
+TELIA1.HE - 2024-12-17
+Trying to get stock data for Telia Company AB (publ) on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+TTALO.HE - 2024-12-17
+Trying to get stock data for Terveystalo Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TIETO.HE - 2024-12-17
+Trying to get stock data for TietoEVRY Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TOKMAN.HE - 2024-12-17
+Trying to get stock data for Tokmanni Group Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TRH1V.HE - 2024-12-17
+Trying to get stock data for Trainers' House Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+TULAV.HE - 2024-12-17
+Trying to get stock data for Tulikivi Corporation on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+UNITED.HE - 2024-12-17
+Trying to get stock data for United Bankers Oyj on 2024-12-17. Errors: 0
+Stock data for United Bankers Oyj is zero
+UPM.HE - 2024-12-17
+Trying to get stock data for UPM-Kymmene Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+UPONOR.HE - 2024-12-17
+Trying to get stock data for UPONOR.HE on 2024-12-17. Errors: 0
+Stock data for UPONOR.HE is zero
+VAIAS.HE - 2024-12-17
+Trying to get stock data for Vaisala Oyj on 2024-12-17. Errors: 1
+Waiting for 1 seconds
+VALMT.HE - 2024-12-17
+Trying to get stock data for Valmet Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+VERK.HE - 2024-12-17
+Trying to get stock data for Verkkokauppa.com Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+VIK1V.HE - 2024-12-17
+Trying to get stock data for Viking Line Abp on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+WETTERI.HE - 2024-12-17
+Trying to get stock data for Wetteri Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+WITH.HE - 2024-12-17
+Trying to get stock data for WithSecure Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+WUF1V.HE - 2024-12-17
+Trying to get stock data for Wulff-Yhtiöt Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+WRT1V.HE - 2024-12-17
+Trying to get stock data for Wärtsilä Oyj Abp on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+YIT.HE - 2024-12-17
+Trying to get stock data for YIT Oyj on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+ALBBV.HE - 2024-12-17
+Trying to get stock data for Ålandsbanken Abp on 2024-12-17. Errors: 0
+Waiting for 1 seconds
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=NPfdFk9ZRqj
+$CAV1V.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$ELEAV.HE: possibly delisted; no price data found  (1m 2024-12-18 -> 2024-12-19)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=NPfdFk9ZRqj
+$HKSAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$INVEST.HE: possibly delisted; no price data found  (1m 2024-12-18 -> 2024-12-19)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=NPfdFk9ZRqj
+$KSLAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+2024-12-18
+AFAGR.HE - 2024-12-18
+Trying to get stock data for Afarak Group SE on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+AKTIA.HE - 2024-12-18
+Trying to get stock data for Aktia Pankki Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ALMA.HE - 2024-12-18
+Trying to get stock data for Alma Media Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ANORA.HE - 2024-12-18
+Trying to get stock data for Anora Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+APETIT.HE - 2024-12-18
+Trying to get stock data for Apetit Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TALLINK.HE - 2024-12-18
+Trying to get stock data for AS Tallink Grupp on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ASPO.HE - 2024-12-18
+Trying to get stock data for Aspo Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ACG1V.HE - 2024-12-18
+Trying to get stock data for Aspocomp Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ATRAV.HE - 2024-12-18
+Trying to get stock data for Atria Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+BIOBV.HE - 2024-12-18
+Trying to get stock data for Biohit Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+BITTI.HE - 2024-12-18
+Trying to get stock data for Bittium Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+BOREO.HE - 2024-12-18
+Trying to get stock data for Boreo Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+CAPMAN.HE - 2024-12-18
+Trying to get stock data for CapMan Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+CGCBV.HE - 2024-12-18
+Trying to get stock data for Cargotec Corporation on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+CAV1V.HE - 2024-12-18
+Trying to get stock data for CAV1V.HE on 2024-12-18. Errors: 0
+Stock data for CAV1V.HE is zero
+CTY1S.HE - 2024-12-18
+Trying to get stock data for Citycon Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+CTH1V.HE - 2024-12-18
+Trying to get stock data for Componenta Corporation on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+CONSTI.HE - 2024-12-18
+Trying to get stock data for Consti Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+DIGIA.HE - 2024-12-18
+Trying to get stock data for Digia Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+DIGIGR.HE - 2024-12-18
+Trying to get stock data for Digitalist Group Plc on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+DOV1V.HE - 2024-12-18
+Trying to get stock data for Dovre Group Plc on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+EEZY.HE - 2024-12-18
+Trying to get stock data for Eezy Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ELEAV.HE - 2024-12-18
+Trying to get stock data for Elecster Oyj on 2024-12-18. Errors: 0
+Stock data for Elecster Oyj is zero
+ELISA.HE - 2024-12-18
+Trying to get stock data for Elisa Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+ENENTO.HE - 2024-12-18
+Trying to get stock data for Enento Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ESENSE.HE - 2024-12-18
+Trying to get stock data for Enersense International Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+EQV1V.HE - 2024-12-18
+Trying to get stock data for eQ Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ETTE.HE - 2024-12-18
+Trying to get stock data for Etteplan Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+EXL1V.HE - 2024-12-18
+Trying to get stock data for Exel Composites Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+FIA1S.HE - 2024-12-18
+Trying to get stock data for Finnair Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+FSKRS.HE - 2024-12-18
+Trying to get stock data for Fiskars Oyj Abp on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+FORTUM.HE - 2024-12-18
+Trying to get stock data for Fortum Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+GLA1V.HE - 2024-12-18
+Trying to get stock data for Glaston Oyj Abp on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+GOFORE.HE - 2024-12-18
+Trying to get stock data for Gofore Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+HARVIA.HE - 2024-12-18
+Trying to get stock data for Harvia Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+HKSAV.HE - 2024-12-18
+Trying to get stock data for HKSAV.HE on 2024-12-18. Errors: 0
+Stock data for HKSAV.HE is zero
+HONBS.HE - 2024-12-18
+Trying to get stock data for Honkarakenne Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+HUH1V.HE - 2024-12-18
+Trying to get stock data for Huhtamäki Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ILKKA2.HE - 2024-12-18
+Trying to get stock data for Ilkka Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ICP1V.HE - 2024-12-18
+Trying to get stock data for Incap Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+IFA1V.HE - 2024-12-18
+Trying to get stock data for Innofactor Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+INVEST.HE - 2024-12-18
+Trying to get stock data for Investors House Oyj on 2024-12-18. Errors: 0
+Stock data for Investors House Oyj is zero
+KAMUX.HE - 2024-12-18
+Trying to get stock data for Kamux Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+KEMIRA.HE - 2024-12-18
+Trying to get stock data for Kemira Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+KSLAV.HE - 2024-12-18
+Trying to get stock data for KSLAV.HE on 2024-12-18. Errors: 0
+Stock data for KSLAV.HE is zero
+KESKOB.HE - 2024-12-18
+Trying to get stock data for Kesko Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+KELAS.HE - 2024-12-18
+Trying to get stock data for Kesla Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+KOJAMO.HE - 2024-12-18
+Trying to get stock data for Kojamo Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+KNEBV.HE - 2024-12-18
+Trying to get stock data for KONE Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+KCR.HE - 2024-12-18
+Trying to get stock data for Konecranes Plc on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+KREATE.HE - 2024-12-18
+Trying to get stock data for Kreate Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+LAT1V.HE - 2024-12-18
+Trying to get stock data for Lassila & Tikanoja Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+MEKKO.HE - 2024-12-18
+Trying to get stock data for Marimekko Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+MARAS.HE - 2024-12-18
+Trying to get stock data for Martela Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+METSO.HE - 2024-12-18
+Trying to get stock data for Metso Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+METSB.HE - 2024-12-18
+Trying to get stock data for Metsä Board Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+MUSTI.HE - 2024-12-18
+Trying to get stock data for Musti Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+NESTE.HE - 2024-12-18
+Trying to get stock data for Neste Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+NOHO.HE - 2024-12-18
+Trying to get stock data for NoHo Partners Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+NOKIA.HE - 2024-12-18
+Trying to get stock data for Nokia Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TYRES.HE - 2024-12-18
+Trying to get stock data for Nokian Renkaat Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+NDA-FI.HE - 2024-12-18
+Trying to get stock data for Nordea Bank Abp on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+NLG1V.HE - 2024-12-18
+Trying to get stock data for Nurminen Logistics Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+OLVAS.HE - 2024-12-18
+Trying to get stock data for Olvi Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+OMASP.HE - 2024-12-18
+Trying to get stock data for Oma Säästöpankki Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+OPTOMED.HE - 2024-12-18
+Trying to get stock data for Optomed Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+OKDBV.HE - 2024-12-18
+Trying to get stock data for Oriola Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ORNBV.HE - 2024-12-18
+Trying to get stock data for Orion Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ORTHEX.HE - 2024-12-18
+Trying to get stock data for Orthex Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+OUT1V.HE - 2024-12-18
+Trying to get stock data for Outokumpu Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+OVARO.HE - 2024-12-18
+Trying to get stock data for Ovaro Kiinteistösijoitus Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+PNA1V.HE - 2024-12-18
+Trying to get stock data for Panostaja Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+PIHLIS.HE - 2024-12-18
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=NPfdFk9ZRqj
+$PUMU.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=NPfdFk9ZRqj
+$ROVIO.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=NPfdFk9ZRqj
+$STOCKA.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=NPfdFk9ZRqj
+$UPONOR.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$WUF1V.HE: possibly delisted; no price data found  (1m 2024-12-18 -> 2024-12-19)
+Trying to get stock data for Pihlajalinna Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+PON1V.HE - 2024-12-18
+Trying to get stock data for Ponsse Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+PUMU.HE - 2024-12-18
+Trying to get stock data for PUMU.HE on 2024-12-18. Errors: 0
+Stock data for PUMU.HE is zero
+PURMO.HE - 2024-12-18
+Trying to get stock data for Purmo Group Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+PUUILO.HE - 2024-12-18
+Trying to get stock data for Puuilo Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+QPR1V.HE - 2024-12-18
+Trying to get stock data for QPR Software Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+QTCOM.HE - 2024-12-18
+Trying to get stock data for Qt Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+RAIVV.HE - 2024-12-18
+Trying to get stock data for Raisio plc on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+RAP1V.HE - 2024-12-18
+Trying to get stock data for Rapala VMC Corporation on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+RAUTE.HE - 2024-12-18
+Trying to get stock data for Raute Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+REKA.HE - 2024-12-18
+Trying to get stock data for Reka Industrial Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+RELAIS.HE - 2024-12-18
+Trying to get stock data for Relais Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+REMEDY.HE - 2024-12-18
+Trying to get stock data for Remedy Entertainment Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+REG1V.HE - 2024-12-18
+Trying to get stock data for Revenio Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ROBIT.HE - 2024-12-18
+Trying to get stock data for Robit Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ROVIO.HE - 2024-12-18
+Trying to get stock data for ROVIO.HE on 2024-12-18. Errors: 0
+Stock data for ROVIO.HE is zero
+SAGCV.HE - 2024-12-18
+Trying to get stock data for Saga Furs Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+SAMPO.HE - 2024-12-18
+Trying to get stock data for Sampo Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SANOMA.HE - 2024-12-18
+Trying to get stock data for Sanoma Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SCANFL.HE - 2024-12-18
+Trying to get stock data for Scanfil Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SIILI.HE - 2024-12-18
+Trying to get stock data for Siili Solutions Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SITOWS.HE - 2024-12-18
+Trying to get stock data for Sitowise Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SOLTEQ.HE - 2024-12-18
+Trying to get stock data for Solteq Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SOSI1.HE - 2024-12-18
+Trying to get stock data for Sotkamo Silver AB on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SRV1V.HE - 2024-12-18
+Trying to get stock data for SRV Yhtiöt Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SSABBH.HE - 2024-12-18
+Trying to get stock data for SSAB AB (publ) on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+SSH1V.HE - 2024-12-18
+Trying to get stock data for SSH Communications Security Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+STOCKA.HE - 2024-12-18
+Trying to get stock data for STOCKA.HE on 2024-12-18. Errors: 0
+Stock data for STOCKA.HE is zero
+STERV.HE - 2024-12-18
+Trying to get stock data for Stora Enso Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+SUY1V.HE - 2024-12-18
+Trying to get stock data for Suominen Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TAALA.HE - 2024-12-18
+Trying to get stock data for Taaleri Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TNOM.HE - 2024-12-18
+Trying to get stock data for Talenom Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TEM1V.HE - 2024-12-18
+Trying to get stock data for Tecnotree Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TLT1V.HE - 2024-12-18
+Trying to get stock data for Teleste Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TELIA1.HE - 2024-12-18
+Trying to get stock data for Telia Company AB (publ) on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TTALO.HE - 2024-12-18
+Trying to get stock data for Terveystalo Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TIETO.HE - 2024-12-18
+Trying to get stock data for TietoEVRY Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TOKMAN.HE - 2024-12-18
+Trying to get stock data for Tokmanni Group Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TRH1V.HE - 2024-12-18
+Trying to get stock data for Trainers' House Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+TULAV.HE - 2024-12-18
+Trying to get stock data for Tulikivi Corporation on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+UNITED.HE - 2024-12-18
+Trying to get stock data for United Bankers Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+UPM.HE - 2024-12-18
+Trying to get stock data for UPM-Kymmene Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+UPONOR.HE - 2024-12-18
+Trying to get stock data for UPONOR.HE on 2024-12-18. Errors: 0
+Stock data for UPONOR.HE is zero
+VAIAS.HE - 2024-12-18
+Trying to get stock data for Vaisala Oyj on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+VALMT.HE - 2024-12-18
+Trying to get stock data for Valmet Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+VERK.HE - 2024-12-18
+Trying to get stock data for Verkkokauppa.com Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+VIK1V.HE - 2024-12-18
+Trying to get stock data for Viking Line Abp on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+WETTERI.HE - 2024-12-18
+Trying to get stock data for Wetteri Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+WITH.HE - 2024-12-18
+Trying to get stock data for WithSecure Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+WUF1V.HE - 2024-12-18
+Trying to get stock data for Wulff-Yhtiöt Oyj on 2024-12-18. Errors: 0
+Stock data for Wulff-Yhtiöt Oyj is zero
+WRT1V.HE - 2024-12-18
+Trying to get stock data for Wärtsilä Oyj Abp on 2024-12-18. Errors: 1
+Waiting for 1 seconds
+YIT.HE - 2024-12-18
+Trying to get stock data for YIT Oyj on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+ALBBV.HE - 2024-12-18
+Trying to get stock data for Ålandsbanken Abp on 2024-12-18. Errors: 0
+Waiting for 1 seconds
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=NPfdFk9ZRqj
+$CAV1V.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$ELEAV.HE: possibly delisted; no price data found  (1m 2024-12-19 -> 2024-12-20)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=NPfdFk9ZRqj
+$HKSAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:53: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  stock_data['percentage_change'] = stock_data['Close'].pct_change() * 100
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=NPfdFk9ZRqj
+$KSLAV.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+2024-12-19
+AFAGR.HE - 2024-12-19
+Trying to get stock data for Afarak Group SE on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+AKTIA.HE - 2024-12-19
+Trying to get stock data for Aktia Pankki Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ALMA.HE - 2024-12-19
+Trying to get stock data for Alma Media Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ANORA.HE - 2024-12-19
+Trying to get stock data for Anora Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+APETIT.HE - 2024-12-19
+Trying to get stock data for Apetit Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TALLINK.HE - 2024-12-19
+Trying to get stock data for AS Tallink Grupp on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ASPO.HE - 2024-12-19
+Trying to get stock data for Aspo Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ACG1V.HE - 2024-12-19
+Trying to get stock data for Aspocomp Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ATRAV.HE - 2024-12-19
+Trying to get stock data for Atria Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+BIOBV.HE - 2024-12-19
+Trying to get stock data for Biohit Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+BITTI.HE - 2024-12-19
+Trying to get stock data for Bittium Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+BOREO.HE - 2024-12-19
+Trying to get stock data for Boreo Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+CAPMAN.HE - 2024-12-19
+Trying to get stock data for CapMan Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+CGCBV.HE - 2024-12-19
+Trying to get stock data for Cargotec Corporation on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+CAV1V.HE - 2024-12-19
+Trying to get stock data for CAV1V.HE on 2024-12-19. Errors: 0
+Stock data for CAV1V.HE is zero
+CTY1S.HE - 2024-12-19
+Trying to get stock data for Citycon Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+CTH1V.HE - 2024-12-19
+Trying to get stock data for Componenta Corporation on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+CONSTI.HE - 2024-12-19
+Trying to get stock data for Consti Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+DIGIA.HE - 2024-12-19
+Trying to get stock data for Digia Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+DIGIGR.HE - 2024-12-19
+Trying to get stock data for Digitalist Group Plc on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+DOV1V.HE - 2024-12-19
+Trying to get stock data for Dovre Group Plc on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+EEZY.HE - 2024-12-19
+Trying to get stock data for Eezy Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ELEAV.HE - 2024-12-19
+Trying to get stock data for Elecster Oyj on 2024-12-19. Errors: 0
+Stock data for Elecster Oyj is zero
+ELISA.HE - 2024-12-19
+Trying to get stock data for Elisa Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+ENENTO.HE - 2024-12-19
+Trying to get stock data for Enento Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ESENSE.HE - 2024-12-19
+Trying to get stock data for Enersense International Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+EQV1V.HE - 2024-12-19
+Trying to get stock data for eQ Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ETTE.HE - 2024-12-19
+Trying to get stock data for Etteplan Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+EXL1V.HE - 2024-12-19
+Trying to get stock data for Exel Composites Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+FIA1S.HE - 2024-12-19
+Trying to get stock data for Finnair Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+FSKRS.HE - 2024-12-19
+Trying to get stock data for Fiskars Oyj Abp on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+FORTUM.HE - 2024-12-19
+Trying to get stock data for Fortum Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+GLA1V.HE - 2024-12-19
+Trying to get stock data for Glaston Oyj Abp on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+GOFORE.HE - 2024-12-19
+Trying to get stock data for Gofore Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+HARVIA.HE - 2024-12-19
+Trying to get stock data for Harvia Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+HKSAV.HE - 2024-12-19
+Trying to get stock data for HKSAV.HE on 2024-12-19. Errors: 0
+Stock data for HKSAV.HE is zero
+HONBS.HE - 2024-12-19
+Trying to get stock data for Honkarakenne Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+HUH1V.HE - 2024-12-19
+Trying to get stock data for Huhtamäki Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ILKKA2.HE - 2024-12-19
+Trying to get stock data for Ilkka Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ICP1V.HE - 2024-12-19
+Trying to get stock data for Incap Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+IFA1V.HE - 2024-12-19
+Trying to get stock data for Innofactor Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+INVEST.HE - 2024-12-19
+Trying to get stock data for Investors House Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+KAMUX.HE - 2024-12-19
+Trying to get stock data for Kamux Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+KEMIRA.HE - 2024-12-19
+Trying to get stock data for Kemira Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+KSLAV.HE - 2024-12-19
+Trying to get stock data for KSLAV.HE on 2024-12-19. Errors: 0
+Stock data for KSLAV.HE is zero
+KESKOB.HE - 2024-12-19
+Trying to get stock data for Kesko Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+KELAS.HE - 2024-12-19
+Trying to get stock data for Kesla Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+KOJAMO.HE - 2024-12-19
+Trying to get stock data for Kojamo Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+KNEBV.HE - 2024-12-19
+Trying to get stock data for KONE Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+KCR.HE - 2024-12-19
+Trying to get stock data for Konecranes Plc on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+KREATE.HE - 2024-12-19
+Trying to get stock data for Kreate Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+LAT1V.HE - 2024-12-19
+Trying to get stock data for Lassila & Tikanoja Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+MEKKO.HE - 2024-12-19
+Trying to get stock data for Marimekko Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+MARAS.HE - 2024-12-19
+Trying to get stock data for Martela Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+METSO.HE - 2024-12-19
+Trying to get stock data for Metso Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+METSB.HE - 2024-12-19
+Trying to get stock data for Metsä Board Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+MUSTI.HE - 2024-12-19
+Trying to get stock data for Musti Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+NESTE.HE - 2024-12-19
+Trying to get stock data for Neste Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+NOHO.HE - 2024-12-19
+Trying to get stock data for NoHo Partners Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+NOKIA.HE - 2024-12-19
+Trying to get stock data for Nokia Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TYRES.HE - 2024-12-19
+Trying to get stock data for Nokian Renkaat Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+NDA-FI.HE - 2024-12-19
+Trying to get stock data for Nordea Bank Abp on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+NLG1V.HE - 2024-12-19
+Trying to get stock data for Nurminen Logistics Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+OLVAS.HE - 2024-12-19
+Trying to get stock data for Olvi Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+OMASP.HE - 2024-12-19
+Trying to get stock data for Oma Säästöpankki Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+OPTOMED.HE - 2024-12-19
+Trying to get stock data for Optomed Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+OKDBV.HE - 2024-12-19
+Trying to get stock data for Oriola Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ORNBV.HE - 2024-12-19
+Trying to get stock data for Orion Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ORTHEX.HE - 2024-12-19
+Trying to get stock data for Orthex Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+OUT1V.HE - 2024-12-19
+Trying to get stock data for Outokumpu Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+OVARO.HE - 2024-12-19
+Trying to get stock data for Ovaro Kiinteistösijoitus Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+PNA1V.HE - 2024-12-19
+Trying to get stock data for Panostaja Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+PIHLIS.HE - 2024-12-19
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=NPfdFk9ZRqj
+$PUMU.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=NPfdFk9ZRqj
+$ROVIO.HE: possibly delisted; no timezone found
+$SIILI.HE: possibly delisted; no price data found  (1m 2024-12-19 -> 2024-12-20)
+$SITOWS.HE: possibly delisted; no price data found  (1m 2024-12-19 -> 2024-12-20)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=NPfdFk9ZRqj
+$STOCKA.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+$UNITED.HE: possibly delisted; no price data found  (1m 2024-12-19 -> 2024-12-20)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=NPfdFk9ZRqj
+$UPONOR.HE: possibly delisted; no timezone found
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:66: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  skewness = skew(data)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/get_todays_stock_data.py:67: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  kurt = kurtosis(data)
+Trying to get stock data for Pihlajalinna Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+PON1V.HE - 2024-12-19
+Trying to get stock data for Ponsse Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+PUMU.HE - 2024-12-19
+Trying to get stock data for PUMU.HE on 2024-12-19. Errors: 0
+Stock data for PUMU.HE is zero
+PURMO.HE - 2024-12-19
+Trying to get stock data for Purmo Group Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+PUUILO.HE - 2024-12-19
+Trying to get stock data for Puuilo Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+QPR1V.HE - 2024-12-19
+Trying to get stock data for QPR Software Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+QTCOM.HE - 2024-12-19
+Trying to get stock data for Qt Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+RAIVV.HE - 2024-12-19
+Trying to get stock data for Raisio plc on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+RAP1V.HE - 2024-12-19
+Trying to get stock data for Rapala VMC Corporation on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+RAUTE.HE - 2024-12-19
+Trying to get stock data for Raute Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+REKA.HE - 2024-12-19
+Trying to get stock data for Reka Industrial Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+RELAIS.HE - 2024-12-19
+Trying to get stock data for Relais Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+REMEDY.HE - 2024-12-19
+Trying to get stock data for Remedy Entertainment Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+REG1V.HE - 2024-12-19
+Trying to get stock data for Revenio Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ROBIT.HE - 2024-12-19
+Trying to get stock data for Robit Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ROVIO.HE - 2024-12-19
+Trying to get stock data for ROVIO.HE on 2024-12-19. Errors: 0
+Stock data for ROVIO.HE is zero
+SAGCV.HE - 2024-12-19
+Trying to get stock data for Saga Furs Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+SAMPO.HE - 2024-12-19
+Trying to get stock data for Sampo Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+SANOMA.HE - 2024-12-19
+Trying to get stock data for Sanoma Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+SCANFL.HE - 2024-12-19
+Trying to get stock data for Scanfil Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+SIILI.HE - 2024-12-19
+Trying to get stock data for Siili Solutions Oyj on 2024-12-19. Errors: 0
+Stock data for Siili Solutions Oyj is zero
+SITOWS.HE - 2024-12-19
+Trying to get stock data for Sitowise Group Oyj on 2024-12-19. Errors: 1
+Stock data for Sitowise Group Oyj is zero
+SOLTEQ.HE - 2024-12-19
+Trying to get stock data for Solteq Oyj on 2024-12-19. Errors: 2
+Waiting for 1 seconds
+SOSI1.HE - 2024-12-19
+Trying to get stock data for Sotkamo Silver AB on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+SRV1V.HE - 2024-12-19
+Trying to get stock data for SRV Yhtiöt Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+SSABBH.HE - 2024-12-19
+Trying to get stock data for SSAB AB (publ) on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+SSH1V.HE - 2024-12-19
+Trying to get stock data for SSH Communications Security Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+STOCKA.HE - 2024-12-19
+Trying to get stock data for STOCKA.HE on 2024-12-19. Errors: 0
+Stock data for STOCKA.HE is zero
+STERV.HE - 2024-12-19
+Trying to get stock data for Stora Enso Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+SUY1V.HE - 2024-12-19
+Trying to get stock data for Suominen Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TAALA.HE - 2024-12-19
+Trying to get stock data for Taaleri Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TNOM.HE - 2024-12-19
+Trying to get stock data for Talenom Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TEM1V.HE - 2024-12-19
+Trying to get stock data for Tecnotree Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TLT1V.HE - 2024-12-19
+Trying to get stock data for Teleste Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TELIA1.HE - 2024-12-19
+Trying to get stock data for Telia Company AB (publ) on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TTALO.HE - 2024-12-19
+Trying to get stock data for Terveystalo Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TIETO.HE - 2024-12-19
+Trying to get stock data for TietoEVRY Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TOKMAN.HE - 2024-12-19
+Trying to get stock data for Tokmanni Group Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TRH1V.HE - 2024-12-19
+Trying to get stock data for Trainers' House Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+TULAV.HE - 2024-12-19
+Trying to get stock data for Tulikivi Corporation on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+UNITED.HE - 2024-12-19
+Trying to get stock data for United Bankers Oyj on 2024-12-19. Errors: 0
+Stock data for United Bankers Oyj is zero
+UPM.HE - 2024-12-19
+Trying to get stock data for UPM-Kymmene Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+UPONOR.HE - 2024-12-19
+Trying to get stock data for UPONOR.HE on 2024-12-19. Errors: 0
+Stock data for UPONOR.HE is zero
+VAIAS.HE - 2024-12-19
+Trying to get stock data for Vaisala Oyj on 2024-12-19. Errors: 1
+Waiting for 1 seconds
+VALMT.HE - 2024-12-19
+Trying to get stock data for Valmet Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+VERK.HE - 2024-12-19
+Trying to get stock data for Verkkokauppa.com Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+VIK1V.HE - 2024-12-19
+Trying to get stock data for Viking Line Abp on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+WETTERI.HE - 2024-12-19
+Trying to get stock data for Wetteri Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+WITH.HE - 2024-12-19
+Trying to get stock data for WithSecure Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+WUF1V.HE - 2024-12-19
+Trying to get stock data for Wulff-Yhtiöt Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+WRT1V.HE - 2024-12-19
+Trying to get stock data for Wärtsilä Oyj Abp on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+YIT.HE - 2024-12-19
+Trying to get stock data for YIT Oyj on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+ALBBV.HE - 2024-12-19
+Trying to get stock data for Ålandsbanken Abp on 2024-12-19. Errors: 0
+Waiting for 1 seconds
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+2024-12-21
+2024-12-21 is a weekend (Saturday or Sunday).
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_script.sh: 5: source: not found
+2024-12-22
+2024-12-22 is a weekend (Saturday or Sunday).

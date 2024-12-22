@@ -628,3 +628,2865 @@ ALBBV.HE - 2024-11-28
 Waiting for 1 seconds
 Waiting for 3 seconds
 Old single measures (2858, 15), new data (236, 14), joined data (3094, 15)
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: 3: source: not found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=EjxPhEsmoxF
+Failed to get ticker 'CAV1V.HE' reason: Response ended prematurely
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=EjxPhEsmoxF
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=EjxPhEsmoxF
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=EjxPhEsmoxF
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=EjxPhEsmoxF
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=EjxPhEsmoxF
+$STOCKA.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=EjxPhEsmoxF
+$UPONOR.HE: possibly delisted; no timezone found
+Data read!
+2024-11-29 18:40:03.019929 - AFAGR.HE on 2024-11-28
+Original values 2
+2024-11-29 18:40:04.318277 - AKTIA.HE on 2024-11-28
+Original values 5
+2024-11-29 18:40:05.594830 - ALMA.HE on 2024-11-28
+Original values 4
+2024-11-29 18:40:06.874517 - ANORA.HE on 2024-11-28
+Original values 14
+2024-11-29 18:40:08.174872 - APETIT.HE on 2024-11-28
+Original values 3
+2024-11-29 18:40:09.457213 - TALLINK.HE on 2024-11-28
+Original values 5
+2024-11-29 18:40:10.753339 - ASPO.HE on 2024-11-28
+Original values 7
+2024-11-29 18:40:12.038660 - ACG1V.HE on 2024-11-28
+Original values 3
+2024-11-29 18:40:13.379698 - ATRAV.HE on 2024-11-28
+Original values 5
+2024-11-29 18:40:14.711716 - BIOBV.HE on 2024-11-28
+Original values 3
+2024-11-29 18:40:15.993764 - BITTI.HE on 2024-11-28
+Original values 11
+2024-11-29 18:40:17.273993 - BOREO.HE on 2024-11-28
+Original values 1
+2024-11-29 18:40:18.542305 - CAPMAN.HE on 2024-11-28
+Original values 17
+2024-11-29 18:40:19.960070 - CGCBV.HE on 2024-11-28
+Original values 23
+2024-11-29 18:40:22.299493 - CAV1V.HE on 2024-11-28
+2024-11-29 18:40:24.912311 - CTY1S.HE on 2024-11-28
+Original values 15
+2024-11-29 18:40:26.183542 - CTH1V.HE on 2024-11-28
+Original values 8
+2024-11-29 18:40:27.449007 - CONSTI.HE on 2024-11-28
+Original values 1
+2024-11-29 18:40:28.726974 - DIGIA.HE on 2024-11-28
+Original values 1
+2024-11-29 18:40:30.008370 - DIGIGR.HE on 2024-11-28
+Original values 5
+2024-11-29 18:40:31.277520 - DOV1V.HE on 2024-11-28
+Original values 1
+2024-11-29 18:40:32.551949 - EEZY.HE on 2024-11-28
+Original values 9
+2024-11-29 18:40:33.828787 - ELEAV.HE on 2024-11-28
+Original values 2
+2024-11-29 18:40:35.155131 - ELISA.HE on 2024-11-28
+Original values 35
+2024-11-29 18:40:36.438112 - ENENTO.HE on 2024-11-28
+Original values 4
+2024-11-29 18:40:37.732339 - ESENSE.HE on 2024-11-28
+Original values 7
+2024-11-29 18:40:39.011006 - EQV1V.HE on 2024-11-28
+Original values 14
+2024-11-29 18:40:40.331759 - ETTE.HE on 2024-11-28
+Original values 1
+2024-11-29 18:40:41.620743 - EXL1V.HE on 2024-11-28
+Original values 12
+2024-11-29 18:40:42.908153 - FIA1S.HE on 2024-11-28
+Original values 16
+2024-11-29 18:40:44.209376 - FSKRS.HE on 2024-11-28
+Original values 3
+2024-11-29 18:40:45.484592 - FORTUM.HE on 2024-11-28
+Original values 48
+2024-11-29 18:40:46.762052 - GLA1V.HE on 2024-11-28
+Original values 5
+2024-11-29 18:40:48.049199 - GOFORE.HE on 2024-11-28
+Original values 8
+2024-11-29 18:40:49.350219 - HARVIA.HE on 2024-11-28
+Original values 17
+2024-11-29 18:40:51.799556 - HKSAV.HE on 2024-11-28
+2024-11-29 18:40:53.180380 - HONBS.HE on 2024-11-28
+Original values 2
+2024-11-29 18:40:54.499082 - HUH1V.HE on 2024-11-28
+Original values 23
+2024-11-29 18:40:54.538336 - ILKKA2.HE on 2024-11-28
+Original values 0
+2024-11-29 18:40:55.872562 - ICP1V.HE on 2024-11-28
+Original values 12
+2024-11-29 18:40:57.175831 - IFA1V.HE on 2024-11-28
+Original values 0
+2024-11-29 18:40:58.459217 - INVEST.HE on 2024-11-28
+Original values 2
+2024-11-29 18:40:59.741616 - KAMUX.HE on 2024-11-28
+Original values 7
+2024-11-29 18:41:01.029010 - KEMIRA.HE on 2024-11-28
+Original values 15
+2024-11-29 18:41:03.151411 - KSLAV.HE on 2024-11-28
+2024-11-29 18:41:04.376868 - KESKOB.HE on 2024-11-28
+Original values 30
+2024-11-29 18:41:05.680341 - KELAS.HE on 2024-11-28
+Original values 3
+2024-11-29 18:41:06.988220 - KOJAMO.HE on 2024-11-28
+Original values 19
+2024-11-29 18:41:08.288573 - KNEBV.HE on 2024-11-28
+Original values 42
+2024-11-29 18:41:09.673393 - KCR.HE on 2024-11-28
+Original values 17
+2024-11-29 18:41:10.984699 - KREATE.HE on 2024-11-28
+Original values 4
+2024-11-29 18:41:12.280733 - LAT1V.HE on 2024-11-28
+Original values 5
+2024-11-29 18:41:13.566006 - MEKKO.HE on 2024-11-28
+Original values 12
+2024-11-29 18:41:14.884214 - MARAS.HE on 2024-11-28
+Original values 2
+2024-11-29 18:41:16.202312 - METSO.HE on 2024-11-28
+Original values 42
+2024-11-29 18:41:17.498107 - METSB.HE on 2024-11-28
+Original values 37
+2024-11-29 18:41:18.803992 - MUSTI.HE on 2024-11-28
+Original values 4
+2024-11-29 18:41:20.098846 - NESTE.HE on 2024-11-28
+Original values 51
+2024-11-29 18:41:21.396096 - NOHO.HE on 2024-11-28
+Original values 4
+2024-11-29 18:41:22.674843 - NOKIA.HE on 2024-11-28
+Original values 50
+2024-11-29 18:41:23.976989 - TYRES.HE on 2024-11-28
+Original values 45
+2024-11-29 18:41:25.257098 - NDA-FI.HE on 2024-11-28
+Original values 54
+2024-11-29 18:41:26.641106 - NLG1V.HE on 2024-11-28
+Original values 5
+2024-11-29 18:41:26.682249 - OLVAS.HE on 2024-11-28
+Original values 7
+2024-11-29 18:41:27.947205 - OMASP.HE on 2024-11-28
+Original values 7
+2024-11-29 18:41:29.313975 - OPTOMED.HE on 2024-11-28
+Original values 21
+2024-11-29 18:41:30.602292 - OKDBV.HE on 2024-11-28
+Original values 4
+2024-11-29 18:41:31.886343 - ORNBV.HE on 2024-11-28
+Original values 18
+2024-11-29 18:41:33.178938 - ORTHEX.HE on 2024-11-28
+Original values 2
+2024-11-29 18:41:34.457420 - OUT1V.HE on 2024-11-28
+Original values 32
+2024-11-29 18:41:35.764182 - OVARO.HE on 2024-11-28
+Original values 2
+2024-11-29 18:41:37.091430 - PNA1V.HE on 2024-11-28
+Original values 3
+2024-11-29 18:41:38.370526 - PIHLIS.HE on 2024-11-28
+Original values 5
+2024-11-29 18:41:39.654549 - PON1V.HE on 2024-11-28
+Original values 2
+2024-11-29 18:41:42.174430 - PUMU.HE on 2024-11-28
+2024-11-29 18:41:43.581870 - PURMO.HE on 2024-11-28
+Original values 2
+2024-11-29 18:41:44.870911 - PUUILO.HE on 2024-11-28
+Original values 12
+2024-11-29 18:41:46.239742 - QPR1V.HE on 2024-11-28
+Original values 1
+2024-11-29 18:41:47.602718 - QTCOM.HE on 2024-11-28
+Original values 29
+2024-11-29 18:41:48.967189 - RAIVV.HE on 2024-11-28
+Original values 8
+2024-11-29 18:41:50.250115 - RAP1V.HE on 2024-11-28
+Original values 2
+2024-11-29 18:41:51.520990 - RAUTE.HE on 2024-11-28
+Original values 3
+2024-11-29 18:41:52.788295 - REKA.HE on 2024-11-28
+Original values 2
+2024-11-29 18:41:54.084911 - RELAIS.HE on 2024-11-28
+Original values 7
+2024-11-29 18:41:55.388365 - REMEDY.HE on 2024-11-28
+Original values 24
+2024-11-29 18:41:56.669936 - REG1V.HE on 2024-11-28
+Original values 3
+2024-11-29 18:41:56.671182 - ROBIT.HE on 2024-11-28
+Original values 6
+2024-11-29 18:41:58.934135 - ROVIO.HE on 2024-11-28
+2024-11-29 18:42:00.124733 - SAGCV.HE on 2024-11-28
+Original values 2
+2024-11-29 18:42:01.415384 - SAMPO.HE on 2024-11-28
+Original values 41
+2024-11-29 18:42:02.700504 - SANOMA.HE on 2024-11-28
+Original values 2
+2024-11-29 18:42:03.974128 - SCANFL.HE on 2024-11-28
+Original values 2
+2024-11-29 18:42:05.284258 - SIILI.HE on 2024-11-28
+Original values 4
+2024-11-29 18:42:06.564106 - SITOWS.HE on 2024-11-28
+Original values 4
+2024-11-29 18:42:07.871119 - SOLTEQ.HE on 2024-11-28
+Original values 4
+2024-11-29 18:42:09.147065 - SOSI1.HE on 2024-11-28
+Original values 10
+2024-11-29 18:42:10.428399 - SRV1V.HE on 2024-11-28
+Original values 4
+2024-11-29 18:42:11.714577 - SSABBH.HE on 2024-11-28
+Original values 17
+2024-11-29 18:42:13.029935 - SSH1V.HE on 2024-11-28
+Original values 8
+2024-11-29 18:42:15.384577 - STOCKA.HE on 2024-11-28
+2024-11-29 18:42:16.483258 - STERV.HE on 2024-11-28
+Original values 45
+2024-11-29 18:42:17.776646 - SUY1V.HE on 2024-11-28
+Original values 1
+2024-11-29 18:42:19.120353 - TAALA.HE on 2024-11-28
+Original values 7
+2024-11-29 18:42:20.421546 - TNOM.HE on 2024-11-28
+Original values 20
+2024-11-29 18:42:21.801564 - TEM1V.HE on 2024-11-28
+Original values 6
+2024-11-29 18:42:23.099511 - TLT1V.HE on 2024-11-28
+Original values 3
+2024-11-29 18:42:24.446026 - TELIA1.HE on 2024-11-28
+Original values 17
+2024-11-29 18:42:25.717648 - TTALO.HE on 2024-11-28
+Original values 10
+2024-11-29 18:42:27.002868 - TIETO.HE on 2024-11-28
+Original values 25
+2024-11-29 18:42:28.289041 - TOKMAN.HE on 2024-11-28
+Original values 27
+2024-11-29 18:42:28.357817 - TRH1V.HE on 2024-11-28
+Original values 2
+2024-11-29 18:42:29.670050 - TULAV.HE on 2024-11-28
+Original values 2
+2024-11-29 18:42:31.059799 - UNITED.HE on 2024-11-28
+Original values 1
+2024-11-29 18:42:32.365954 - UPM.HE on 2024-11-28
+Original values 46
+2024-11-29 18:42:34.719183 - UPONOR.HE on 2024-11-28
+2024-11-29 18:42:36.130324 - VAIAS.HE on 2024-11-28
+Original values 8
+2024-11-29 18:42:37.438385 - VALMT.HE on 2024-11-28
+Original values 44
+2024-11-29 18:42:38.715043 - VERK.HE on 2024-11-28
+Original values 6
+2024-11-29 18:42:40.003252 - VIK1V.HE on 2024-11-28
+Original values 2
+2024-11-29 18:42:41.429084 - WETTERI.HE on 2024-11-28
+Original values 3
+2024-11-29 18:42:42.713334 - WITH.HE on 2024-11-28
+Original values 9
+2024-11-29 18:42:44.015806 - WUF1V.HE on 2024-11-28
+Original values 2
+2024-11-29 18:42:45.400033 - WRT1V.HE on 2024-11-28
+Original values 32
+2024-11-29 18:42:46.763412 - YIT.HE on 2024-11-28
+Original values 9
+2024-11-29 18:42:48.053668 - ALBBV.HE on 2024-11-28
+Original values 3
+Old single measures (3802, 17), new data (118, 14), joined data (3920, 17)
+Removed 15 duplicates
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: 3: source: not found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=8OvJoAc8C4A
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=8OvJoAc8C4A
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=8OvJoAc8C4A
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=8OvJoAc8C4A
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=8OvJoAc8C4A
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=8OvJoAc8C4A
+$STOCKA.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=8OvJoAc8C4A
+$UPONOR.HE: possibly delisted; no timezone found
+Data read!
+2024-12-01 18:40:02.859874 - AFAGR.HE on 2024-11-29
+Original values 6
+2024-12-01 18:40:04.165905 - AKTIA.HE on 2024-11-29
+Original values 4
+2024-12-01 18:40:05.476748 - ALMA.HE on 2024-11-29
+Original values 3
+2024-12-01 18:40:06.748286 - ANORA.HE on 2024-11-29
+Original values 13
+2024-12-01 18:40:08.046183 - APETIT.HE on 2024-11-29
+Original values 3
+2024-12-01 18:40:09.339907 - TALLINK.HE on 2024-11-29
+Original values 1
+2024-12-01 18:40:10.629329 - ASPO.HE on 2024-11-29
+Original values 3
+2024-12-01 18:40:11.943138 - ACG1V.HE on 2024-11-29
+Original values 1
+2024-12-01 18:40:13.251218 - ATRAV.HE on 2024-11-29
+Original values 4
+2024-12-01 18:40:13.397965 - BIOBV.HE on 2024-11-29
+Original values 5
+2024-12-01 18:40:14.684209 - BITTI.HE on 2024-11-29
+Original values 6
+2024-12-01 18:40:15.962180 - BOREO.HE on 2024-11-29
+Original values 0
+2024-12-01 18:40:17.325238 - CAPMAN.HE on 2024-11-29
+Original values 20
+2024-12-01 18:40:18.616594 - CGCBV.HE on 2024-11-29
+Original values 23
+2024-12-01 18:40:22.313248 - CAV1V.HE on 2024-11-29
+2024-12-01 18:40:22.756349 - CTY1S.HE on 2024-11-29
+Original values 22
+2024-12-01 18:40:24.059681 - CTH1V.HE on 2024-11-29
+Original values 10
+2024-12-01 18:40:25.336482 - CONSTI.HE on 2024-11-29
+Original values 2
+2024-12-01 18:40:26.647532 - DIGIA.HE on 2024-11-29
+Original values 4
+2024-12-01 18:40:27.942283 - DIGIGR.HE on 2024-11-29
+Original values 11
+2024-12-01 18:40:29.247270 - DOV1V.HE on 2024-11-29
+Original values 2
+2024-12-01 18:40:30.525501 - EEZY.HE on 2024-11-29
+Original values 2
+2024-12-01 18:40:31.800414 - ELEAV.HE on 2024-11-29
+Original values 0
+2024-12-01 18:40:33.067374 - ELISA.HE on 2024-11-29
+Original values 40
+2024-12-01 18:40:34.372732 - ENENTO.HE on 2024-11-29
+Original values 6
+2024-12-01 18:40:35.662988 - ESENSE.HE on 2024-11-29
+Original values 3
+2024-12-01 18:40:36.971554 - EQV1V.HE on 2024-11-29
+Original values 7
+2024-12-01 18:40:38.278746 - ETTE.HE on 2024-11-29
+Original values 1
+2024-12-01 18:40:39.550995 - EXL1V.HE on 2024-11-29
+Original values 23
+2024-12-01 18:40:40.833449 - FIA1S.HE on 2024-11-29
+Original values 17
+2024-12-01 18:40:42.132509 - FSKRS.HE on 2024-11-29
+Original values 11
+2024-12-01 18:40:43.430515 - FORTUM.HE on 2024-11-29
+Original values 38
+2024-12-01 18:40:44.732601 - GLA1V.HE on 2024-11-29
+Original values 4
+2024-12-01 18:40:44.863732 - GOFORE.HE on 2024-11-29
+Original values 3
+2024-12-01 18:40:46.157330 - HARVIA.HE on 2024-11-29
+Original values 7
+2024-12-01 18:40:48.283574 - HKSAV.HE on 2024-11-29
+2024-12-01 18:40:49.493394 - HONBS.HE on 2024-11-29
+Original values 0
+2024-12-01 18:40:50.796779 - HUH1V.HE on 2024-11-29
+Original values 28
+2024-12-01 18:40:52.101982 - ILKKA2.HE on 2024-11-29
+Original values 18
+2024-12-01 18:40:53.389137 - ICP1V.HE on 2024-11-29
+Original values 4
+2024-12-01 18:40:54.692839 - IFA1V.HE on 2024-11-29
+Original values 1
+2024-12-01 18:40:55.999476 - INVEST.HE on 2024-11-29
+Original values 0
+2024-12-01 18:40:57.308353 - KAMUX.HE on 2024-11-29
+Original values 5
+2024-12-01 18:40:58.620609 - KEMIRA.HE on 2024-11-29
+Original values 31
+2024-12-01 18:41:00.674470 - KSLAV.HE on 2024-11-29
+2024-12-01 18:41:01.853856 - KESKOB.HE on 2024-11-29
+Original values 40
+2024-12-01 18:41:03.167420 - KELAS.HE on 2024-11-29
+Original values 2
+2024-12-01 18:41:04.481061 - KOJAMO.HE on 2024-11-29
+Original values 15
+2024-12-01 18:41:05.787725 - KNEBV.HE on 2024-11-29
+Original values 38
+2024-12-01 18:41:07.079439 - KCR.HE on 2024-11-29
+Original values 26
+2024-12-01 18:41:08.384926 - KREATE.HE on 2024-11-29
+Original values 1
+2024-12-01 18:41:09.674610 - LAT1V.HE on 2024-11-29
+Original values 7
+2024-12-01 18:41:10.947584 - MEKKO.HE on 2024-11-29
+Original values 11
+2024-12-01 18:41:12.259416 - MARAS.HE on 2024-11-29
+Original values 4
+2024-12-01 18:41:13.530721 - METSO.HE on 2024-11-29
+Original values 43
+2024-12-01 18:41:14.866941 - METSB.HE on 2024-11-29
+Original values 44
+2024-12-01 18:41:16.181107 - MUSTI.HE on 2024-11-29
+Original values 3
+2024-12-01 18:41:16.350140 - NESTE.HE on 2024-11-29
+Original values 57
+2024-12-01 18:41:17.665095 - NOHO.HE on 2024-11-29
+Original values 4
+2024-12-01 18:41:18.970515 - NOKIA.HE on 2024-11-29
+Original values 51
+2024-12-01 18:41:20.339990 - TYRES.HE on 2024-11-29
+Original values 35
+2024-12-01 18:41:21.651679 - NDA-FI.HE on 2024-11-29
+Original values 48
+2024-12-01 18:41:22.951899 - NLG1V.HE on 2024-11-29
+Original values 7
+2024-12-01 18:41:24.251753 - OLVAS.HE on 2024-11-29
+Original values 6
+2024-12-01 18:41:25.553343 - OMASP.HE on 2024-11-29
+Original values 11
+2024-12-01 18:41:26.844575 - OPTOMED.HE on 2024-11-29
+Original values 13
+2024-12-01 18:41:28.149885 - OKDBV.HE on 2024-11-29
+Original values 9
+2024-12-01 18:41:29.472373 - ORNBV.HE on 2024-11-29
+Original values 23
+2024-12-01 18:41:30.781978 - ORTHEX.HE on 2024-11-29
+Original values 6
+2024-12-01 18:41:32.112564 - OUT1V.HE on 2024-11-29
+Original values 29
+2024-12-01 18:41:33.414219 - OVARO.HE on 2024-11-29
+Original values 5
+2024-12-01 18:41:34.710884 - PNA1V.HE on 2024-11-29
+Original values 1
+2024-12-01 18:41:36.018205 - PIHLIS.HE on 2024-11-29
+Original values 3
+2024-12-01 18:41:37.414653 - PON1V.HE on 2024-11-29
+Original values 2
+2024-12-01 18:41:39.795390 - PUMU.HE on 2024-11-29
+2024-12-01 18:41:40.882965 - PURMO.HE on 2024-11-29
+Original values 3
+2024-12-01 18:41:42.197280 - PUUILO.HE on 2024-11-29
+Original values 8
+2024-12-01 18:41:43.576826 - QPR1V.HE on 2024-11-29
+Original values 1
+2024-12-01 18:41:44.875403 - QTCOM.HE on 2024-11-29
+Original values 18
+2024-12-01 18:41:46.181546 - RAIVV.HE on 2024-11-29
+Original values 14
+2024-12-01 18:41:46.355711 - RAP1V.HE on 2024-11-29
+Original values 0
+2024-12-01 18:41:47.655784 - RAUTE.HE on 2024-11-29
+Original values 6
+2024-12-01 18:41:48.961889 - REKA.HE on 2024-11-29
+Original values 2
+2024-12-01 18:41:50.262158 - RELAIS.HE on 2024-11-29
+Original values 0
+2024-12-01 18:41:51.548786 - REMEDY.HE on 2024-11-29
+Original values 10
+2024-12-01 18:41:52.840571 - REG1V.HE on 2024-11-29
+Original values 6
+2024-12-01 18:41:54.211582 - ROBIT.HE on 2024-11-29
+Original values 7
+2024-12-01 18:41:56.655901 - ROVIO.HE on 2024-11-29
+2024-12-01 18:41:57.702889 - SAGCV.HE on 2024-11-29
+Original values 2
+2024-12-01 18:41:59.007155 - SAMPO.HE on 2024-11-29
+Original values 40
+2024-12-01 18:42:00.329986 - SANOMA.HE on 2024-11-29
+Original values 4
+2024-12-01 18:42:01.637320 - SCANFL.HE on 2024-11-29
+Original values 3
+2024-12-01 18:42:02.923445 - SIILI.HE on 2024-11-29
+Original values 2
+2024-12-01 18:42:04.229874 - SITOWS.HE on 2024-11-29
+Original values 10
+2024-12-01 18:42:05.538067 - SOLTEQ.HE on 2024-11-29
+Original values 10
+2024-12-01 18:42:06.933789 - SOSI1.HE on 2024-11-29
+Original values 10
+2024-12-01 18:42:08.326648 - SRV1V.HE on 2024-11-29
+Original values 3
+2024-12-01 18:42:09.637966 - SSABBH.HE on 2024-11-29
+Original values 25
+2024-12-01 18:42:10.953656 - SSH1V.HE on 2024-11-29
+Original values 1
+2024-12-01 18:42:13.022512 - STOCKA.HE on 2024-11-29
+2024-12-01 18:42:14.044617 - STERV.HE on 2024-11-29
+Original values 46
+2024-12-01 18:42:15.356913 - SUY1V.HE on 2024-11-29
+Original values 4
+2024-12-01 18:42:16.655003 - TAALA.HE on 2024-11-29
+Original values 9
+2024-12-01 18:42:17.955451 - TNOM.HE on 2024-11-29
+Original values 13
+2024-12-01 18:42:18.094385 - TEM1V.HE on 2024-11-29
+Original values 17
+2024-12-01 18:42:19.402215 - TLT1V.HE on 2024-11-29
+Original values 0
+2024-12-01 18:42:20.709467 - TELIA1.HE on 2024-11-29
+Original values 18
+2024-12-01 18:42:22.017183 - TTALO.HE on 2024-11-29
+Original values 9
+2024-12-01 18:42:23.322847 - TIETO.HE on 2024-11-29
+Original values 24
+2024-12-01 18:42:24.628145 - TOKMAN.HE on 2024-11-29
+Original values 35
+2024-12-01 18:42:25.938887 - TRH1V.HE on 2024-11-29
+Original values 2
+2024-12-01 18:42:27.227034 - TULAV.HE on 2024-11-29
+Original values 3
+2024-12-01 18:42:28.544226 - UNITED.HE on 2024-11-29
+Original values 1
+2024-12-01 18:42:29.844039 - UPM.HE on 2024-11-29
+Original values 47
+2024-12-01 18:42:31.998042 - UPONOR.HE on 2024-11-29
+2024-12-01 18:42:33.039560 - VAIAS.HE on 2024-11-29
+Original values 6
+2024-12-01 18:42:34.320684 - VALMT.HE on 2024-11-29
+Original values 43
+2024-12-01 18:42:35.697122 - VERK.HE on 2024-11-29
+Original values 9
+2024-12-01 18:42:36.970047 - VIK1V.HE on 2024-11-29
+Original values 4
+2024-12-01 18:42:38.259238 - WETTERI.HE on 2024-11-29
+Original values 5
+2024-12-01 18:42:39.533535 - WITH.HE on 2024-11-29
+Original values 8
+2024-12-01 18:42:40.820624 - WUF1V.HE on 2024-11-29
+Original values 0
+2024-12-01 18:42:42.095372 - WRT1V.HE on 2024-11-29
+Original values 44
+2024-12-01 18:42:43.377112 - YIT.HE on 2024-11-29
+Original values 5
+2024-12-01 18:42:44.657714 - ALBBV.HE on 2024-11-29
+Original values 2
+2024-11-30 is a weekend (Saturday or Sunday).
+Old single measures (4156, 17), new data (118, 14), joined data (4274, 17)
+Removed 23 duplicates
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: 3: source: not found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=fDsPcxxQ6lA
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=UoR0GvxZLTh
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=fDsPcxxQ6lA
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=fDsPcxxQ6lA
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=fDsPcxxQ6lA
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=fDsPcxxQ6lA
+$STOCKA.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=fDsPcxxQ6lA
+$UPONOR.HE: possibly delisted; no timezone found
+Data read!
+2024-12-02 18:40:02.633541 - AFAGR.HE on 2024-11-29
+Original values 6
+2024-12-02 18:40:04.134782 - AKTIA.HE on 2024-11-29
+Original values 4
+2024-12-02 18:40:05.526119 - ALMA.HE on 2024-11-29
+Original values 3
+2024-12-02 18:40:06.855895 - ANORA.HE on 2024-11-29
+Original values 13
+2024-12-02 18:40:08.263193 - APETIT.HE on 2024-11-29
+Original values 3
+2024-12-02 18:40:09.573455 - TALLINK.HE on 2024-11-29
+Original values 1
+2024-12-02 18:40:10.899267 - ASPO.HE on 2024-11-29
+Original values 3
+2024-12-02 18:40:12.253758 - ACG1V.HE on 2024-11-29
+Original values 1
+2024-12-02 18:40:13.581627 - ATRAV.HE on 2024-11-29
+Original values 4
+2024-12-02 18:40:14.959238 - BIOBV.HE on 2024-11-29
+Original values 5
+2024-12-02 18:40:16.322729 - BITTI.HE on 2024-11-29
+Original values 6
+2024-12-02 18:40:17.730263 - BOREO.HE on 2024-11-29
+Original values 0
+2024-12-02 18:40:16.203769 - CAPMAN.HE on 2024-11-29
+Original values 20
+2024-12-02 18:40:17.550602 - CGCBV.HE on 2024-11-29
+Original values 23
+2024-12-02 18:40:20.707264 - CAV1V.HE on 2024-11-29
+2024-12-02 18:40:22.060979 - CTY1S.HE on 2024-11-29
+Original values 22
+2024-12-02 18:40:23.380591 - CTH1V.HE on 2024-11-29
+Original values 10
+2024-12-02 18:40:24.903660 - CONSTI.HE on 2024-11-29
+Original values 2
+2024-12-02 18:40:26.275791 - DIGIA.HE on 2024-11-29
+Original values 4
+2024-12-02 18:40:27.768719 - DIGIGR.HE on 2024-11-29
+Original values 11
+2024-12-02 18:40:29.218159 - DOV1V.HE on 2024-11-29
+Original values 2
+2024-12-02 18:40:30.596497 - EEZY.HE on 2024-11-29
+Original values 2
+2024-12-02 18:40:31.968888 - ELEAV.HE on 2024-11-29
+Original values 0
+2024-12-02 18:40:33.453441 - ELISA.HE on 2024-11-29
+Original values 40
+2024-12-02 18:40:34.836093 - ENENTO.HE on 2024-11-29
+Original values 6
+2024-12-02 18:40:36.212579 - ESENSE.HE on 2024-11-29
+Original values 3
+2024-12-02 18:40:37.588157 - EQV1V.HE on 2024-11-29
+Original values 7
+2024-12-02 18:40:38.940061 - ETTE.HE on 2024-11-29
+Original values 1
+2024-12-02 18:40:40.320258 - EXL1V.HE on 2024-11-29
+Original values 23
+2024-12-02 18:40:41.687956 - FIA1S.HE on 2024-11-29
+Original values 17
+2024-12-02 18:40:43.067441 - FSKRS.HE on 2024-11-29
+Original values 11
+2024-12-02 18:40:44.439819 - FORTUM.HE on 2024-11-29
+Original values 38
+2024-12-02 18:40:45.848793 - GLA1V.HE on 2024-11-29
+Original values 4
+2024-12-02 18:40:47.238693 - GOFORE.HE on 2024-11-29
+Original values 3
+2024-12-02 18:40:48.554142 - HARVIA.HE on 2024-11-29
+Original values 7
+2024-12-02 18:40:49.201724 - HKSAV.HE on 2024-11-29
+2024-12-02 18:40:49.662351 - HONBS.HE on 2024-11-29
+Original values 0
+2024-12-02 18:40:51.057566 - HUH1V.HE on 2024-11-29
+Original values 28
+2024-12-02 18:40:52.428092 - ILKKA2.HE on 2024-11-29
+Original values 18
+2024-12-02 18:40:53.820736 - ICP1V.HE on 2024-11-29
+Original values 4
+2024-12-02 18:40:55.180178 - IFA1V.HE on 2024-11-29
+Original values 1
+2024-12-02 18:40:56.544420 - INVEST.HE on 2024-11-29
+Original values 0
+2024-12-02 18:40:57.925980 - KAMUX.HE on 2024-11-29
+Original values 5
+2024-12-02 18:40:59.301843 - KEMIRA.HE on 2024-11-29
+Original values 31
+2024-12-02 18:41:01.678156 - KSLAV.HE on 2024-11-29
+2024-12-02 18:41:03.138749 - KESKOB.HE on 2024-11-29
+Original values 40
+2024-12-02 18:41:04.540427 - KELAS.HE on 2024-11-29
+Original values 2
+2024-12-02 18:41:05.913126 - KOJAMO.HE on 2024-11-29
+Original values 15
+2024-12-02 18:41:07.311215 - KNEBV.HE on 2024-11-29
+Original values 38
+2024-12-02 18:41:08.676488 - KCR.HE on 2024-11-29
+Original values 26
+2024-12-02 18:41:10.022443 - KREATE.HE on 2024-11-29
+Original values 1
+2024-12-02 18:41:11.389271 - LAT1V.HE on 2024-11-29
+Original values 7
+2024-12-02 18:41:12.764284 - MEKKO.HE on 2024-11-29
+Original values 11
+2024-12-02 18:41:14.137417 - MARAS.HE on 2024-11-29
+Original values 4
+2024-12-02 18:41:15.510937 - METSO.HE on 2024-11-29
+Original values 43
+2024-12-02 18:41:16.866818 - METSB.HE on 2024-11-29
+Original values 44
+2024-12-02 18:41:15.333085 - MUSTI.HE on 2024-11-29
+Original values 3
+2024-12-02 18:41:16.718108 - NESTE.HE on 2024-11-29
+Original values 57
+2024-12-02 18:41:18.098805 - NOHO.HE on 2024-11-29
+Original values 4
+2024-12-02 18:41:19.480259 - NOKIA.HE on 2024-11-29
+Original values 51
+2024-12-02 18:41:20.852619 - TYRES.HE on 2024-11-29
+Original values 35
+2024-12-02 18:41:22.222582 - NDA-FI.HE on 2024-11-29
+Original values 48
+2024-12-02 18:41:23.605977 - NLG1V.HE on 2024-11-29
+Original values 7
+2024-12-02 18:41:24.971571 - OLVAS.HE on 2024-11-29
+Original values 6
+2024-12-02 18:41:26.353166 - OMASP.HE on 2024-11-29
+Original values 11
+2024-12-02 18:41:27.720051 - OPTOMED.HE on 2024-11-29
+Original values 13
+2024-12-02 18:41:29.078942 - OKDBV.HE on 2024-11-29
+Original values 9
+2024-12-02 18:41:30.468519 - ORNBV.HE on 2024-11-29
+Original values 23
+2024-12-02 18:41:31.868793 - ORTHEX.HE on 2024-11-29
+Original values 6
+2024-12-02 18:41:33.248013 - OUT1V.HE on 2024-11-29
+Original values 29
+2024-12-02 18:41:34.626497 - OVARO.HE on 2024-11-29
+Original values 5
+2024-12-02 18:41:36.008253 - PNA1V.HE on 2024-11-29
+Original values 1
+2024-12-02 18:41:37.390031 - PIHLIS.HE on 2024-11-29
+Original values 3
+2024-12-02 18:41:38.757143 - PON1V.HE on 2024-11-29
+Original values 2
+2024-12-02 18:41:41.066931 - PUMU.HE on 2024-11-29
+2024-12-02 18:41:42.179087 - PURMO.HE on 2024-11-29
+Original values 3
+2024-12-02 18:41:43.556350 - PUUILO.HE on 2024-11-29
+Original values 8
+2024-12-02 18:41:44.930438 - QPR1V.HE on 2024-11-29
+Original values 1
+2024-12-02 18:41:46.240227 - QTCOM.HE on 2024-11-29
+Original values 18
+2024-12-02 18:41:44.783139 - RAIVV.HE on 2024-11-29
+Original values 14
+2024-12-02 18:41:46.159607 - RAP1V.HE on 2024-11-29
+Original values 0
+2024-12-02 18:41:47.536204 - RAUTE.HE on 2024-11-29
+Original values 6
+2024-12-02 18:41:48.914970 - REKA.HE on 2024-11-29
+Original values 2
+2024-12-02 18:41:50.230843 - RELAIS.HE on 2024-11-29
+Original values 0
+2024-12-02 18:41:51.633803 - REMEDY.HE on 2024-11-29
+Original values 10
+2024-12-02 18:41:53.117758 - REG1V.HE on 2024-11-29
+Original values 6
+2024-12-02 18:41:54.427759 - ROBIT.HE on 2024-11-29
+Original values 7
+2024-12-02 18:41:56.706189 - ROVIO.HE on 2024-11-29
+2024-12-02 18:41:57.871739 - SAGCV.HE on 2024-11-29
+Original values 2
+2024-12-02 18:41:59.168301 - SAMPO.HE on 2024-11-29
+Original values 40
+2024-12-02 18:42:00.538272 - SANOMA.HE on 2024-11-29
+Original values 4
+2024-12-02 18:42:01.886246 - SCANFL.HE on 2024-11-29
+Original values 3
+2024-12-02 18:42:03.367728 - SIILI.HE on 2024-11-29
+Original values 2
+2024-12-02 18:42:04.761249 - SITOWS.HE on 2024-11-29
+Original values 10
+2024-12-02 18:42:06.127839 - SOLTEQ.HE on 2024-11-29
+Original values 10
+2024-12-02 18:42:07.513151 - SOSI1.HE on 2024-11-29
+Original values 10
+2024-12-02 18:42:08.900535 - SRV1V.HE on 2024-11-29
+Original values 3
+2024-12-02 18:42:10.298065 - SSABBH.HE on 2024-11-29
+Original values 25
+2024-12-02 18:42:11.699980 - SSH1V.HE on 2024-11-29
+Original values 1
+2024-12-02 18:42:13.966691 - STOCKA.HE on 2024-11-29
+2024-12-02 18:42:15.369966 - STERV.HE on 2024-11-29
+Original values 46
+2024-12-02 18:42:16.686887 - SUY1V.HE on 2024-11-29
+Original values 4
+2024-12-02 18:42:14.966975 - TAALA.HE on 2024-11-29
+Original values 9
+2024-12-02 18:42:16.270619 - TNOM.HE on 2024-11-29
+Original values 13
+2024-12-02 18:42:17.608989 - TEM1V.HE on 2024-11-29
+Original values 17
+2024-12-02 18:42:19.023533 - TLT1V.HE on 2024-11-29
+Original values 0
+2024-12-02 18:42:20.348100 - TELIA1.HE on 2024-11-29
+Original values 18
+2024-12-02 18:42:21.823821 - TTALO.HE on 2024-11-29
+Original values 9
+2024-12-02 18:42:23.165531 - TIETO.HE on 2024-11-29
+Original values 24
+2024-12-02 18:42:24.561881 - TOKMAN.HE on 2024-11-29
+Original values 35
+2024-12-02 18:42:25.939753 - TRH1V.HE on 2024-11-29
+Original values 2
+2024-12-02 18:42:27.311677 - TULAV.HE on 2024-11-29
+Original values 3
+2024-12-02 18:42:28.679276 - UNITED.HE on 2024-11-29
+Original values 1
+2024-12-02 18:42:29.971809 - UPM.HE on 2024-11-29
+Original values 47
+2024-12-02 18:42:32.182381 - UPONOR.HE on 2024-11-29
+2024-12-02 18:42:33.530654 - VAIAS.HE on 2024-11-29
+Original values 6
+2024-12-02 18:42:34.916361 - VALMT.HE on 2024-11-29
+Original values 43
+2024-12-02 18:42:36.293155 - VERK.HE on 2024-11-29
+Original values 9
+2024-12-02 18:42:37.594723 - VIK1V.HE on 2024-11-29
+Original values 4
+2024-12-02 18:42:38.945968 - WETTERI.HE on 2024-11-29
+Original values 5
+2024-12-02 18:42:40.331184 - WITH.HE on 2024-11-29
+Original values 8
+2024-12-02 18:42:41.696086 - WUF1V.HE on 2024-11-29
+Original values 0
+2024-12-02 18:42:43.083986 - WRT1V.HE on 2024-11-29
+Original values 44
+2024-12-02 18:42:44.470009 - YIT.HE on 2024-11-29
+Original values 5
+2024-12-02 18:42:45.853204 - ALBBV.HE on 2024-11-29
+Original values 2
+2024-11-30 is a weekend (Saturday or Sunday).
+2024-12-01 is a weekend (Saturday or Sunday).
+Old single measures (4274, 17), new data (118, 14), joined data (4392, 17)
+Removed 23 duplicates
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: 3: source: not found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=q2LsFllFoUv
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=q2LsFllFoUv
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=q2LsFllFoUv
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=q2LsFllFoUv
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=q2LsFllFoUv
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=q2LsFllFoUv
+$STOCKA.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=q2LsFllFoUv
+$UPONOR.HE: possibly delisted; no timezone found
+Data read!
+2024-12-15 18:40:03.558340 - AFAGR.HE on 2024-12-13
+Original values 3
+2024-12-15 18:40:04.868906 - AKTIA.HE on 2024-12-13
+Original values 8
+2024-12-15 18:40:06.169857 - ALMA.HE on 2024-12-13
+Original values 4
+2024-12-15 18:40:07.606181 - ANORA.HE on 2024-12-13
+Original values 11
+2024-12-15 18:40:08.922417 - APETIT.HE on 2024-12-13
+Original values 3
+2024-12-15 18:40:10.229805 - TALLINK.HE on 2024-12-13
+Original values 4
+2024-12-15 18:40:11.529654 - ASPO.HE on 2024-12-13
+Original values 8
+2024-12-15 18:40:12.849395 - ACG1V.HE on 2024-12-13
+Original values 2
+2024-12-15 18:40:14.129829 - ATRAV.HE on 2024-12-13
+Original values 5
+2024-12-15 18:40:15.429287 - BIOBV.HE on 2024-12-13
+Original values 8
+2024-12-15 18:40:16.833474 - BITTI.HE on 2024-12-13
+Original values 8
+2024-12-15 18:40:18.201579 - BOREO.HE on 2024-12-13
+Original values 3
+2024-12-15 18:40:19.576266 - CAPMAN.HE on 2024-12-13
+Original values 22
+2024-12-15 18:40:20.942824 - CGCBV.HE on 2024-12-13
+Original values 22
+2024-12-15 18:40:23.558229 - CAV1V.HE on 2024-12-13
+2024-12-15 18:40:24.675182 - CTY1S.HE on 2024-12-13
+Original values 30
+2024-12-15 18:40:25.967656 - CTH1V.HE on 2024-12-13
+Original values 6
+2024-12-15 18:40:27.243871 - CONSTI.HE on 2024-12-13
+Original values 2
+2024-12-15 18:40:26.499071 - DIGIA.HE on 2024-12-13
+Original values 3
+2024-12-15 18:40:27.910937 - DIGIGR.HE on 2024-12-13
+Original values 6
+2024-12-15 18:40:29.246997 - DOV1V.HE on 2024-12-13
+Original values 1
+2024-12-15 18:40:30.587943 - EEZY.HE on 2024-12-13
+Original values 3
+2024-12-15 18:40:31.926056 - ELEAV.HE on 2024-12-13
+Original values 3
+2024-12-15 18:40:33.245446 - ELISA.HE on 2024-12-13
+Original values 39
+2024-12-15 18:40:34.675331 - ENENTO.HE on 2024-12-13
+Original values 2
+2024-12-15 18:40:35.974046 - ESENSE.HE on 2024-12-13
+Original values 7
+2024-12-15 18:40:37.307571 - EQV1V.HE on 2024-12-13
+Original values 7
+2024-12-15 18:40:38.641949 - ETTE.HE on 2024-12-13
+Original values 0
+2024-12-15 18:40:39.931706 - EXL1V.HE on 2024-12-13
+Original values 11
+2024-12-15 18:40:41.233935 - FIA1S.HE on 2024-12-13
+Original values 27
+2024-12-15 18:40:42.538010 - FSKRS.HE on 2024-12-13
+Original values 10
+2024-12-15 18:40:43.920493 - FORTUM.HE on 2024-12-13
+Original values 51
+2024-12-15 18:40:45.234149 - GLA1V.HE on 2024-12-13
+Original values 4
+2024-12-15 18:40:46.544521 - GOFORE.HE on 2024-12-13
+Original values 7
+2024-12-15 18:40:47.827910 - HARVIA.HE on 2024-12-13
+Original values 12
+2024-12-15 18:40:49.985913 - HKSAV.HE on 2024-12-13
+2024-12-15 18:40:51.088298 - HONBS.HE on 2024-12-13
+Original values 4
+2024-12-15 18:40:52.472699 - HUH1V.HE on 2024-12-13
+Original values 22
+2024-12-15 18:40:53.816844 - ILKKA2.HE on 2024-12-13
+Original values 1
+2024-12-15 18:40:55.093082 - ICP1V.HE on 2024-12-13
+Original values 5
+2024-12-15 18:40:56.382436 - IFA1V.HE on 2024-12-13
+Original values 2
+2024-12-15 18:40:57.737870 - INVEST.HE on 2024-12-13
+Original values 2
+2024-12-15 18:40:57.139956 - KAMUX.HE on 2024-12-13
+Original values 14
+2024-12-15 18:40:58.480544 - KEMIRA.HE on 2024-12-13
+Original values 12
+2024-12-15 18:41:01.262541 - KSLAV.HE on 2024-12-13
+2024-12-15 18:41:02.946552 - KESKOB.HE on 2024-12-13
+Original values 37
+2024-12-15 18:41:04.281134 - KELAS.HE on 2024-12-13
+Original values 2
+2024-12-15 18:41:05.612960 - KOJAMO.HE on 2024-12-13
+Original values 12
+2024-12-15 18:41:06.927715 - KNEBV.HE on 2024-12-13
+Original values 40
+2024-12-15 18:41:08.278708 - KCR.HE on 2024-12-13
+Original values 22
+2024-12-15 18:41:09.622907 - KREATE.HE on 2024-12-13
+Original values 6
+2024-12-15 18:41:10.931389 - LAT1V.HE on 2024-12-13
+Original values 37
+2024-12-15 18:41:12.268947 - MEKKO.HE on 2024-12-13
+Original values 10
+2024-12-15 18:41:13.559624 - MARAS.HE on 2024-12-13
+Original values 2
+2024-12-15 18:41:14.863710 - METSO.HE on 2024-12-13
+Original values 51
+2024-12-15 18:41:16.158303 - METSB.HE on 2024-12-13
+Original values 58
+2024-12-15 18:41:17.494065 - MUSTI.HE on 2024-12-13
+Original values 7
+2024-12-15 18:41:18.783691 - NESTE.HE on 2024-12-13
+Original values 60
+2024-12-15 18:41:20.108194 - NOHO.HE on 2024-12-13
+Original values 6
+2024-12-15 18:41:21.541642 - NOKIA.HE on 2024-12-13
+Original values 58
+2024-12-15 18:41:22.836764 - TYRES.HE on 2024-12-13
+Original values 41
+2024-12-15 18:41:24.164841 - NDA-FI.HE on 2024-12-13
+Original values 59
+2024-12-15 18:41:25.505173 - NLG1V.HE on 2024-12-13
+Original values 8
+2024-12-15 18:41:26.801307 - OLVAS.HE on 2024-12-13
+Original values 8
+2024-12-15 18:41:28.105357 - OMASP.HE on 2024-12-13
+Original values 20
+2024-12-15 18:41:27.409149 - OPTOMED.HE on 2024-12-13
+Original values 16
+2024-12-15 18:41:28.744537 - OKDBV.HE on 2024-12-13
+Original values 11
+2024-12-15 18:41:30.034051 - ORNBV.HE on 2024-12-13
+Original values 34
+2024-12-15 18:41:31.334124 - ORTHEX.HE on 2024-12-13
+Original values 3
+2024-12-15 18:41:32.663450 - OUT1V.HE on 2024-12-13
+Original values 60
+2024-12-15 18:41:34.015260 - OVARO.HE on 2024-12-13
+Original values 3
+2024-12-15 18:41:35.308285 - PNA1V.HE on 2024-12-13
+Original values 17
+2024-12-15 18:41:36.644842 - PIHLIS.HE on 2024-12-13
+Original values 5
+2024-12-15 18:41:37.982357 - PON1V.HE on 2024-12-13
+Original values 6
+2024-12-15 18:41:40.093118 - PUMU.HE on 2024-12-13
+2024-12-15 18:41:41.309597 - PURMO.HE on 2024-12-13
+Original values 2
+2024-12-15 18:41:42.652878 - PUUILO.HE on 2024-12-13
+Original values 13
+2024-12-15 18:41:43.955290 - QPR1V.HE on 2024-12-13
+Original values 3
+2024-12-15 18:41:45.314027 - QTCOM.HE on 2024-12-13
+Original values 27
+2024-12-15 18:41:46.618520 - RAIVV.HE on 2024-12-13
+Original values 16
+2024-12-15 18:41:47.995257 - RAP1V.HE on 2024-12-13
+Original values 2
+2024-12-15 18:41:49.343163 - RAUTE.HE on 2024-12-13
+Original values 6
+2024-12-15 18:41:50.666160 - REKA.HE on 2024-12-13
+Original values 6
+2024-12-15 18:41:51.953798 - RELAIS.HE on 2024-12-13
+Original values 3
+2024-12-15 18:41:53.345307 - REMEDY.HE on 2024-12-13
+Original values 9
+2024-12-15 18:41:54.651101 - REG1V.HE on 2024-12-13
+Original values 6
+2024-12-15 18:41:55.941438 - ROBIT.HE on 2024-12-13
+Original values 8
+2024-12-15 18:41:58.212122 - ROVIO.HE on 2024-12-13
+2024-12-15 18:41:57.675902 - SAGCV.HE on 2024-12-13
+Original values 3
+2024-12-15 18:41:59.017780 - SAMPO.HE on 2024-12-13
+Original values 55
+2024-12-15 18:42:00.336898 - SANOMA.HE on 2024-12-13
+Original values 7
+2024-12-15 18:42:01.675103 - SCANFL.HE on 2024-12-13
+Original values 9
+2024-12-15 18:42:02.994138 - SIILI.HE on 2024-12-13
+Original values 6
+2024-12-15 18:42:04.300728 - SITOWS.HE on 2024-12-13
+Original values 5
+2024-12-15 18:42:05.647921 - SOLTEQ.HE on 2024-12-13
+Original values 2
+2024-12-15 18:42:06.975095 - SOSI1.HE on 2024-12-13
+Original values 12
+2024-12-15 18:42:08.308278 - SRV1V.HE on 2024-12-13
+Original values 6
+2024-12-15 18:42:09.640887 - SSABBH.HE on 2024-12-13
+Original values 48
+2024-12-15 18:42:10.972177 - SSH1V.HE on 2024-12-13
+Original values 1
+2024-12-15 18:42:13.118062 - STOCKA.HE on 2024-12-13
+2024-12-15 18:42:14.171730 - STERV.HE on 2024-12-13
+Original values 53
+2024-12-15 18:42:15.462222 - SUY1V.HE on 2024-12-13
+Original values 4
+2024-12-15 18:42:16.797713 - TAALA.HE on 2024-12-13
+Original values 7
+2024-12-15 18:42:18.163384 - TNOM.HE on 2024-12-13
+Original values 15
+2024-12-15 18:42:19.524172 - TEM1V.HE on 2024-12-13
+Original values 5
+2024-12-15 18:42:20.858182 - TLT1V.HE on 2024-12-13
+Original values 2
+2024-12-15 18:42:22.214078 - TELIA1.HE on 2024-12-13
+Original values 23
+2024-12-15 18:42:23.541500 - TTALO.HE on 2024-12-13
+Original values 16
+2024-12-15 18:42:24.849334 - TIETO.HE on 2024-12-13
+Original values 34
+2024-12-15 18:42:26.190504 - TOKMAN.HE on 2024-12-13
+Original values 24
+2024-12-15 18:42:27.529940 - TRH1V.HE on 2024-12-13
+Original values 1
+2024-12-15 18:42:26.886452 - TULAV.HE on 2024-12-13
+Original values 4
+2024-12-15 18:42:28.202081 - UNITED.HE on 2024-12-13
+Original values 1
+2024-12-15 18:42:29.494315 - UPM.HE on 2024-12-13
+Original values 49
+2024-12-15 18:42:32.005615 - UPONOR.HE on 2024-12-13
+2024-12-15 18:42:33.210721 - VAIAS.HE on 2024-12-13
+Original values 9
+2024-12-15 18:42:34.550858 - VALMT.HE on 2024-12-13
+Original values 48
+2024-12-15 18:42:35.983395 - VERK.HE on 2024-12-13
+Original values 12
+2024-12-15 18:42:37.276283 - VIK1V.HE on 2024-12-13
+Original values 1
+2024-12-15 18:42:38.579349 - WETTERI.HE on 2024-12-13
+Original values 10
+2024-12-15 18:42:39.920145 - WITH.HE on 2024-12-13
+Original values 16
+2024-12-15 18:42:41.215101 - WUF1V.HE on 2024-12-13
+Original values 1
+2024-12-15 18:42:42.532884 - WRT1V.HE on 2024-12-13
+Original values 38
+2024-12-15 18:42:43.865824 - YIT.HE on 2024-12-13
+Original values 11
+2024-12-15 18:42:45.151819 - ALBBV.HE on 2024-12-13
+Original values 6
+2024-12-14 is a weekend (Saturday or Sunday).
+Old single measures (5807, 17), new data (118, 14), joined data (5925, 17)
+Removed 15 duplicates
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: 3: source: not found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=NPfdFk9ZRqj
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=NPfdFk9ZRqj
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=NPfdFk9ZRqj
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=NPfdFk9ZRqj
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=NPfdFk9ZRqj
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=NPfdFk9ZRqj
+$STOCKA.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=NPfdFk9ZRqj
+$UPONOR.HE: possibly delisted; no timezone found
+Data read!
+2024-12-18 18:40:03.150263 - AFAGR.HE on 2024-12-13
+Original values 3
+2024-12-18 18:40:04.453725 - AKTIA.HE on 2024-12-13
+Original values 8
+2024-12-18 18:40:05.742067 - ALMA.HE on 2024-12-13
+Original values 4
+2024-12-18 18:40:07.046889 - ANORA.HE on 2024-12-13
+Original values 11
+2024-12-18 18:40:08.366501 - APETIT.HE on 2024-12-13
+Original values 3
+2024-12-18 18:40:09.657638 - TALLINK.HE on 2024-12-13
+Original values 4
+2024-12-18 18:40:11.017354 - ASPO.HE on 2024-12-13
+Original values 8
+2024-12-18 18:40:12.405370 - ACG1V.HE on 2024-12-13
+Original values 2
+2024-12-18 18:40:13.692462 - ATRAV.HE on 2024-12-13
+Original values 5
+2024-12-18 18:40:14.969912 - BIOBV.HE on 2024-12-13
+Original values 8
+2024-12-18 18:40:16.302111 - BITTI.HE on 2024-12-13
+Original values 8
+2024-12-18 18:40:16.119794 - BOREO.HE on 2024-12-13
+Original values 3
+2024-12-18 18:40:17.463872 - CAPMAN.HE on 2024-12-13
+Original values 22
+2024-12-18 18:40:18.767341 - CGCBV.HE on 2024-12-13
+Original values 22
+2024-12-18 18:40:21.355831 - CAV1V.HE on 2024-12-13
+2024-12-18 18:40:22.744285 - CTY1S.HE on 2024-12-13
+Original values 30
+2024-12-18 18:40:24.033785 - CTH1V.HE on 2024-12-13
+Original values 6
+2024-12-18 18:40:25.339439 - CONSTI.HE on 2024-12-13
+Original values 2
+2024-12-18 18:40:26.629470 - DIGIA.HE on 2024-12-13
+Original values 3
+2024-12-18 18:40:27.955909 - DIGIGR.HE on 2024-12-13
+Original values 6
+2024-12-18 18:40:29.263184 - DOV1V.HE on 2024-12-13
+Original values 1
+2024-12-18 18:40:30.580270 - EEZY.HE on 2024-12-13
+Original values 3
+2024-12-18 18:40:31.880453 - ELEAV.HE on 2024-12-13
+Original values 3
+2024-12-18 18:40:33.190434 - ELISA.HE on 2024-12-13
+Original values 39
+2024-12-18 18:40:34.493808 - ENENTO.HE on 2024-12-13
+Original values 2
+2024-12-18 18:40:35.787130 - ESENSE.HE on 2024-12-13
+Original values 7
+2024-12-18 18:40:37.101175 - EQV1V.HE on 2024-12-13
+Original values 7
+2024-12-18 18:40:38.425760 - ETTE.HE on 2024-12-13
+Original values 0
+2024-12-18 18:40:39.709966 - EXL1V.HE on 2024-12-13
+Original values 11
+2024-12-18 18:40:41.015983 - FIA1S.HE on 2024-12-13
+Original values 27
+2024-12-18 18:40:42.329610 - FSKRS.HE on 2024-12-13
+Original values 10
+2024-12-18 18:40:43.660675 - FORTUM.HE on 2024-12-13
+Original values 51
+2024-12-18 18:40:45.294806 - GLA1V.HE on 2024-12-13
+Original values 4
+2024-12-18 18:40:46.606859 - GOFORE.HE on 2024-12-13
+Original values 7
+2024-12-18 18:40:47.937422 - HARVIA.HE on 2024-12-13
+Original values 12
+2024-12-18 18:40:48.790929 - HKSAV.HE on 2024-12-13
+2024-12-18 18:40:50.359706 - HONBS.HE on 2024-12-13
+Original values 4
+2024-12-18 18:40:51.648188 - HUH1V.HE on 2024-12-13
+Original values 22
+2024-12-18 18:40:52.947997 - ILKKA2.HE on 2024-12-13
+Original values 1
+2024-12-18 18:40:54.253927 - ICP1V.HE on 2024-12-13
+Original values 5
+2024-12-18 18:40:55.542932 - IFA1V.HE on 2024-12-13
+Original values 2
+2024-12-18 18:40:56.895551 - INVEST.HE on 2024-12-13
+Original values 2
+2024-12-18 18:40:58.312692 - KAMUX.HE on 2024-12-13
+Original values 14
+2024-12-18 18:40:59.604631 - KEMIRA.HE on 2024-12-13
+Original values 12
+2024-12-18 18:41:01.856353 - KSLAV.HE on 2024-12-13
+2024-12-18 18:41:03.222152 - KESKOB.HE on 2024-12-13
+Original values 37
+2024-12-18 18:41:04.610879 - KELAS.HE on 2024-12-13
+Original values 2
+2024-12-18 18:41:05.904002 - KOJAMO.HE on 2024-12-13
+Original values 12
+2024-12-18 18:41:07.225893 - KNEBV.HE on 2024-12-13
+Original values 40
+2024-12-18 18:41:08.532354 - KCR.HE on 2024-12-13
+Original values 22
+2024-12-18 18:41:09.831489 - KREATE.HE on 2024-12-13
+Original values 6
+2024-12-18 18:41:11.194804 - LAT1V.HE on 2024-12-13
+Original values 37
+2024-12-18 18:41:12.513267 - MEKKO.HE on 2024-12-13
+Original values 10
+2024-12-18 18:41:13.861520 - MARAS.HE on 2024-12-13
+Original values 2
+2024-12-18 18:41:15.180282 - METSO.HE on 2024-12-13
+Original values 51
+2024-12-18 18:41:16.589164 - METSB.HE on 2024-12-13
+Original values 58
+2024-12-18 18:41:17.918858 - MUSTI.HE on 2024-12-13
+Original values 7
+2024-12-18 18:41:17.757339 - NESTE.HE on 2024-12-13
+Original values 60
+2024-12-18 18:41:19.170157 - NOHO.HE on 2024-12-13
+Original values 6
+2024-12-18 18:41:20.518447 - NOKIA.HE on 2024-12-13
+Original values 58
+2024-12-18 18:41:21.849253 - TYRES.HE on 2024-12-13
+Original values 41
+2024-12-18 18:41:23.147692 - NDA-FI.HE on 2024-12-13
+Original values 59
+2024-12-18 18:41:24.500334 - NLG1V.HE on 2024-12-13
+Original values 8
+2024-12-18 18:41:25.827043 - OLVAS.HE on 2024-12-13
+Original values 8
+2024-12-18 18:41:27.178054 - OMASP.HE on 2024-12-13
+Original values 20
+2024-12-18 18:41:28.504686 - OPTOMED.HE on 2024-12-13
+Original values 16
+2024-12-18 18:41:29.843785 - OKDBV.HE on 2024-12-13
+Original values 11
+2024-12-18 18:41:31.151095 - ORNBV.HE on 2024-12-13
+Original values 34
+2024-12-18 18:41:32.499002 - ORTHEX.HE on 2024-12-13
+Original values 3
+2024-12-18 18:41:33.826539 - OUT1V.HE on 2024-12-13
+Original values 60
+2024-12-18 18:41:35.119858 - OVARO.HE on 2024-12-13
+Original values 3
+2024-12-18 18:41:36.436218 - PNA1V.HE on 2024-12-13
+Original values 17
+2024-12-18 18:41:37.735663 - PIHLIS.HE on 2024-12-13
+Original values 5
+2024-12-18 18:41:39.074469 - PON1V.HE on 2024-12-13
+Original values 6
+2024-12-18 18:41:41.399206 - PUMU.HE on 2024-12-13
+2024-12-18 18:41:42.852326 - PURMO.HE on 2024-12-13
+Original values 2
+2024-12-18 18:41:44.186426 - PUUILO.HE on 2024-12-13
+Original values 13
+2024-12-18 18:41:45.488819 - QPR1V.HE on 2024-12-13
+Original values 3
+2024-12-18 18:41:46.898606 - QTCOM.HE on 2024-12-13
+Original values 27
+2024-12-18 18:41:48.196904 - RAIVV.HE on 2024-12-13
+Original values 16
+2024-12-18 18:41:49.511106 - RAP1V.HE on 2024-12-13
+Original values 2
+2024-12-18 18:41:49.327057 - RAUTE.HE on 2024-12-13
+Original values 6
+2024-12-18 18:41:50.644602 - REKA.HE on 2024-12-13
+Original values 6
+2024-12-18 18:41:51.934944 - RELAIS.HE on 2024-12-13
+Original values 3
+2024-12-18 18:41:53.344226 - REMEDY.HE on 2024-12-13
+Original values 9
+2024-12-18 18:41:54.858743 - REG1V.HE on 2024-12-13
+Original values 6
+2024-12-18 18:41:56.166674 - ROBIT.HE on 2024-12-13
+Original values 8
+2024-12-18 18:41:58.796300 - ROVIO.HE on 2024-12-13
+2024-12-18 18:42:00.093181 - SAGCV.HE on 2024-12-13
+Original values 3
+2024-12-18 18:42:01.455874 - SAMPO.HE on 2024-12-13
+Original values 55
+2024-12-18 18:42:02.781474 - SANOMA.HE on 2024-12-13
+Original values 7
+2024-12-18 18:42:04.113882 - SCANFL.HE on 2024-12-13
+Original values 9
+2024-12-18 18:42:05.438748 - SIILI.HE on 2024-12-13
+Original values 6
+2024-12-18 18:42:06.746915 - SITOWS.HE on 2024-12-13
+Original values 5
+2024-12-18 18:42:08.083973 - SOLTEQ.HE on 2024-12-13
+Original values 2
+2024-12-18 18:42:09.367300 - SOSI1.HE on 2024-12-13
+Original values 12
+2024-12-18 18:42:10.679478 - SRV1V.HE on 2024-12-13
+Original values 6
+2024-12-18 18:42:12.020122 - SSABBH.HE on 2024-12-13
+Original values 48
+2024-12-18 18:42:13.355917 - SSH1V.HE on 2024-12-13
+Original values 1
+2024-12-18 18:42:15.648044 - STOCKA.HE on 2024-12-13
+2024-12-18 18:42:17.122876 - STERV.HE on 2024-12-13
+Original values 53
+2024-12-18 18:42:18.412206 - SUY1V.HE on 2024-12-13
+Original values 4
+2024-12-18 18:42:19.698852 - TAALA.HE on 2024-12-13
+Original values 7
+2024-12-18 18:42:19.490314 - TNOM.HE on 2024-12-13
+Original values 15
+2024-12-18 18:42:20.829861 - TEM1V.HE on 2024-12-13
+Original values 5
+2024-12-18 18:42:22.120036 - TLT1V.HE on 2024-12-13
+Original values 2
+2024-12-18 18:42:23.448005 - TELIA1.HE on 2024-12-13
+Original values 23
+2024-12-18 18:42:24.749010 - TTALO.HE on 2024-12-13
+Original values 16
+2024-12-18 18:42:26.036100 - TIETO.HE on 2024-12-13
+Original values 34
+2024-12-18 18:42:27.316876 - TOKMAN.HE on 2024-12-13
+Original values 24
+2024-12-18 18:42:28.652113 - TRH1V.HE on 2024-12-13
+Original values 1
+2024-12-18 18:42:29.971913 - TULAV.HE on 2024-12-13
+Original values 4
+2024-12-18 18:42:31.338019 - UNITED.HE on 2024-12-13
+Original values 1
+2024-12-18 18:42:32.678556 - UPM.HE on 2024-12-13
+Original values 49
+2024-12-18 18:42:35.042066 - UPONOR.HE on 2024-12-13
+2024-12-18 18:42:36.532470 - VAIAS.HE on 2024-12-13
+Original values 9
+2024-12-18 18:42:37.814271 - VALMT.HE on 2024-12-13
+Original values 48
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=NPfdFk9ZRqj
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=NPfdFk9ZRqj
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=NPfdFk9ZRqj
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=NPfdFk9ZRqj
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=NPfdFk9ZRqj
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=NPfdFk9ZRqj
+$STOCKA.HE: possibly delisted; no timezone found
+2024-12-18 18:42:39.130474 - VERK.HE on 2024-12-13
+Original values 12
+2024-12-18 18:42:40.412699 - VIK1V.HE on 2024-12-13
+Original values 1
+2024-12-18 18:42:41.699938 - WETTERI.HE on 2024-12-13
+Original values 10
+2024-12-18 18:42:43.031881 - WITH.HE on 2024-12-13
+Original values 16
+2024-12-18 18:42:44.328314 - WUF1V.HE on 2024-12-13
+Original values 1
+2024-12-18 18:42:45.654807 - WRT1V.HE on 2024-12-13
+Original values 38
+2024-12-18 18:42:46.998945 - YIT.HE on 2024-12-13
+Original values 11
+2024-12-18 18:42:48.283804 - ALBBV.HE on 2024-12-13
+Original values 6
+2024-12-14 is a weekend (Saturday or Sunday).
+2024-12-15 is a weekend (Saturday or Sunday).
+2024-12-18 18:42:49.593468 - AFAGR.HE on 2024-12-16
+Original values 2
+2024-12-18 18:42:50.926471 - AKTIA.HE on 2024-12-16
+Original values 7
+2024-12-18 18:42:50.800144 - ALMA.HE on 2024-12-16
+Original values 3
+2024-12-18 18:42:52.122714 - ANORA.HE on 2024-12-16
+Original values 29
+2024-12-18 18:42:53.407687 - APETIT.HE on 2024-12-16
+Original values 3
+2024-12-18 18:42:54.733906 - TALLINK.HE on 2024-12-16
+Original values 1
+2024-12-18 18:42:56.020917 - ASPO.HE on 2024-12-16
+Original values 7
+2024-12-18 18:42:57.345062 - ACG1V.HE on 2024-12-16
+Original values 4
+2024-12-18 18:42:58.724699 - ATRAV.HE on 2024-12-16
+Original values 5
+2024-12-18 18:43:00.023864 - BIOBV.HE on 2024-12-16
+Original values 3
+2024-12-18 18:43:01.324612 - BITTI.HE on 2024-12-16
+Original values 12
+2024-12-18 18:43:02.723376 - BOREO.HE on 2024-12-16
+Original values 3
+2024-12-18 18:43:04.019653 - CAPMAN.HE on 2024-12-16
+Original values 23
+2024-12-18 18:43:05.417330 - CGCBV.HE on 2024-12-16
+Original values 26
+2024-12-18 18:43:07.515722 - CAV1V.HE on 2024-12-16
+2024-12-18 18:43:08.633577 - CTY1S.HE on 2024-12-16
+Original values 25
+2024-12-18 18:43:09.928192 - CTH1V.HE on 2024-12-16
+Original values 3
+2024-12-18 18:43:11.254152 - CONSTI.HE on 2024-12-16
+Original values 1
+2024-12-18 18:43:12.614059 - DIGIA.HE on 2024-12-16
+Original values 3
+2024-12-18 18:43:13.933055 - DIGIGR.HE on 2024-12-16
+Original values 2
+2024-12-18 18:43:15.218889 - DOV1V.HE on 2024-12-16
+Original values 3
+2024-12-18 18:43:16.522958 - EEZY.HE on 2024-12-16
+Original values 4
+2024-12-18 18:43:17.866535 - ELEAV.HE on 2024-12-16
+Original values 1
+2024-12-18 18:43:19.169648 - ELISA.HE on 2024-12-16
+Original values 22
+2024-12-18 18:43:20.470134 - ENENTO.HE on 2024-12-16
+Original values 4
+2024-12-18 18:43:21.763277 - ESENSE.HE on 2024-12-16
+Original values 4
+2024-12-18 18:43:21.650576 - EQV1V.HE on 2024-12-16
+Original values 3
+2024-12-18 18:43:22.959856 - ETTE.HE on 2024-12-16
+Original values 1
+2024-12-18 18:43:24.259203 - EXL1V.HE on 2024-12-16
+Original values 5
+2024-12-18 18:43:25.549659 - FIA1S.HE on 2024-12-16
+Original values 24
+2024-12-18 18:43:26.835327 - FSKRS.HE on 2024-12-16
+Original values 5
+2024-12-18 18:43:28.118673 - FORTUM.HE on 2024-12-16
+Original values 53
+2024-12-18 18:43:29.420935 - GLA1V.HE on 2024-12-16
+Original values 1
+2024-12-18 18:43:30.716215 - GOFORE.HE on 2024-12-16
+Original values 4
+2024-12-18 18:43:32.013375 - HARVIA.HE on 2024-12-16
+Original values 13
+2024-12-18 18:43:34.363535 - HKSAV.HE on 2024-12-16
+2024-12-18 18:43:35.495982 - HONBS.HE on 2024-12-16
+Original values 1
+2024-12-18 18:43:36.770726 - HUH1V.HE on 2024-12-16
+Original values 19
+2024-12-18 18:43:38.072782 - ILKKA2.HE on 2024-12-16
+Original values 0
+2024-12-18 18:43:39.354316 - ICP1V.HE on 2024-12-16
+Original values 9
+2024-12-18 18:43:40.659088 - IFA1V.HE on 2024-12-16
+Original values 1
+2024-12-18 18:43:42.039421 - INVEST.HE on 2024-12-16
+Original values 2
+2024-12-18 18:43:43.330816 - KAMUX.HE on 2024-12-16
+Original values 11
+2024-12-18 18:43:44.626991 - KEMIRA.HE on 2024-12-16
+Original values 24
+2024-12-18 18:43:46.910531 - KSLAV.HE on 2024-12-16
+2024-12-18 18:43:48.172738 - KESKOB.HE on 2024-12-16
+Original values 52
+2024-12-18 18:43:49.485756 - KELAS.HE on 2024-12-16
+Original values 2
+2024-12-18 18:43:50.810211 - KOJAMO.HE on 2024-12-16
+Original values 21
+2024-12-18 18:43:52.115073 - KNEBV.HE on 2024-12-16
+Original values 27
+2024-12-18 18:43:51.978367 - KCR.HE on 2024-12-16
+Original values 21
+2024-12-18 18:43:53.275556 - KREATE.HE on 2024-12-16
+Original values 3
+2024-12-18 18:43:54.552275 - LAT1V.HE on 2024-12-16
+Original values 24
+2024-12-18 18:43:55.830690 - MEKKO.HE on 2024-12-16
+Original values 8
+2024-12-18 18:43:57.127884 - MARAS.HE on 2024-12-16
+Original values 10
+2024-12-18 18:43:58.414083 - METSO.HE on 2024-12-16
+Original values 53
+2024-12-18 18:43:59.708463 - METSB.HE on 2024-12-16
+Original values 31
+2024-12-18 18:44:01.000980 - MUSTI.HE on 2024-12-16
+Original values 2
+2024-12-18 18:44:02.302147 - NESTE.HE on 2024-12-16
+Original values 58
+2024-12-18 18:44:03.587872 - NOHO.HE on 2024-12-16
+Original values 11
+2024-12-18 18:44:04.978192 - NOKIA.HE on 2024-12-16
+Original values 56
+2024-12-18 18:44:06.279636 - TYRES.HE on 2024-12-16
+Original values 42
+2024-12-18 18:44:07.629236 - NDA-FI.HE on 2024-12-16
+Original values 54
+2024-12-18 18:44:08.952801 - NLG1V.HE on 2024-12-16
+Original values 16
+2024-12-18 18:44:10.240637 - OLVAS.HE on 2024-12-16
+Original values 7
+2024-12-18 18:44:11.524433 - OMASP.HE on 2024-12-16
+Original values 18
+2024-12-18 18:44:12.902014 - OPTOMED.HE on 2024-12-16
+Original values 9
+2024-12-18 18:44:14.366400 - OKDBV.HE on 2024-12-16
+Original values 9
+2024-12-18 18:44:15.650264 - ORNBV.HE on 2024-12-16
+Original values 40
+2024-12-18 18:44:16.960582 - ORTHEX.HE on 2024-12-16
+Original values 3
+2024-12-18 18:44:18.239351 - OUT1V.HE on 2024-12-16
+Original values 60
+2024-12-18 18:44:19.529303 - OVARO.HE on 2024-12-16
+Original values 2
+2024-12-18 18:44:20.862861 - PNA1V.HE on 2024-12-16
+Original values 5
+2024-12-18 18:44:22.161534 - PIHLIS.HE on 2024-12-16
+Original values 4
+2024-12-18 18:44:23.445718 - PON1V.HE on 2024-12-16
+Original values 7
+2024-12-18 18:44:24.249815 - PUMU.HE on 2024-12-16
+2024-12-18 18:44:25.484082 - PURMO.HE on 2024-12-16
+Original values 1
+2024-12-18 18:44:26.831182 - PUUILO.HE on 2024-12-16
+Original values 18
+2024-12-18 18:44:28.108757 - QPR1V.HE on 2024-12-16
+Original values 1
+2024-12-18 18:44:29.451171 - QTCOM.HE on 2024-12-16
+Original values 34
+2024-12-18 18:44:30.825198 - RAIVV.HE on 2024-12-16
+Original values 6
+2024-12-18 18:44:32.119404 - RAP1V.HE on 2024-12-16
+Original values 6
+2024-12-18 18:44:33.410906 - RAUTE.HE on 2024-12-16
+Original values 5
+2024-12-18 18:44:34.720028 - REKA.HE on 2024-12-16
+Original values 4
+2024-12-18 18:44:36.010040 - RELAIS.HE on 2024-12-16
+Original values 4
+2024-12-18 18:44:37.325725 - REMEDY.HE on 2024-12-16
+Original values 13
+2024-12-18 18:44:38.613097 - REG1V.HE on 2024-12-16
+Original values 9
+2024-12-18 18:44:39.899287 - ROBIT.HE on 2024-12-16
+Original values 4
+2024-12-18 18:44:42.100844 - ROVIO.HE on 2024-12-16
+2024-12-18 18:44:43.560703 - SAGCV.HE on 2024-12-16
+Original values 1
+2024-12-18 18:44:44.958789 - SAMPO.HE on 2024-12-16
+Original values 52
+2024-12-18 18:44:46.260427 - SANOMA.HE on 2024-12-16
+Original values 7
+2024-12-18 18:44:47.552724 - SCANFL.HE on 2024-12-16
+Original values 5
+2024-12-18 18:44:48.877224 - SIILI.HE on 2024-12-16
+Original values 4
+2024-12-18 18:44:50.227350 - SITOWS.HE on 2024-12-16
+Original values 1
+2024-12-18 18:44:51.649280 - SOLTEQ.HE on 2024-12-16
+Original values 6
+2024-12-18 18:44:52.968147 - SOSI1.HE on 2024-12-16
+Original values 8
+2024-12-18 18:44:54.293653 - SRV1V.HE on 2024-12-16
+Original values 17
+2024-12-18 18:44:54.132914 - SSABBH.HE on 2024-12-16
+Original values 41
+2024-12-18 18:44:55.518184 - SSH1V.HE on 2024-12-16
+Original values 2
+2024-12-18 18:44:57.892434 - STOCKA.HE on 2024-12-16
+2024-12-18 18:44:58.945654 - STERV.HE on 2024-12-16
+Original values 39
+2024-12-18 18:45:00.246470 - SUY1V.HE on 2024-12-16
+Original values 3
+2024-12-18 18:45:01.543106 - TAALA.HE on 2024-12-16
+Original values 8
+2024-12-18 18:45:02.870845 - TNOM.HE on 2024-12-16
+Original values 19
+2024-12-18 18:45:04.192169 - TEM1V.HE on 2024-12-16
+Original values 7
+2024-12-18 18:45:05.497249 - TLT1V.HE on 2024-12-16
+Original values 1
+2024-12-18 18:45:06.827547 - TELIA1.HE on 2024-12-16
+Original values 26
+2024-12-18 18:45:08.185141 - TTALO.HE on 2024-12-16
+Original values 7
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=NPfdFk9ZRqj
+$UPONOR.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=NPfdFk9ZRqj
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=NPfdFk9ZRqj
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=NPfdFk9ZRqj
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=NPfdFk9ZRqj
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=NPfdFk9ZRqj
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=NPfdFk9ZRqj
+$STOCKA.HE: possibly delisted; no timezone found
+2024-12-18 18:45:09.533536 - TIETO.HE on 2024-12-16
+Original values 36
+2024-12-18 18:45:11.001655 - TOKMAN.HE on 2024-12-16
+Original values 23
+2024-12-18 18:45:12.350599 - TRH1V.HE on 2024-12-16
+Original values 0
+2024-12-18 18:45:13.648491 - TULAV.HE on 2024-12-16
+Original values 1
+2024-12-18 18:45:14.980945 - UNITED.HE on 2024-12-16
+Original values 2
+2024-12-18 18:45:16.320372 - UPM.HE on 2024-12-16
+Original values 39
+2024-12-18 18:45:18.440813 - UPONOR.HE on 2024-12-16
+2024-12-18 18:45:19.705491 - VAIAS.HE on 2024-12-16
+Original values 3
+2024-12-18 18:45:21.004008 - VALMT.HE on 2024-12-16
+Original values 51
+2024-12-18 18:45:22.326999 - VERK.HE on 2024-12-16
+Original values 5
+2024-12-18 18:45:23.631783 - VIK1V.HE on 2024-12-16
+Original values 1
+2024-12-18 18:45:24.967348 - WETTERI.HE on 2024-12-16
+Original values 4
+2024-12-18 18:45:24.776045 - WITH.HE on 2024-12-16
+Original values 9
+2024-12-18 18:45:26.060179 - WUF1V.HE on 2024-12-16
+Original values 1
+2024-12-18 18:45:27.355273 - WRT1V.HE on 2024-12-16
+Original values 31
+2024-12-18 18:45:28.653298 - YIT.HE on 2024-12-16
+Original values 26
+2024-12-18 18:45:29.954878 - ALBBV.HE on 2024-12-16
+Original values 4
+2024-12-18 18:45:31.252290 - AFAGR.HE on 2024-12-17
+Original values 4
+2024-12-18 18:45:32.550608 - AKTIA.HE on 2024-12-17
+Original values 11
+2024-12-18 18:45:33.844360 - ALMA.HE on 2024-12-17
+Original values 3
+2024-12-18 18:45:35.142278 - ANORA.HE on 2024-12-17
+Original values 19
+2024-12-18 18:45:36.423369 - APETIT.HE on 2024-12-17
+Original values 0
+2024-12-18 18:45:37.710078 - TALLINK.HE on 2024-12-17
+Original values 2
+2024-12-18 18:45:39.058123 - ASPO.HE on 2024-12-17
+Original values 6
+2024-12-18 18:45:40.341369 - ACG1V.HE on 2024-12-17
+Original values 1
+2024-12-18 18:45:41.641220 - ATRAV.HE on 2024-12-17
+Original values 11
+2024-12-18 18:45:42.996429 - BIOBV.HE on 2024-12-17
+Original values 2
+2024-12-18 18:45:44.302108 - BITTI.HE on 2024-12-17
+Original values 7
+2024-12-18 18:45:45.595970 - BOREO.HE on 2024-12-17
+Original values 3
+2024-12-18 18:45:46.920985 - CAPMAN.HE on 2024-12-17
+Original values 18
+2024-12-18 18:45:48.213247 - CGCBV.HE on 2024-12-17
+Original values 24
+2024-12-18 18:45:50.979474 - CAV1V.HE on 2024-12-17
+2024-12-18 18:45:52.176290 - CTY1S.HE on 2024-12-17
+Original values 21
+2024-12-18 18:45:53.507641 - CTH1V.HE on 2024-12-17
+Original values 4
+2024-12-18 18:45:54.813616 - CONSTI.HE on 2024-12-17
+Original values 2
+2024-12-18 18:45:56.165486 - DIGIA.HE on 2024-12-17
+Original values 1
+2024-12-18 18:45:55.971704 - DIGIGR.HE on 2024-12-17
+Original values 2
+2024-12-18 18:45:57.275363 - DOV1V.HE on 2024-12-17
+Original values 5
+2024-12-18 18:45:58.586132 - EEZY.HE on 2024-12-17
+Original values 5
+2024-12-18 18:45:59.991792 - ELEAV.HE on 2024-12-17
+Original values 0
+2024-12-18 18:46:01.354071 - ELISA.HE on 2024-12-17
+Original values 42
+2024-12-18 18:46:02.677127 - ENENTO.HE on 2024-12-17
+Original values 5
+2024-12-18 18:46:03.990808 - ESENSE.HE on 2024-12-17
+Original values 9
+2024-12-18 18:46:05.278723 - EQV1V.HE on 2024-12-17
+Original values 9
+2024-12-18 18:46:06.603603 - ETTE.HE on 2024-12-17
+Original values 0
+2024-12-18 18:46:07.925002 - EXL1V.HE on 2024-12-17
+Original values 7
+2024-12-18 18:46:09.302238 - FIA1S.HE on 2024-12-17
+Original values 24
+2024-12-18 18:46:10.643609 - FSKRS.HE on 2024-12-17
+Original values 7
+2024-12-18 18:46:11.980094 - FORTUM.HE on 2024-12-17
+Original values 59
+2024-12-18 18:46:13.277825 - GLA1V.HE on 2024-12-17
+Original values 4
+2024-12-18 18:46:14.575359 - GOFORE.HE on 2024-12-17
+Original values 2
+2024-12-18 18:46:15.870259 - HARVIA.HE on 2024-12-17
+Original values 7
+2024-12-18 18:46:18.148056 - HKSAV.HE on 2024-12-17
+2024-12-18 18:46:19.243862 - HONBS.HE on 2024-12-17
+Original values 1
+2024-12-18 18:46:20.564883 - HUH1V.HE on 2024-12-17
+Original values 29
+2024-12-18 18:46:21.995413 - ILKKA2.HE on 2024-12-17
+Original values 0
+2024-12-18 18:46:23.383957 - ICP1V.HE on 2024-12-17
+Original values 8
+2024-12-18 18:46:24.696894 - IFA1V.HE on 2024-12-17
+Original values 1
+2024-12-18 18:46:26.003147 - INVEST.HE on 2024-12-17
+Original values 0
+2024-12-18 18:46:25.800092 - KAMUX.HE on 2024-12-17
+Original values 12
+2024-12-18 18:46:27.129154 - KEMIRA.HE on 2024-12-17
+Original values 19
+2024-12-18 18:46:29.297398 - KSLAV.HE on 2024-12-17
+2024-12-18 18:46:30.475079 - KESKOB.HE on 2024-12-17
+Original values 43
+2024-12-18 18:46:31.809859 - KELAS.HE on 2024-12-17
+Original values 4
+2024-12-18 18:46:33.105850 - KOJAMO.HE on 2024-12-17
+Original values 19
+2024-12-18 18:46:34.427019 - KNEBV.HE on 2024-12-17
+Original values 34
+2024-12-18 18:46:35.768581 - KCR.HE on 2024-12-17
+Original values 22
+2024-12-18 18:46:37.094233 - KREATE.HE on 2024-12-17
+Original values 4
+2024-12-18 18:46:38.398925 - LAT1V.HE on 2024-12-17
+Original values 26
+2024-12-18 18:46:39.684347 - MEKKO.HE on 2024-12-17
+Original values 10
+2024-12-18 18:46:41.005524 - MARAS.HE on 2024-12-17
+Original values 1
+2024-12-18 18:46:42.292548 - METSO.HE on 2024-12-17
+Original values 47
+2024-12-18 18:46:43.607345 - METSB.HE on 2024-12-17
+Original values 29
+2024-12-18 18:46:45.011884 - MUSTI.HE on 2024-12-17
+Original values 3
+2024-12-18 18:46:46.295458 - NESTE.HE on 2024-12-17
+Original values 60
+2024-12-18 18:46:47.618082 - NOHO.HE on 2024-12-17
+Original values 9
+2024-12-18 18:46:48.908933 - NOKIA.HE on 2024-12-17
+Original values 54
+2024-12-18 18:46:50.282835 - TYRES.HE on 2024-12-17
+Original values 38
+2024-12-18 18:46:51.580275 - NDA-FI.HE on 2024-12-17
+Original values 55
+2024-12-18 18:46:52.869788 - NLG1V.HE on 2024-12-17
+Original values 10
+2024-12-18 18:46:54.160430 - OLVAS.HE on 2024-12-17
+Original values 9
+2024-12-18 18:46:55.476336 - OMASP.HE on 2024-12-17
+Original values 33
+2024-12-18 18:46:56.769709 - OPTOMED.HE on 2024-12-17
+Original values 7
+2024-12-18 18:46:56.595228 - OKDBV.HE on 2024-12-17
+Original values 5
+2024-12-18 18:46:57.918672 - ORNBV.HE on 2024-12-17
+Original values 28
+2024-12-18 18:46:59.216406 - ORTHEX.HE on 2024-12-17
+Original values 2
+2024-12-18 18:47:00.536558 - OUT1V.HE on 2024-12-17
+Original values 54
+2024-12-18 18:47:01.843472 - OVARO.HE on 2024-12-17
+Original values 2
+2024-12-18 18:47:03.232356 - PNA1V.HE on 2024-12-17
+Original values 2
+2024-12-18 18:47:04.536074 - PIHLIS.HE on 2024-12-17
+Original values 3
+2024-12-18 18:47:05.866565 - PON1V.HE on 2024-12-17
+Original values 12
+2024-12-18 18:47:08.240134 - PUMU.HE on 2024-12-17
+2024-12-18 18:47:09.557914 - PURMO.HE on 2024-12-17
+Original values 1
+2024-12-18 18:47:10.889113 - PUUILO.HE on 2024-12-17
+Original values 13
+2024-12-18 18:47:12.180734 - QPR1V.HE on 2024-12-17
+Original values 5
+2024-12-18 18:47:13.501528 - QTCOM.HE on 2024-12-17
+Original values 38
+2024-12-18 18:47:14.812227 - RAIVV.HE on 2024-12-17
+Original values 10
+2024-12-18 18:47:16.145242 - RAP1V.HE on 2024-12-17
+Original values 2
+2024-12-18 18:47:17.426744 - RAUTE.HE on 2024-12-17
+Original values 4
+2024-12-18 18:47:18.849780 - REKA.HE on 2024-12-17
+Original values 6
+2024-12-18 18:47:20.171647 - RELAIS.HE on 2024-12-17
+Original values 1
+2024-12-18 18:47:21.506613 - REMEDY.HE on 2024-12-17
+Original values 12
+2024-12-18 18:47:22.844530 - REG1V.HE on 2024-12-17
+Original values 7
+2024-12-18 18:47:24.156925 - ROBIT.HE on 2024-12-17
+Original values 1
+2024-12-18 18:47:26.335873 - ROVIO.HE on 2024-12-17
+2024-12-18 18:47:27.525997 - SAGCV.HE on 2024-12-17
+Original values 3
+2024-12-18 18:47:27.383634 - SAMPO.HE on 2024-12-17
+Original values 50
+2024-12-18 18:47:28.728030 - SANOMA.HE on 2024-12-17
+Original values 6
+2024-12-18 18:47:30.045836 - SCANFL.HE on 2024-12-17
+Original values 9
+2024-12-18 18:47:31.358638 - SIILI.HE on 2024-12-17
+Original values 7
+2024-12-18 18:47:32.698586 - SITOWS.HE on 2024-12-17
+Original values 2
+2024-12-18 18:47:33.991405 - SOLTEQ.HE on 2024-12-17
+Original values 5
+2024-12-18 18:47:35.324308 - SOSI1.HE on 2024-12-17
+Original values 6
+2024-12-18 18:47:36.611232 - SRV1V.HE on 2024-12-17
+Original values 3
+2024-12-18 18:47:37.916154 - SSABBH.HE on 2024-12-17
+Original values 50
+2024-12-18 18:47:39.254916 - SSH1V.HE on 2024-12-17
+Original values 2
+2024-12-18 18:47:41.411159 - STOCKA.HE on 2024-12-17
+2024-12-18 18:47:42.503900 - STERV.HE on 2024-12-17
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=NPfdFk9ZRqj
+$UPONOR.HE: possibly delisted; no timezone found
+Original values 41
+2024-12-18 18:47:43.813856 - SUY1V.HE on 2024-12-17
+Original values 4
+2024-12-18 18:47:45.130681 - TAALA.HE on 2024-12-17
+Original values 5
+2024-12-18 18:47:46.439057 - TNOM.HE on 2024-12-17
+Original values 9
+2024-12-18 18:47:47.764630 - TEM1V.HE on 2024-12-17
+Original values 9
+2024-12-18 18:47:49.058219 - TLT1V.HE on 2024-12-17
+Original values 0
+2024-12-18 18:47:50.388527 - TELIA1.HE on 2024-12-17
+Original values 18
+2024-12-18 18:47:51.712389 - TTALO.HE on 2024-12-17
+Original values 9
+2024-12-18 18:47:53.029057 - TIETO.HE on 2024-12-17
+Original values 39
+2024-12-18 18:47:54.350402 - TOKMAN.HE on 2024-12-17
+Original values 23
+2024-12-18 18:47:55.653250 - TRH1V.HE on 2024-12-17
+Original values 1
+2024-12-18 18:47:57.041628 - TULAV.HE on 2024-12-17
+Original values 3
+2024-12-18 18:47:58.349842 - UNITED.HE on 2024-12-17
+Original values 0
+2024-12-18 18:47:58.221351 - UPM.HE on 2024-12-17
+Original values 43
+2024-12-18 18:48:00.979646 - UPONOR.HE on 2024-12-17
+2024-12-18 18:48:02.420316 - VAIAS.HE on 2024-12-17
+Original values 9
+2024-12-18 18:48:03.717845 - VALMT.HE on 2024-12-17
+Original values 45
+2024-12-18 18:48:05.058267 - VERK.HE on 2024-12-17
+Original values 6
+2024-12-18 18:48:06.381367 - VIK1V.HE on 2024-12-17
+Original values 2
+2024-12-18 18:48:07.716120 - WETTERI.HE on 2024-12-17
+Original values 5
+2024-12-18 18:48:09.036766 - WITH.HE on 2024-12-17
+Original values 18
+2024-12-18 18:48:10.470602 - WUF1V.HE on 2024-12-17
+Original values 2
+2024-12-18 18:48:11.766498 - WRT1V.HE on 2024-12-17
+Original values 28
+2024-12-18 18:48:13.202895 - YIT.HE on 2024-12-17
+Original values 16
+2024-12-18 18:48:14.533909 - ALBBV.HE on 2024-12-17
+Original values 5
+Old single measures (5925, 17), new data (354, 14), joined data (6279, 17)
+Removed 39 duplicates
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: 3: source: not found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=I5p7eRZwrfT
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=I5p7eRZwrfT
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=I5p7eRZwrfT
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=I5p7eRZwrfT
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=I5p7eRZwrfT
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=I5p7eRZwrfT
+$STOCKA.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=I5p7eRZwrfT
+$UPONOR.HE: possibly delisted; no timezone found
+Data read!
+2024-12-20 19:42:55.452481 - AFAGR.HE on 2024-12-17
+Original values 4
+2024-12-20 19:42:56.774407 - AKTIA.HE on 2024-12-17
+Original values 11
+2024-12-20 19:42:58.122997 - ALMA.HE on 2024-12-17
+Original values 3
+2024-12-20 19:42:59.429272 - ANORA.HE on 2024-12-17
+Original values 19
+2024-12-20 19:43:00.844196 - APETIT.HE on 2024-12-17
+Original values 0
+2024-12-20 19:43:02.181056 - TALLINK.HE on 2024-12-17
+Original values 2
+2024-12-20 19:43:03.491714 - ASPO.HE on 2024-12-17
+Original values 6
+2024-12-20 19:43:04.865681 - ACG1V.HE on 2024-12-17
+Original values 1
+2024-12-20 19:43:06.214849 - ATRAV.HE on 2024-12-17
+Original values 11
+2024-12-20 19:43:07.582708 - BIOBV.HE on 2024-12-17
+Original values 2
+2024-12-20 19:43:06.618621 - BITTI.HE on 2024-12-17
+Original values 7
+2024-12-20 19:43:07.965941 - BOREO.HE on 2024-12-17
+Original values 3
+2024-12-20 19:43:09.339259 - CAPMAN.HE on 2024-12-17
+Original values 18
+2024-12-20 19:43:10.737039 - CGCBV.HE on 2024-12-17
+Original values 24
+2024-12-20 19:43:14.516864 - CAV1V.HE on 2024-12-17
+2024-12-20 19:43:15.003684 - CTY1S.HE on 2024-12-17
+Original values 21
+2024-12-20 19:43:16.376015 - CTH1V.HE on 2024-12-17
+Original values 4
+2024-12-20 19:43:17.674544 - CONSTI.HE on 2024-12-17
+Original values 2
+2024-12-20 19:43:19.117228 - DIGIA.HE on 2024-12-17
+Original values 1
+2024-12-20 19:43:20.461057 - DIGIGR.HE on 2024-12-17
+Original values 2
+2024-12-20 19:43:21.788554 - DOV1V.HE on 2024-12-17
+Original values 5
+2024-12-20 19:43:23.170036 - EEZY.HE on 2024-12-17
+Original values 5
+2024-12-20 19:43:24.551574 - ELEAV.HE on 2024-12-17
+Original values 0
+2024-12-20 19:43:25.928955 - ELISA.HE on 2024-12-17
+Original values 42
+2024-12-20 19:43:27.247032 - ENENTO.HE on 2024-12-17
+Original values 5
+2024-12-20 19:43:28.590557 - ESENSE.HE on 2024-12-17
+Original values 9
+2024-12-20 19:43:29.923080 - EQV1V.HE on 2024-12-17
+Original values 9
+2024-12-20 19:43:31.281934 - ETTE.HE on 2024-12-17
+Original values 0
+2024-12-20 19:43:32.597755 - EXL1V.HE on 2024-12-17
+Original values 7
+2024-12-20 19:43:33.966271 - FIA1S.HE on 2024-12-17
+Original values 24
+2024-12-20 19:43:35.333424 - FSKRS.HE on 2024-12-17
+Original values 7
+2024-12-20 19:43:36.646657 - FORTUM.HE on 2024-12-17
+Original values 59
+2024-12-20 19:43:38.007736 - GLA1V.HE on 2024-12-17
+Original values 4
+2024-12-20 19:43:36.589216 - GOFORE.HE on 2024-12-17
+Original values 2
+2024-12-20 19:43:37.884172 - HARVIA.HE on 2024-12-17
+Original values 7
+2024-12-20 19:43:40.234863 - HKSAV.HE on 2024-12-17
+2024-12-20 19:43:41.648655 - HONBS.HE on 2024-12-17
+Original values 1
+2024-12-20 19:43:42.988162 - HUH1V.HE on 2024-12-17
+Original values 29
+2024-12-20 19:43:44.272091 - ILKKA2.HE on 2024-12-17
+Original values 0
+2024-12-20 19:43:45.608977 - ICP1V.HE on 2024-12-17
+Original values 8
+2024-12-20 19:43:46.958965 - IFA1V.HE on 2024-12-17
+Original values 1
+2024-12-20 19:43:48.257905 - INVEST.HE on 2024-12-17
+Original values 0
+2024-12-20 19:43:49.585943 - KAMUX.HE on 2024-12-17
+Original values 12
+2024-12-20 19:43:50.977068 - KEMIRA.HE on 2024-12-17
+Original values 19
+2024-12-20 19:43:53.251215 - KSLAV.HE on 2024-12-17
+2024-12-20 19:43:54.530613 - KESKOB.HE on 2024-12-17
+Original values 43
+2024-12-20 19:43:55.912615 - KELAS.HE on 2024-12-17
+Original values 4
+2024-12-20 19:43:57.310124 - KOJAMO.HE on 2024-12-17
+Original values 19
+2024-12-20 19:43:58.644598 - KNEBV.HE on 2024-12-17
+Original values 34
+2024-12-20 19:44:00.114695 - KCR.HE on 2024-12-17
+Original values 22
+2024-12-20 19:44:01.527115 - KREATE.HE on 2024-12-17
+Original values 4
+2024-12-20 19:44:02.910268 - LAT1V.HE on 2024-12-17
+Original values 26
+2024-12-20 19:44:04.292732 - MEKKO.HE on 2024-12-17
+Original values 10
+2024-12-20 19:44:05.687960 - MARAS.HE on 2024-12-17
+Original values 1
+2024-12-20 19:44:07.059686 - METSO.HE on 2024-12-17
+Original values 47
+2024-12-20 19:44:08.374513 - METSB.HE on 2024-12-17
+Original values 29
+2024-12-20 19:44:07.187364 - MUSTI.HE on 2024-12-17
+Original values 3
+2024-12-20 19:44:08.551599 - NESTE.HE on 2024-12-17
+Original values 60
+2024-12-20 19:44:09.910500 - NOHO.HE on 2024-12-17
+Original values 9
+2024-12-20 19:44:11.272981 - NOKIA.HE on 2024-12-17
+Original values 54
+2024-12-20 19:44:12.652796 - TYRES.HE on 2024-12-17
+Original values 38
+2024-12-20 19:44:14.011015 - NDA-FI.HE on 2024-12-17
+Original values 55
+2024-12-20 19:44:15.371478 - NLG1V.HE on 2024-12-17
+Original values 10
+2024-12-20 19:44:16.697875 - OLVAS.HE on 2024-12-17
+Original values 9
+2024-12-20 19:44:18.026893 - OMASP.HE on 2024-12-17
+Original values 33
+2024-12-20 19:44:19.411459 - OPTOMED.HE on 2024-12-17
+Original values 7
+2024-12-20 19:44:20.782473 - OKDBV.HE on 2024-12-17
+Original values 5
+2024-12-20 19:44:22.109587 - ORNBV.HE on 2024-12-17
+Original values 28
+2024-12-20 19:44:23.469558 - ORTHEX.HE on 2024-12-17
+Original values 2
+2024-12-20 19:44:24.835983 - OUT1V.HE on 2024-12-17
+Original values 54
+2024-12-20 19:44:26.205415 - OVARO.HE on 2024-12-17
+Original values 2
+2024-12-20 19:44:27.518293 - PNA1V.HE on 2024-12-17
+Original values 2
+2024-12-20 19:44:28.948771 - PIHLIS.HE on 2024-12-17
+Original values 3
+2024-12-20 19:44:30.331835 - PON1V.HE on 2024-12-17
+Original values 12
+2024-12-20 19:44:32.861718 - PUMU.HE on 2024-12-17
+2024-12-20 19:44:34.200893 - PURMO.HE on 2024-12-17
+Original values 1
+2024-12-20 19:44:35.551573 - PUUILO.HE on 2024-12-17
+Original values 13
+2024-12-20 19:44:36.865658 - QPR1V.HE on 2024-12-17
+Original values 5
+2024-12-20 19:44:35.743005 - QTCOM.HE on 2024-12-17
+Original values 38
+2024-12-20 19:44:37.120084 - RAIVV.HE on 2024-12-17
+Original values 10
+2024-12-20 19:44:38.470663 - RAP1V.HE on 2024-12-17
+Original values 2
+2024-12-20 19:44:39.798498 - RAUTE.HE on 2024-12-17
+Original values 4
+2024-12-20 19:44:41.161958 - REKA.HE on 2024-12-17
+Original values 6
+2024-12-20 19:44:42.554493 - RELAIS.HE on 2024-12-17
+Original values 1
+2024-12-20 19:44:43.909737 - REMEDY.HE on 2024-12-17
+Original values 12
+2024-12-20 19:44:45.284363 - REG1V.HE on 2024-12-17
+Original values 7
+2024-12-20 19:44:46.588921 - ROBIT.HE on 2024-12-17
+Original values 1
+2024-12-20 19:44:49.400187 - ROVIO.HE on 2024-12-17
+2024-12-20 19:44:51.007378 - SAGCV.HE on 2024-12-17
+Original values 3
+2024-12-20 19:44:52.388861 - SAMPO.HE on 2024-12-17
+Original values 50
+2024-12-20 19:44:53.863256 - SANOMA.HE on 2024-12-17
+Original values 6
+2024-12-20 19:44:55.219907 - SCANFL.HE on 2024-12-17
+Original values 9
+2024-12-20 19:44:56.598160 - SIILI.HE on 2024-12-17
+Original values 7
+2024-12-20 19:44:57.991242 - SITOWS.HE on 2024-12-17
+Original values 2
+2024-12-20 19:44:59.379851 - SOLTEQ.HE on 2024-12-17
+Original values 5
+2024-12-20 19:45:00.778290 - SOSI1.HE on 2024-12-17
+Original values 6
+2024-12-20 19:45:02.177567 - SRV1V.HE on 2024-12-17
+Original values 3
+2024-12-20 19:45:03.560491 - SSABBH.HE on 2024-12-17
+Original values 50
+2024-12-20 19:45:04.947595 - SSH1V.HE on 2024-12-17
+Original values 2
+2024-12-20 19:45:07.238339 - STOCKA.HE on 2024-12-17
+2024-12-20 19:45:05.756709 - STERV.HE on 2024-12-17
+Original values 41
+2024-12-20 19:45:07.147132 - SUY1V.HE on 2024-12-17
+Original values 4
+2024-12-20 19:45:08.502173 - TAALA.HE on 2024-12-17
+Original values 5
+2024-12-20 19:45:09.868449 - TNOM.HE on 2024-12-17
+Original values 9
+2024-12-20 19:45:11.227545 - TEM1V.HE on 2024-12-17
+Original values 9
+2024-12-20 19:45:12.560624 - TLT1V.HE on 2024-12-17
+Original values 0
+2024-12-20 19:45:13.895683 - TELIA1.HE on 2024-12-17
+Original values 18
+2024-12-20 19:45:15.266525 - TTALO.HE on 2024-12-17
+Original values 9
+2024-12-20 19:45:16.651982 - TIETO.HE on 2024-12-17
+Original values 39
+2024-12-20 19:45:18.019279 - TOKMAN.HE on 2024-12-17
+Original values 23
+2024-12-20 19:45:19.419515 - TRH1V.HE on 2024-12-17
+Original values 1
+2024-12-20 19:45:20.782903 - TULAV.HE on 2024-12-17
+Original values 3
+2024-12-20 19:45:22.154360 - UNITED.HE on 2024-12-17
+Original values 0
+2024-12-20 19:45:23.543639 - UPM.HE on 2024-12-17
+Original values 43
+2024-12-20 19:45:25.743865 - UPONOR.HE on 2024-12-17
+2024-12-20 19:45:26.903150 - VAIAS.HE on 2024-12-17
+Original values 9
+2024-12-20 19:45:28.277577 - VALMT.HE on 2024-12-17
+Original values 45
+2024-12-20 19:45:29.593922 - VERK.HE on 2024-12-17
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=I5p7eRZwrfT
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=I5p7eRZwrfT
+$HKSAV.HE: possibly delisted; no timezone found
+$INVEST.HE: possibly delisted; no price data found  (1m 2024-12-18 -> 2024-12-19)
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=I5p7eRZwrfT
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=I5p7eRZwrfT
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=I5p7eRZwrfT
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=I5p7eRZwrfT
+$STOCKA.HE: possibly delisted; no timezone found
+Original values 6
+2024-12-20 19:45:30.973459 - VIK1V.HE on 2024-12-17
+Original values 2
+2024-12-20 19:45:32.349708 - WETTERI.HE on 2024-12-17
+Original values 5
+2024-12-20 19:45:33.679766 - WITH.HE on 2024-12-17
+Original values 18
+2024-12-20 19:45:35.057668 - WUF1V.HE on 2024-12-17
+Original values 2
+2024-12-20 19:45:36.438864 - WRT1V.HE on 2024-12-17
+Original values 28
+2024-12-20 19:45:35.055298 - YIT.HE on 2024-12-17
+Original values 16
+2024-12-20 19:45:36.537796 - ALBBV.HE on 2024-12-17
+Original values 5
+2024-12-20 19:45:37.921031 - AFAGR.HE on 2024-12-18
+Original values 3
+2024-12-20 19:45:39.245385 - AKTIA.HE on 2024-12-18
+Original values 6
+2024-12-20 19:45:40.588531 - ALMA.HE on 2024-12-18
+Original values 2
+2024-12-20 19:45:41.957313 - ANORA.HE on 2024-12-18
+Original values 13
+2024-12-20 19:45:43.417263 - APETIT.HE on 2024-12-18
+Original values 3
+2024-12-20 19:45:44.818571 - TALLINK.HE on 2024-12-18
+Original values 3
+2024-12-20 19:45:46.180773 - ASPO.HE on 2024-12-18
+Original values 7
+2024-12-20 19:45:47.565453 - ACG1V.HE on 2024-12-18
+Original values 1
+2024-12-20 19:45:48.925374 - ATRAV.HE on 2024-12-18
+Original values 5
+2024-12-20 19:45:50.225673 - BIOBV.HE on 2024-12-18
+Original values 4
+2024-12-20 19:45:51.639892 - BITTI.HE on 2024-12-18
+Original values 7
+2024-12-20 19:45:53.030410 - BOREO.HE on 2024-12-18
+Original values 1
+2024-12-20 19:45:54.450031 - CAPMAN.HE on 2024-12-18
+Original values 8
+2024-12-20 19:45:55.828489 - CGCBV.HE on 2024-12-18
+Original values 28
+2024-12-20 19:45:58.236784 - CAV1V.HE on 2024-12-18
+2024-12-20 19:45:59.556132 - CTY1S.HE on 2024-12-18
+Original values 17
+2024-12-20 19:46:00.965426 - CTH1V.HE on 2024-12-18
+Original values 4
+2024-12-20 19:46:02.313176 - CONSTI.HE on 2024-12-18
+Original values 6
+2024-12-20 19:46:03.695381 - DIGIA.HE on 2024-12-18
+Original values 1
+2024-12-20 19:46:05.072721 - DIGIGR.HE on 2024-12-18
+Original values 8
+2024-12-20 19:46:06.441524 - DOV1V.HE on 2024-12-18
+Original values 5
+2024-12-20 19:46:05.014295 - EEZY.HE on 2024-12-18
+Original values 4
+2024-12-20 19:46:06.353280 - ELEAV.HE on 2024-12-18
+Original values 0
+2024-12-20 19:46:07.699265 - ELISA.HE on 2024-12-18
+Original values 36
+2024-12-20 19:46:09.089328 - ENENTO.HE on 2024-12-18
+Original values 1
+2024-12-20 19:46:10.445416 - ESENSE.HE on 2024-12-18
+Original values 2
+2024-12-20 19:46:11.749565 - EQV1V.HE on 2024-12-18
+Original values 0
+2024-12-20 19:46:13.091987 - ETTE.HE on 2024-12-18
+Original values 5
+2024-12-20 19:46:14.446328 - EXL1V.HE on 2024-12-18
+Original values 6
+2024-12-20 19:46:15.994005 - FIA1S.HE on 2024-12-18
+Original values 25
+2024-12-20 19:46:17.422874 - FSKRS.HE on 2024-12-18
+Original values 3
+2024-12-20 19:46:18.806577 - FORTUM.HE on 2024-12-18
+Original values 47
+2024-12-20 19:46:20.294383 - GLA1V.HE on 2024-12-18
+Original values 7
+2024-12-20 19:46:21.600389 - GOFORE.HE on 2024-12-18
+Original values 2
+2024-12-20 19:46:22.987244 - HARVIA.HE on 2024-12-18
+Original values 10
+2024-12-20 19:46:25.191695 - HKSAV.HE on 2024-12-18
+2024-12-20 19:46:26.330480 - HONBS.HE on 2024-12-18
+Original values 4
+2024-12-20 19:46:27.733126 - HUH1V.HE on 2024-12-18
+Original values 20
+2024-12-20 19:46:29.048303 - ILKKA2.HE on 2024-12-18
+Original values 2
+2024-12-20 19:46:30.440497 - ICP1V.HE on 2024-12-18
+Original values 11
+2024-12-20 19:46:31.751965 - IFA1V.HE on 2024-12-18
+Original values 1
+2024-12-20 19:46:33.135590 - INVEST.HE on 2024-12-18
+2024-12-20 19:46:33.422435 - KAMUX.HE on 2024-12-18
+Original values 52
+2024-12-20 19:46:34.856246 - KEMIRA.HE on 2024-12-18
+Original values 31
+2024-12-20 19:46:34.416399 - KSLAV.HE on 2024-12-18
+2024-12-20 19:46:35.563924 - KESKOB.HE on 2024-12-18
+Original values 43
+2024-12-20 19:46:36.985375 - KELAS.HE on 2024-12-18
+Original values 2
+2024-12-20 19:46:38.411626 - KOJAMO.HE on 2024-12-18
+Original values 27
+2024-12-20 19:46:39.811500 - KNEBV.HE on 2024-12-18
+Original values 41
+2024-12-20 19:46:41.218521 - KCR.HE on 2024-12-18
+Original values 32
+2024-12-20 19:46:42.578714 - KREATE.HE on 2024-12-18
+Original values 6
+2024-12-20 19:46:43.944493 - LAT1V.HE on 2024-12-18
+Original values 11
+2024-12-20 19:46:45.311615 - MEKKO.HE on 2024-12-18
+Original values 22
+2024-12-20 19:46:46.682040 - MARAS.HE on 2024-12-18
+Original values 5
+2024-12-20 19:46:48.042150 - METSO.HE on 2024-12-18
+Original values 47
+2024-12-20 19:46:49.398817 - METSB.HE on 2024-12-18
+Original values 41
+2024-12-20 19:46:50.795814 - MUSTI.HE on 2024-12-18
+Original values 5
+2024-12-20 19:46:52.181960 - NESTE.HE on 2024-12-18
+Original values 56
+2024-12-20 19:46:53.616566 - NOHO.HE on 2024-12-18
+Original values 6
+2024-12-20 19:46:55.007215 - NOKIA.HE on 2024-12-18
+Original values 56
+2024-12-20 19:46:56.396833 - TYRES.HE on 2024-12-18
+Original values 49
+2024-12-20 19:46:57.782115 - NDA-FI.HE on 2024-12-18
+Original values 55
+2024-12-20 19:46:59.091982 - NLG1V.HE on 2024-12-18
+Original values 2
+2024-12-20 19:47:00.459057 - OLVAS.HE on 2024-12-18
+Original values 4
+2024-12-20 19:47:01.841715 - OMASP.HE on 2024-12-18
+Original values 16
+2024-12-20 19:47:03.245943 - OPTOMED.HE on 2024-12-18
+Original values 9
+2024-12-20 19:47:04.612500 - OKDBV.HE on 2024-12-18
+Original values 9
+2024-12-20 19:47:06.050773 - ORNBV.HE on 2024-12-18
+Original values 37
+2024-12-20 19:47:04.619703 - ORTHEX.HE on 2024-12-18
+Original values 3
+2024-12-20 19:47:05.974073 - OUT1V.HE on 2024-12-18
+Original values 49
+2024-12-20 19:47:07.331430 - OVARO.HE on 2024-12-18
+Original values 2
+2024-12-20 19:47:08.705407 - PNA1V.HE on 2024-12-18
+Original values 2
+2024-12-20 19:47:10.107215 - PIHLIS.HE on 2024-12-18
+Original values 4
+2024-12-20 19:47:11.405704 - PON1V.HE on 2024-12-18
+Original values 6
+2024-12-20 19:47:13.861464 - PUMU.HE on 2024-12-18
+2024-12-20 19:47:15.334037 - PURMO.HE on 2024-12-18
+Original values 2
+2024-12-20 19:47:16.680099 - PUUILO.HE on 2024-12-18
+Original values 15
+2024-12-20 19:47:18.062595 - QPR1V.HE on 2024-12-18
+Original values 3
+2024-12-20 19:47:19.451331 - QTCOM.HE on 2024-12-18
+Original values 53
+2024-12-20 19:47:20.833543 - RAIVV.HE on 2024-12-18
+Original values 7
+2024-12-20 19:47:22.230087 - RAP1V.HE on 2024-12-18
+Original values 6
+2024-12-20 19:47:23.606677 - RAUTE.HE on 2024-12-18
+Original values 4
+2024-12-20 19:47:24.913893 - REKA.HE on 2024-12-18
+Original values 3
+2024-12-20 19:47:26.285336 - RELAIS.HE on 2024-12-18
+Original values 5
+2024-12-20 19:47:27.608068 - REMEDY.HE on 2024-12-18
+Original values 14
+2024-12-20 19:47:29.011700 - REG1V.HE on 2024-12-18
+Original values 11
+2024-12-20 19:47:30.390622 - ROBIT.HE on 2024-12-18
+Original values 3
+2024-12-20 19:47:32.686527 - ROVIO.HE on 2024-12-18
+2024-12-20 19:47:33.938198 - SAGCV.HE on 2024-12-18
+Original values 3
+2024-12-20 19:47:35.356649 - SAMPO.HE on 2024-12-18
+Original values 47
+2024-12-20 19:47:34.062909 - SANOMA.HE on 2024-12-18
+Original values 4
+2024-12-20 19:47:35.444422 - SCANFL.HE on 2024-12-18
+Original values 7
+2024-12-20 19:47:36.835989 - SIILI.HE on 2024-12-18
+Original values 8
+2024-12-20 19:47:38.207372 - SITOWS.HE on 2024-12-18
+Original values 2
+2024-12-20 19:47:39.583784 - SOLTEQ.HE on 2024-12-18
+Original values 3
+2024-12-20 19:47:40.971074 - SOSI1.HE on 2024-12-18
+Original values 9
+2024-12-20 19:47:42.341788 - SRV1V.HE on 2024-12-18
+Original values 4
+2024-12-20 19:47:43.726603 - SSABBH.HE on 2024-12-18
+Original values 35
+2024-12-20 19:47:45.084926 - SSH1V.HE on 2024-12-18
+Original values 2
+2024-12-20 19:47:47.348119 - STOCKA.HE on 2024-12-18
+2024-12-20 19:47:48.664397 - STERV.HE on 2024-12-18
+Original values 56
+2024-12-20 19:47:50.078582 - SUY1V.HE on 2024-12-18
+Original values 4
+2024-12-20 19:47:51.469049 - TAALA.HE on 2024-12-18
+Original values 6
+2024-12-20 19:47:52.866868 - TNOM.HE on 2024-12-18
+Original values 8
+2024-12-20 19:47:54.211838 - TEM1V.HE on 2024-12-18
+Original values 9
+2024-12-20 19:47:55.596054 - TLT1V.HE on 2024-12-18
+Original values 5
+2024-12-20 19:47:56.980974 - TELIA1.HE on 2024-12-18
+Original values 22
+2024-12-20 19:47:58.372427 - TTALO.HE on 2024-12-18
+Original values 19
+2024-12-20 19:47:59.751719 - TIETO.HE on 2024-12-18
+Original values 40
+2024-12-20 19:48:01.146282 - TOKMAN.HE on 2024-12-18
+Original values 28
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=I5p7eRZwrfT
+$UPONOR.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=I5p7eRZwrfT
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=I5p7eRZwrfT
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=I5p7eRZwrfT
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=I5p7eRZwrfT
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=I5p7eRZwrfT
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=I5p7eRZwrfT
+$STOCKA.HE: possibly delisted; no timezone found
+2024-12-20 19:48:02.528397 - TRH1V.HE on 2024-12-18
+Original values 2
+2024-12-20 19:48:03.830874 - TULAV.HE on 2024-12-18
+Original values 5
+2024-12-20 19:48:05.223548 - UNITED.HE on 2024-12-18
+Original values 1
+2024-12-20 19:48:03.837463 - UPM.HE on 2024-12-18
+Original values 57
+2024-12-20 19:48:06.163009 - UPONOR.HE on 2024-12-18
+2024-12-20 19:48:07.452329 - VAIAS.HE on 2024-12-18
+Original values 4
+2024-12-20 19:48:08.919993 - VALMT.HE on 2024-12-18
+Original values 50
+2024-12-20 19:48:10.283044 - VERK.HE on 2024-12-18
+Original values 6
+2024-12-20 19:48:11.608319 - VIK1V.HE on 2024-12-18
+Original values 2
+2024-12-20 19:48:12.956968 - WETTERI.HE on 2024-12-18
+Original values 5
+2024-12-20 19:48:14.301145 - WITH.HE on 2024-12-18
+Original values 7
+2024-12-20 19:48:15.668827 - WUF1V.HE on 2024-12-18
+Original values 0
+2024-12-20 19:48:17.040094 - WRT1V.HE on 2024-12-18
+Original values 40
+2024-12-20 19:48:18.425985 - YIT.HE on 2024-12-18
+Original values 21
+2024-12-20 19:48:19.836144 - ALBBV.HE on 2024-12-18
+Original values 3
+2024-12-20 19:48:21.217179 - AFAGR.HE on 2024-12-19
+Original values 10
+2024-12-20 19:48:22.591035 - AKTIA.HE on 2024-12-19
+Original values 14
+2024-12-20 19:48:23.991471 - ALMA.HE on 2024-12-19
+Original values 3
+2024-12-20 19:48:25.393969 - ANORA.HE on 2024-12-19
+Original values 19
+2024-12-20 19:48:26.850384 - APETIT.HE on 2024-12-19
+Original values 1
+2024-12-20 19:48:28.236433 - TALLINK.HE on 2024-12-19
+Original values 3
+2024-12-20 19:48:29.624570 - ASPO.HE on 2024-12-19
+Original values 5
+2024-12-20 19:48:31.007503 - ACG1V.HE on 2024-12-19
+Original values 3
+2024-12-20 19:48:32.386191 - ATRAV.HE on 2024-12-19
+Original values 3
+2024-12-20 19:48:33.782143 - BIOBV.HE on 2024-12-19
+Original values 1
+2024-12-20 19:48:32.402408 - BITTI.HE on 2024-12-19
+Original values 7
+2024-12-20 19:48:33.709397 - BOREO.HE on 2024-12-19
+Original values 2
+2024-12-20 19:48:35.087109 - CAPMAN.HE on 2024-12-19
+Original values 20
+2024-12-20 19:48:36.480070 - CGCBV.HE on 2024-12-19
+Original values 35
+2024-12-20 19:48:38.662991 - CAV1V.HE on 2024-12-19
+2024-12-20 19:48:40.398624 - CTY1S.HE on 2024-12-19
+Original values 45
+2024-12-20 19:48:41.765657 - CTH1V.HE on 2024-12-19
+Original values 4
+2024-12-20 19:48:43.135846 - CONSTI.HE on 2024-12-19
+Original values 1
+2024-12-20 19:48:44.591934 - DIGIA.HE on 2024-12-19
+Original values 2
+2024-12-20 19:48:45.945375 - DIGIGR.HE on 2024-12-19
+Original values 2
+2024-12-20 19:48:47.304094 - DOV1V.HE on 2024-12-19
+Original values 8
+2024-12-20 19:48:48.691662 - EEZY.HE on 2024-12-19
+Original values 7
+2024-12-20 19:48:50.071881 - ELEAV.HE on 2024-12-19
+Original values 0
+2024-12-20 19:48:51.470083 - ELISA.HE on 2024-12-19
+Original values 34
+2024-12-20 19:48:52.852303 - ENENTO.HE on 2024-12-19
+Original values 5
+2024-12-20 19:48:54.241335 - ESENSE.HE on 2024-12-19
+Original values 22
+2024-12-20 19:48:55.625343 - EQV1V.HE on 2024-12-19
+Original values 7
+2024-12-20 19:48:57.008448 - ETTE.HE on 2024-12-19
+Original values 3
+2024-12-20 19:48:58.392069 - EXL1V.HE on 2024-12-19
+Original values 7
+2024-12-20 19:48:59.755847 - FIA1S.HE on 2024-12-19
+Original values 29
+2024-12-20 19:49:01.237141 - FSKRS.HE on 2024-12-19
+Original values 13
+2024-12-20 19:49:02.619851 - FORTUM.HE on 2024-12-19
+Original values 52
+2024-12-20 19:49:03.960897 - GLA1V.HE on 2024-12-19
+Original values 9
+2024-12-20 19:49:02.653108 - GOFORE.HE on 2024-12-19
+Original values 3
+2024-12-20 19:49:04.035056 - HARVIA.HE on 2024-12-19
+Original values 16
+2024-12-20 19:49:06.242941 - HKSAV.HE on 2024-12-19
+2024-12-20 19:49:07.483991 - HONBS.HE on 2024-12-19
+Original values 2
+2024-12-20 19:49:08.841709 - HUH1V.HE on 2024-12-19
+Original values 39
+2024-12-20 19:49:10.185951 - ILKKA2.HE on 2024-12-19
+Original values 3
+2024-12-20 19:49:11.505339 - ICP1V.HE on 2024-12-19
+Original values 2
+2024-12-20 19:49:12.861944 - IFA1V.HE on 2024-12-19
+Original values 1
+2024-12-20 19:49:14.230597 - INVEST.HE on 2024-12-19
+Original values 2
+2024-12-20 19:49:15.608123 - KAMUX.HE on 2024-12-19
+Original values 58
+2024-12-20 19:49:16.913506 - KEMIRA.HE on 2024-12-19
+Original values 29
+2024-12-20 19:49:19.112798 - KSLAV.HE on 2024-12-19
+2024-12-20 19:49:20.219434 - KESKOB.HE on 2024-12-19
+Original values 39
+2024-12-20 19:49:21.574063 - KELAS.HE on 2024-12-19
+Original values 2
+2024-12-20 19:49:22.941732 - KOJAMO.HE on 2024-12-19
+Original values 36
+2024-12-20 19:49:24.420389 - KNEBV.HE on 2024-12-19
+Original values 50
+2024-12-20 19:49:25.814240 - KCR.HE on 2024-12-19
+Original values 37
+2024-12-20 19:49:27.122865 - KREATE.HE on 2024-12-19
+Original values 8
+2024-12-20 19:49:28.505854 - LAT1V.HE on 2024-12-19
+Original values 20
+2024-12-20 19:49:29.880270 - MEKKO.HE on 2024-12-19
+Original values 11
+2024-12-20 19:49:31.274359 - MARAS.HE on 2024-12-19
+Original values 4
+2024-12-20 19:49:32.631206 - METSO.HE on 2024-12-19
+Original values 49
+2024-12-20 19:49:34.071688 - METSB.HE on 2024-12-19
+Original values 52
+2024-12-20 19:49:33.112279 - MUSTI.HE on 2024-12-19
+Original values 2
+2024-12-20 19:49:34.462862 - NESTE.HE on 2024-12-19
+Original values 60
+2024-12-20 19:49:35.851075 - NOHO.HE on 2024-12-19
+Original values 18
+2024-12-20 19:49:37.224241 - NOKIA.HE on 2024-12-19
+Original values 57
+2024-12-20 19:49:38.592571 - TYRES.HE on 2024-12-19
+Original values 54
+2024-12-20 19:49:39.959362 - NDA-FI.HE on 2024-12-19
+Original values 57
+2024-12-20 19:49:41.332205 - NLG1V.HE on 2024-12-19
+Original values 10
+2024-12-20 19:49:42.702018 - OLVAS.HE on 2024-12-19
+Original values 12
+2024-12-20 19:49:44.011918 - OMASP.HE on 2024-12-19
+Original values 13
+2024-12-20 19:49:45.381971 - OPTOMED.HE on 2024-12-19
+Original values 9
+2024-12-20 19:49:46.765593 - OKDBV.HE on 2024-12-19
+Original values 12
+2024-12-20 19:49:48.065890 - ORNBV.HE on 2024-12-19
+Original values 38
+2024-12-20 19:49:49.422411 - ORTHEX.HE on 2024-12-19
+Original values 6
+2024-12-20 19:49:50.719566 - OUT1V.HE on 2024-12-19
+Original values 54
+2024-12-20 19:49:52.031465 - OVARO.HE on 2024-12-19
+Original values 3
+2024-12-20 19:49:53.354527 - PNA1V.HE on 2024-12-19
+Original values 2
+2024-12-20 19:49:54.658656 - PIHLIS.HE on 2024-12-19
+Original values 4
+2024-12-20 19:49:56.053394 - PON1V.HE on 2024-12-19
+Original values 3
+2024-12-20 19:49:58.255975 - PUMU.HE on 2024-12-19
+2024-12-20 19:49:59.595400 - PURMO.HE on 2024-12-19
+Original values 2
+2024-12-20 19:50:00.972102 - PUUILO.HE on 2024-12-19
+Original values 22
+2024-12-20 19:50:02.267986 - QPR1V.HE on 2024-12-19
+Original values 5
+2024-12-20 19:50:03.642976 - QTCOM.HE on 2024-12-19
+Original values 41
+2024-12-20 19:50:02.352144 - RAIVV.HE on 2024-12-19
+Original values 12
+2024-12-20 19:50:03.772457 - RAP1V.HE on 2024-12-19
+Original values 4
+2024-12-20 19:50:05.122889 - RAUTE.HE on 2024-12-19
+Original values 5
+2024-12-20 19:50:06.481307 - REKA.HE on 2024-12-19
+Original values 5
+2024-12-20 19:50:07.869162 - RELAIS.HE on 2024-12-19
+Original values 4
+2024-12-20 19:50:09.221033 - REMEDY.HE on 2024-12-19
+Original values 14
+2024-12-20 19:50:10.679127 - REG1V.HE on 2024-12-19
+Original values 11
+2024-12-20 19:50:12.061278 - ROBIT.HE on 2024-12-19
+Original values 6
+2024-12-20 19:50:14.648972 - ROVIO.HE on 2024-12-19
+2024-12-20 19:50:15.873361 - SAGCV.HE on 2024-12-19
+Original values 3
+2024-12-20 19:50:17.251575 - SAMPO.HE on 2024-12-19
+Original values 47
+2024-12-20 19:50:18.644494 - SANOMA.HE on 2024-12-19
+Original values 11
+2024-12-20 19:50:20.009088 - SCANFL.HE on 2024-12-19
+Original values 18
+2024-12-20 19:50:21.385968 - SIILI.HE on 2024-12-19
+Original values 0
+2024-12-20 19:50:22.698344 - SITOWS.HE on 2024-12-19
+Original values 0
+2024-12-20 19:50:24.124139 - SOLTEQ.HE on 2024-12-19
+Original values 2
+2024-12-20 19:50:25.431436 - SOSI1.HE on 2024-12-19
+Original values 14
+2024-12-20 19:50:26.737162 - SRV1V.HE on 2024-12-19
+Original values 3
+2024-12-20 19:50:28.059978 - SSABBH.HE on 2024-12-19
+Original values 38
+2024-12-20 19:50:29.364905 - SSH1V.HE on 2024-12-19
+Original values 7
+2024-12-20 19:50:31.581925 - STOCKA.HE on 2024-12-19
+2024-12-20 19:50:32.789697 - STERV.HE on 2024-12-19
+Original values 47
+2024-12-20 19:50:31.419043 - SUY1V.HE on 2024-12-19
+Original values 3
+2024-12-20 19:50:32.800397 - TAALA.HE on 2024-12-19
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=I5p7eRZwrfT
+$UPONOR.HE: possibly delisted; no timezone found
+Original values 10
+2024-12-20 19:50:34.123727 - TNOM.HE on 2024-12-19
+Original values 17
+2024-12-20 19:50:35.449734 - TEM1V.HE on 2024-12-19
+Original values 15
+2024-12-20 19:50:36.822382 - TLT1V.HE on 2024-12-19
+Original values 6
+2024-12-20 19:50:38.179837 - TELIA1.HE on 2024-12-19
+Original values 18
+2024-12-20 19:50:39.528798 - TTALO.HE on 2024-12-19
+Original values 8
+2024-12-20 19:50:40.893097 - TIETO.HE on 2024-12-19
+Original values 40
+2024-12-20 19:50:42.264580 - TOKMAN.HE on 2024-12-19
+Original values 32
+2024-12-20 19:50:43.586698 - TRH1V.HE on 2024-12-19
+Original values 1
+2024-12-20 19:50:44.934896 - TULAV.HE on 2024-12-19
+Original values 5
+2024-12-20 19:50:46.303996 - UNITED.HE on 2024-12-19
+Original values 0
+2024-12-20 19:50:47.648223 - UPM.HE on 2024-12-19
+Original values 47
+2024-12-20 19:50:49.950484 - UPONOR.HE on 2024-12-19
+2024-12-20 19:50:51.140136 - VAIAS.HE on 2024-12-19
+Original values 11
+2024-12-20 19:50:52.451638 - VALMT.HE on 2024-12-19
+Original values 47
+2024-12-20 19:50:53.784638 - VERK.HE on 2024-12-19
+Original values 10
+2024-12-20 19:50:55.167580 - VIK1V.HE on 2024-12-19
+Original values 1
+2024-12-20 19:50:56.478717 - WETTERI.HE on 2024-12-19
+Original values 3
+2024-12-20 19:50:57.893169 - WITH.HE on 2024-12-19
+Original values 10
+2024-12-20 19:50:59.267123 - WUF1V.HE on 2024-12-19
+Original values 2
+2024-12-20 19:51:00.570605 - WRT1V.HE on 2024-12-19
+Original values 48
+2024-12-20 19:51:01.905566 - YIT.HE on 2024-12-19
+Original values 19
+2024-12-20 19:51:00.540574 - ALBBV.HE on 2024-12-19
+Original values 5
+Old single measures (6397, 17), new data (353, 14), joined data (6750, 17)
+Removed 47 duplicates
+/home/tuukka/workspace/github.com/setuukka/Helsinki_stock_predict/run_get_stock_data.sh: 3: source: not found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/CAV1V.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=CAV1V.HE&crumb=I5p7eRZwrfT
+$CAV1V.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/HKSAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=HKSAV.HE&crumb=I5p7eRZwrfT
+$HKSAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/KSLAV.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=KSLAV.HE&crumb=I5p7eRZwrfT
+$KSLAV.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/PUMU.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=PUMU.HE&crumb=I5p7eRZwrfT
+$PUMU.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/ROVIO.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=ROVIO.HE&crumb=I5p7eRZwrfT
+$ROVIO.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCKA.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCKA.HE&crumb=I5p7eRZwrfT
+$STOCKA.HE: possibly delisted; no timezone found
+404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/UPONOR.HE?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=UPONOR.HE&crumb=I5p7eRZwrfT
+$UPONOR.HE: possibly delisted; no timezone found
+Data read!
+2024-12-21 18:40:01.554476 - AFAGR.HE on 2024-12-20
+Original values 3
+2024-12-21 18:40:02.848983 - AKTIA.HE on 2024-12-20
+Original values 15
+2024-12-21 18:40:04.132174 - ALMA.HE on 2024-12-20
+Original values 2
+2024-12-21 18:40:05.435834 - ANORA.HE on 2024-12-20
+Original values 20
+2024-12-21 18:40:06.728423 - APETIT.HE on 2024-12-20
+Original values 5
+2024-12-21 18:40:08.015653 - TALLINK.HE on 2024-12-20
+Original values 5
+2024-12-21 18:40:09.304599 - ASPO.HE on 2024-12-20
+Original values 9
+2024-12-21 18:40:10.590448 - ACG1V.HE on 2024-12-20
+Original values 2
+2024-12-21 18:40:11.879974 - ATRAV.HE on 2024-12-20
+Original values 2
+2024-12-21 18:40:13.183003 - BIOBV.HE on 2024-12-20
+Original values 10
+2024-12-21 18:40:14.518887 - BITTI.HE on 2024-12-20
+Original values 11
+2024-12-21 18:40:15.816378 - BOREO.HE on 2024-12-20
+Original values 4
+2024-12-21 18:40:17.098223 - CAPMAN.HE on 2024-12-20
+Original values 18
+2024-12-21 18:40:18.400114 - CGCBV.HE on 2024-12-20
+Original values 27
+2024-12-21 18:40:20.754022 - CAV1V.HE on 2024-12-20
+2024-12-21 18:40:21.783521 - CTY1S.HE on 2024-12-20
+Original values 29
+2024-12-21 18:40:23.100235 - CTH1V.HE on 2024-12-20
+Original values 3
+2024-12-21 18:40:24.383000 - CONSTI.HE on 2024-12-20
+Original values 4
+2024-12-21 18:40:25.684523 - DIGIA.HE on 2024-12-20
+Original values 6
+2024-12-21 18:40:26.955524 - DIGIGR.HE on 2024-12-20
+Original values 1
+2024-12-21 18:40:28.345176 - DOV1V.HE on 2024-12-20
+Original values 2
+2024-12-21 18:40:28.918930 - EEZY.HE on 2024-12-20
+Original values 5
+2024-12-21 18:40:30.192372 - ELEAV.HE on 2024-12-20
+Original values 2
+2024-12-21 18:40:31.488835 - ELISA.HE on 2024-12-20
+Original values 32
+2024-12-21 18:40:32.768335 - ENENTO.HE on 2024-12-20
+Original values 7
+2024-12-21 18:40:34.039250 - ESENSE.HE on 2024-12-20
+Original values 20
+2024-12-21 18:40:35.325413 - EQV1V.HE on 2024-12-20
+Original values 8
+2024-12-21 18:40:36.601622 - ETTE.HE on 2024-12-20
+Original values 3
+2024-12-21 18:40:37.891962 - EXL1V.HE on 2024-12-20
+Original values 9
+2024-12-21 18:40:39.185300 - FIA1S.HE on 2024-12-20
+Original values 24
+2024-12-21 18:40:40.495671 - FSKRS.HE on 2024-12-20
+Original values 6
+2024-12-21 18:40:41.787071 - FORTUM.HE on 2024-12-20
+Original values 60
+2024-12-21 18:40:43.081165 - GLA1V.HE on 2024-12-20
+Original values 7
+2024-12-21 18:40:44.382177 - GOFORE.HE on 2024-12-20
+Original values 8
+2024-12-21 18:40:45.676365 - HARVIA.HE on 2024-12-20
+Original values 10
+2024-12-21 18:40:48.083937 - HKSAV.HE on 2024-12-20
+2024-12-21 18:40:49.133516 - HONBS.HE on 2024-12-20
+Original values 3
+2024-12-21 18:40:50.417384 - HUH1V.HE on 2024-12-20
+Original values 35
+2024-12-21 18:40:51.710825 - ILKKA2.HE on 2024-12-20
+Original values 4
+2024-12-21 18:40:52.999531 - ICP1V.HE on 2024-12-20
+Original values 6
+2024-12-21 18:40:54.387784 - IFA1V.HE on 2024-12-20
+Original values 1
+2024-12-21 18:40:55.755792 - INVEST.HE on 2024-12-20
+Original values 3
+2024-12-21 18:40:57.029016 - KAMUX.HE on 2024-12-20
+Original values 28
+2024-12-21 18:40:58.312941 - KEMIRA.HE on 2024-12-20
+Original values 27
+2024-12-21 18:41:00.730335 - KSLAV.HE on 2024-12-20
+2024-12-21 18:41:01.182500 - KESKOB.HE on 2024-12-20
+Original values 41
+2024-12-21 18:41:02.498949 - KELAS.HE on 2024-12-20
+Original values 1
+2024-12-21 18:41:03.780693 - KOJAMO.HE on 2024-12-20
+Original values 27
+2024-12-21 18:41:05.112749 - KNEBV.HE on 2024-12-20
+Original values 40
+2024-12-21 18:41:06.386664 - KCR.HE on 2024-12-20
+Original values 35
+2024-12-21 18:41:07.668481 - KREATE.HE on 2024-12-20
+Original values 5
+2024-12-21 18:41:08.951054 - LAT1V.HE on 2024-12-20
+Original values 27
+2024-12-21 18:41:10.240453 - MEKKO.HE on 2024-12-20
+Original values 10
+2024-12-21 18:41:11.560080 - MARAS.HE on 2024-12-20
+Original values 2
+2024-12-21 18:41:12.884749 - METSO.HE on 2024-12-20
+Original values 45
+2024-12-21 18:41:14.184677 - METSB.HE on 2024-12-20
+Original values 48
+2024-12-21 18:41:15.517620 - MUSTI.HE on 2024-12-20
+Original values 4
+2024-12-21 18:41:16.802310 - NESTE.HE on 2024-12-20
+Original values 60
+2024-12-21 18:41:18.085536 - NOHO.HE on 2024-12-20
+Original values 5
+2024-12-21 18:41:19.366762 - NOKIA.HE on 2024-12-20
+Original values 60
+2024-12-21 18:41:20.718597 - TYRES.HE on 2024-12-20
+Original values 53
+2024-12-21 18:41:22.009170 - NDA-FI.HE on 2024-12-20
+Original values 59
+2024-12-21 18:41:23.312197 - NLG1V.HE on 2024-12-20
+Original values 5
+2024-12-21 18:41:24.592591 - OLVAS.HE on 2024-12-20
+Original values 13
+2024-12-21 18:41:25.872783 - OMASP.HE on 2024-12-20
+Original values 11
+2024-12-21 18:41:27.152441 - OPTOMED.HE on 2024-12-20
+Original values 10
+2024-12-21 18:41:28.539031 - OKDBV.HE on 2024-12-20
+Original values 9
+2024-12-21 18:41:29.824741 - ORNBV.HE on 2024-12-20
+Original values 37
+2024-12-21 18:41:31.118299 - ORTHEX.HE on 2024-12-20
+Original values 8
+2024-12-21 18:41:31.693498 - OUT1V.HE on 2024-12-20
+Original values 56
+2024-12-21 18:41:32.973515 - OVARO.HE on 2024-12-20
+Original values 3
+2024-12-21 18:41:34.253803 - PNA1V.HE on 2024-12-20
+Original values 12
+2024-12-21 18:41:35.528446 - PIHLIS.HE on 2024-12-20
+Original values 2
+2024-12-21 18:41:36.830612 - PON1V.HE on 2024-12-20
+Original values 7
+2024-12-21 18:41:39.221952 - PUMU.HE on 2024-12-20
+2024-12-21 18:41:40.259293 - PURMO.HE on 2024-12-20
+Original values 0
+2024-12-21 18:41:41.529374 - PUUILO.HE on 2024-12-20
+Original values 16
+2024-12-21 18:41:42.815920 - QPR1V.HE on 2024-12-20
+Original values 7
+2024-12-21 18:41:44.105314 - QTCOM.HE on 2024-12-20
+Original values 31
+2024-12-21 18:41:45.394393 - RAIVV.HE on 2024-12-20
+Original values 17
+2024-12-21 18:41:46.687408 - RAP1V.HE on 2024-12-20
+Original values 7
+2024-12-21 18:41:47.983560 - RAUTE.HE on 2024-12-20
+Original values 5
+2024-12-21 18:41:49.285434 - REKA.HE on 2024-12-20
+Original values 5
+2024-12-21 18:41:50.573444 - RELAIS.HE on 2024-12-20
+Original values 5
+2024-12-21 18:41:51.866662 - REMEDY.HE on 2024-12-20
+Original values 10
+2024-12-21 18:41:53.246275 - REG1V.HE on 2024-12-20
+Original values 17
+2024-12-21 18:41:54.534609 - ROBIT.HE on 2024-12-20
+Original values 4
+2024-12-21 18:41:56.790032 - ROVIO.HE on 2024-12-20
+2024-12-21 18:41:57.907583 - SAGCV.HE on 2024-12-20
+Original values 3
+2024-12-21 18:41:59.214029 - SAMPO.HE on 2024-12-20
+Original values 52
+2024-12-21 18:42:00.504926 - SANOMA.HE on 2024-12-20
+Original values 15
+2024-12-21 18:42:01.800152 - SCANFL.HE on 2024-12-20
+Original values 11
+2024-12-21 18:42:03.082416 - SIILI.HE on 2024-12-20
+Original values 4
+2024-12-21 18:42:03.725714 - SITOWS.HE on 2024-12-20
+Original values 9
+2024-12-21 18:42:05.119220 - SOLTEQ.HE on 2024-12-20
+Original values 4
+2024-12-21 18:42:06.416235 - SOSI1.HE on 2024-12-20
+Original values 8
+2024-12-21 18:42:07.735335 - SRV1V.HE on 2024-12-20
+Original values 3
+2024-12-21 18:42:09.033132 - SSABBH.HE on 2024-12-20
+Original values 46
+2024-12-21 18:42:10.330037 - SSH1V.HE on 2024-12-20
+Original values 3
+2024-12-21 18:42:12.646730 - STOCKA.HE on 2024-12-20
+2024-12-21 18:42:13.746946 - STERV.HE on 2024-12-20
+Original values 54
+2024-12-21 18:42:15.038287 - SUY1V.HE on 2024-12-20
+Original values 5
+2024-12-21 18:42:16.333307 - TAALA.HE on 2024-12-20
+Original values 19
+2024-12-21 18:42:17.628279 - TNOM.HE on 2024-12-20
+Original values 13
+2024-12-21 18:42:18.908681 - TEM1V.HE on 2024-12-20
+Original values 12
+2024-12-21 18:42:20.230224 - TLT1V.HE on 2024-12-20
+Original values 7
+2024-12-21 18:42:21.519018 - TELIA1.HE on 2024-12-20
+Original values 29
+2024-12-21 18:42:22.822312 - TTALO.HE on 2024-12-20
+Original values 10
+2024-12-21 18:42:24.109936 - TIETO.HE on 2024-12-20
+Original values 54
+2024-12-21 18:42:25.409658 - TOKMAN.HE on 2024-12-20
+Original values 29
+2024-12-21 18:42:26.698430 - TRH1V.HE on 2024-12-20
+Original values 0
+2024-12-21 18:42:27.982712 - TULAV.HE on 2024-12-20
+Original values 8
+2024-12-21 18:42:29.265022 - UNITED.HE on 2024-12-20
+Original values 5
+2024-12-21 18:42:30.562557 - UPM.HE on 2024-12-20
+Original values 50
+2024-12-21 18:42:32.680972 - UPONOR.HE on 2024-12-20
+2024-12-21 18:42:33.815452 - VAIAS.HE on 2024-12-20
+Original values 6
+2024-12-21 18:42:35.096756 - VALMT.HE on 2024-12-20
+Original values 52
+2024-12-21 18:42:35.699849 - VERK.HE on 2024-12-20
+Original values 15
+2024-12-21 18:42:37.075518 - VIK1V.HE on 2024-12-20
+Original values 3
+2024-12-21 18:42:38.341720 - WETTERI.HE on 2024-12-20
+Original values 2
+2024-12-21 18:42:39.633293 - WITH.HE on 2024-12-20
+Original values 8
+2024-12-21 18:42:40.930150 - WUF1V.HE on 2024-12-20
+Original values 2
+2024-12-21 18:42:42.304593 - WRT1V.HE on 2024-12-20
+Original values 49
+2024-12-21 18:42:43.593612 - YIT.HE on 2024-12-20
+Original values 19
+2024-12-21 18:42:44.880026 - ALBBV.HE on 2024-12-20
+Original values 2
+Old single measures (6986, 17), new data (118, 14), joined data (7104, 17)
+Removed 15 duplicates

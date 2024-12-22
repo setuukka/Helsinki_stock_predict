@@ -25,4 +25,6 @@ actual_df['date'] = actual_df['date'].apply(lambda x : x[:10])
 #print(len(predicted_df))
 
 joined_df = pd.merge(actual_df, predicted_df, on= ['date','company'], how = 'inner')
+
+joined_df = joined_df[['date','weekday','company','end_day_target_percentage','end_day_target_value','regression prediction','random forest prediction','xgboost prediction']]
 print(joined_df)
